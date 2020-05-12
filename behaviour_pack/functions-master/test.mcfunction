@@ -3,7 +3,7 @@
 
 say Running test file
 
-scoreboard players set @e[type=player] task0 0
+scoreboard players set @e[type=player] task0 1
 scoreboard players set @e[type=player] task1 0
 scoreboard players set @e[type=player] task2 0
 scoreboard players set @e[type=player] task3 0
