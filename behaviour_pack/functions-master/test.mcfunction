@@ -1,6 +1,8 @@
 #scoreboard players add @p[x=-505,y=68,z=263,r=2,scores={task0=0}] points 1
 #scoreboard players set @p[x=-505,y=68,z=263,r=2] task0 1
 
+say Running test file
+
 scoreboard players set @e[type=player] task0 0
 scoreboard players set @e[type=player] task1 0
 scoreboard players set @e[type=player] task2 0
