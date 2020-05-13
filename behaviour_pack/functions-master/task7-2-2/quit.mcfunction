@@ -3,5 +3,6 @@
 # No agent involved in this task
 clear @p
 gamemode adventure @p
+effect clear @p
 
 tp @p -454 77 281
