@@ -19,3 +19,8 @@ The .mcfunction files for each task follow a general structure within Seymour Is
 | task_inactive | Player selector system | Run if the task does not currently have a player in it. |
 | check | Varies | No longer really used, but used if a redstone check needs to be done on a task to decide if complete. |
 | clear_agent | Varies | Clear the agent inventory if needed by that task. |
+
+## Coordinate mapping
+The build script used with the world handles a majority of mapping coordinates between copies of each task.   
+It is important to note though that right now, the system does not handle Task 7 or Task 9, as these are mirrors of each other, making coordinate mapping far more complex.   
+If you wish to edit code/coordinates for any task, it is important to only edit version `taskX-1`, all coordinates will then be converted over for the other tasks when they are copied.   
