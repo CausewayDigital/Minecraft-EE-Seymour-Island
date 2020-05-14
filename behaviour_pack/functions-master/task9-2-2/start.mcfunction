@@ -4,9 +4,10 @@
 
 function task7-2-2/reset
 clear @p
-gamemode creative @p
-give @p barrier 1
-
-title @p title Hold the border block in your hand
+title @p title Hold the barrier block in your hand
 
 tp @p -463 79 280
+
+say SOMEONE NEEDS TO GIVE ME COORDINATES!!! :( (Task 9-2-2 start.mcfunction)
+gamemode creative @p
+give @p barrier 1

@@ -4,9 +4,10 @@
 
 function task9-1-2/reset
 clear @p
-gamemode creative @p
-give @p barrier 1
 
-title @p title Hold the border block in your hand
+title @p title Hold the barrier block in your hand
 
 tp @p -437 84 281
+
+gamemode creative @p[x=-437,y=84,z=277,dx=12,dy=1,dz=10]
+give @p[x=-437,y=84,z=277,dx=12,dy=1,dz=10] barrier 1
