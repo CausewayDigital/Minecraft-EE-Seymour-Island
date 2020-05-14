@@ -9,5 +9,5 @@ title @p title Hold the barrier block in your hand
 
 tp @p -438 79 280
 
-gamemode creative @p[x=-470,y=79,z=277,dx=9,dy=1,dz=8]
-give @p[x=-470,y=79,z=277,dx=9,dy=1,dz=8] barrier 1
+gamemode creative @p[x=-438,y=79,z=277,dx=9,dy=1,dz=8]
+give @p[x=-438,y=79,z=277,dx=9,dy=1,dz=8] barrier 1
