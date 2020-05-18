@@ -5,4 +5,4 @@ clear @p
 gamemode adventure @p
 effect @p clear
 
-tp @p -454 77 281
+tp @p -454 82 281

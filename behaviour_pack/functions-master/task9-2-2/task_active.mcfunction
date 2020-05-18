@@ -1,2 +1,2 @@
 # Runs when the task is active (ususally setting a red wool block at the door)
-setblock -456 78 285 wool 14
+setblock -450 86 237 wool 14
