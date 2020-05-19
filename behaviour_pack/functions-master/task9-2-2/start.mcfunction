@@ -6,8 +6,7 @@ function task9-2-2/reset
 clear @p
 title @p title Hold the barrier block in your hand
 
-tp @p -450 86 237
+tp @p -465 84 279
 
-say SOMEONE NEEDS TO GIVE ME COORDINATES!!! :( (Task 9-2-2 start.mcfunction)
-gamemode creative @p
-give @p barrier 1
+gamemode creative @a[x=-463,y=84,z=277,dx=-11,dy=1,dz=11]
+give @a[x=-463,y=84,z=277,dx=-11,dy=1,dz=11] barrier 1
