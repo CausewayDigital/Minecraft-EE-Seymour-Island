@@ -7,5 +7,5 @@ function task9-2-1/reset
 
 title @p title Press C to open the coding window
 function blaze
-tp @p -485 62 271
+tp @p -460 82 283
 function task9-2-1/reset_agent
