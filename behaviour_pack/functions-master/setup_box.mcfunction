@@ -9,7 +9,6 @@ scoreboard players set @a[x=-878,y=120,z=383,r=2] task5 0
 scoreboard players set @a[x=-878,y=120,z=383,r=2] task6 0
 scoreboard players set @a[x=-878,y=120,z=383,r=2] task7 0
 scoreboard players set @a[x=-878,y=120,z=383,r=2] task8 0
-scoreboard players set @a[x=-878,y=120,z=383,r=2] task9 0
 #scoreboard players reset * score
 
 scoreboard players set @a[x=-878,y=120,z=383,r=2] score 0

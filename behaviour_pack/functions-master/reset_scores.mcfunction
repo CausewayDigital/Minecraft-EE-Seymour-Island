@@ -7,7 +7,6 @@ scoreboard players set @e[type=player] task5 0
 scoreboard players set @e[type=player] task6 0
 scoreboard players set @e[type=player] task7 0
 scoreboard players set @e[type=player] task8 0
-scoreboard players set @e[type=player] task9 0
 scoreboard players reset * score
 
 scoreboard players set @e[type=player] score 0
