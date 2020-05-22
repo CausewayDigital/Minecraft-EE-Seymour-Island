@@ -1,8 +1,8 @@
 # Run when the user is ready to quit a task (including if complete or incomplete)
 
 # No agent involved in this task
-clear @p
-gamemode adventure @p
-effect @p clear
+clear @a[x=-460,y=82,z=277,dx=-1,dy=2,dz=8]
+gamemode adventure @a[x=-460,y=82,z=277,dx=-1,dy=2,dz=8]
+effect @a[x=-460,y=82,z=277,dx=-1,dy=2,dz=8] clear
 
-tp @p -454 82 281
+tp @p -453 82 281
