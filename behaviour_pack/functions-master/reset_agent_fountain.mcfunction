@@ -1,4 +1,4 @@
-execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0
+execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 air
 execute @p ~ ~ ~ tp @c -450 86 237
 
 # blank.md
