@@ -4,3 +4,4 @@ effect clear @a[x=-636,y=38,z=172,dx=236,dy=72,dz=128] clear
 kill @e[type=area_effect_cloud]
 clear @a chorus_fruit 0 100
 clear @a boat 0 100
+clear @a egg 0 100
