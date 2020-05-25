@@ -5,3 +5,4 @@ kill @e[type=area_effect_cloud]
 clear @a chorus_fruit 0 100
 clear @a boat 0 100
 clear @a egg 0 100
+clear @a elytra 0 100
