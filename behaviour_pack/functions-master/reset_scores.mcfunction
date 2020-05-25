@@ -10,3 +10,4 @@ scoreboard players set @e[type=player] task8 0
 scoreboard players reset * score
 
 scoreboard players set @e[type=player] score 0
+scoreboard players set @e[type=player] tick 0
