@@ -12,8 +12,8 @@ execute @e[type=armor_stand,r=20] ~ ~ ~ setblock ~ ~3 ~-12 air
 execute @e[type=armor_stand,r=20] ~ ~ ~ setblock ~ ~6 ~-12 air
 
 execute @e[type=armor_stand,r=20] ~ ~ ~ setblock ~1 ~0 ~-10 stone
-execute @e[type=armor_stand,r=20] ~ ~ ~ fill ~1 ~0 ~-11 ~1 ~0 ~-16 air
-execute @e[type=armor_stand,r=20] ~ ~ ~ setblock ~1 ~0 ~-16 redstone_torch
+execute @e[type=armor_stand,r=20] ~ ~ ~ fill ~1 ~0 ~-11 ~-1 ~-1 ~-16 air 0 replace flowing_water
+execute @e[type=armor_stand,r=20] ~ ~ ~ setblock ~-1 ~-1 ~-9 redstone_torch
 
 
 title @p subtitle Stand on the stone pressure pad to start
