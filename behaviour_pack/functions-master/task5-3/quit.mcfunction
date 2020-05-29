@@ -3,3 +3,5 @@ function reset_agent_fountain
 setblock -561 62 291 air
 function task5-1/clear_agent
 tp @p[x=-576,y=60,z=270,dx=20,dy=6,dz=35] -570 65 264
+setblock -616 60 286 hopper
+setblock -616 60 284 hopper
