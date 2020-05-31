@@ -14,4 +14,4 @@ setblock -561 62 291 wool 6
 title @p title Press C to open the coding window
 function blaze
 tp @p -570 63 277
-function task5-1/reset_agent
+function task5-3/reset_agent
