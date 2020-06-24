@@ -1,30 +1,32 @@
-tp @p[x=-889,y=119,z=393,dx=25,dy=29,dz=25,c=1] -903 64 292
-tp @p[x=-889,y=119,z=393,dx=25,dy=29,dz=25,c=1] -953 64 292
-tp @p[x=-889,y=119,z=393,dx=25,dy=29,dz=25,c=1] -1003 64 292
-tp @p[x=-889,y=119,z=393,dx=25,dy=29,dz=25,c=1] -1053 64 292
-tp @p[x=-889,y=119,z=393,dx=25,dy=29,dz=25,c=1] -1103 64 292
-tp @p[x=-889,y=119,z=393,dx=25,dy=29,dz=25,c=1] -1153 64 292
-tp @p[x=-889,y=119,z=393,dx=25,dy=29,dz=25,c=1] -1203 64 292
-tp @p[x=-889,y=119,z=393,dx=25,dy=29,dz=25,c=1] -1253 64 292
-tp @p[x=-889,y=119,z=393,dx=25,dy=29,dz=25,c=1] -1303 64 292
-tp @p[x=-889,y=119,z=393,dx=25,dy=29,dz=25,c=1] -1353 64 292
-tp @p[x=-889,y=119,z=393,dx=25,dy=29,dz=25,c=1] -903 64 222
-tp @p[x=-889,y=119,z=393,dx=25,dy=29,dz=25,c=1] -953 64 222
-tp @p[x=-889,y=119,z=393,dx=25,dy=29,dz=25,c=1] -1003 64 222
-tp @p[x=-889,y=119,z=393,dx=25,dy=29,dz=25,c=1] -1053 64 222
-tp @p[x=-889,y=119,z=393,dx=25,dy=29,dz=25,c=1] -1103 64 222
-tp @p[x=-889,y=119,z=393,dx=25,dy=29,dz=25,c=1] -1153 64 222
-tp @p[x=-889,y=119,z=393,dx=25,dy=29,dz=25,c=1] -1203 64 222
-tp @p[x=-889,y=119,z=393,dx=25,dy=29,dz=25,c=1] -1253 64 222
-tp @p[x=-889,y=119,z=393,dx=25,dy=29,dz=25,c=1] -1303 64 222
-tp @p[x=-889,y=119,z=393,dx=25,dy=29,dz=25,c=1] -1353 64 222
-tp @p[x=-889,y=119,z=393,dx=25,dy=29,dz=25,c=1] -903 64 152
-tp @p[x=-889,y=119,z=393,dx=25,dy=29,dz=25,c=1] -953 64 152
-tp @p[x=-889,y=119,z=393,dx=25,dy=29,dz=25,c=1] -1003 64 152
-tp @p[x=-889,y=119,z=393,dx=25,dy=29,dz=25,c=1] -1053 64 152
-tp @p[x=-889,y=119,z=393,dx=25,dy=29,dz=25,c=1] -1103 64 152
-tp @p[x=-889,y=119,z=393,dx=25,dy=29,dz=25,c=1] -1153 64 152
-tp @p[x=-889,y=119,z=393,dx=25,dy=29,dz=25,c=1] -1203 64 152
-tp @p[x=-889,y=119,z=393,dx=25,dy=29,dz=25,c=1] -1253 64 152
-tp @p[x=-889,y=119,z=393,dx=25,dy=29,dz=25,c=1] -1303 64 152
-tp @p[x=-889,y=119,z=393,dx=25,dy=29,dz=25,c=1] -1353 64 152
+execute @p ~ ~ ~ detect -903 64 292 stone_pressure_plate -1 tp @p[x=-889,y=119,z=366,dx=25,dy=29,dz=25,c=1] -903 64 292
+execute @p ~ ~ ~ detect -953 64 292 stone_pressure_plate -1 tp @p[x=-889,y=119,z=366,dx=25,dy=29,dz=25,c=1] -953 64 292
+execute @p ~ ~ ~ detect -1003 64 292 stone_pressure_plate -1 tp @p[x=-889,y=119,z=366,dx=25,dy=29,dz=25,c=1] -1003 64 292
+execute @p ~ ~ ~ detect -1053 64 292 stone_pressure_plate -1 tp @p[x=-889,y=119,z=366,dx=25,dy=29,dz=25,c=1] -1053 64 292
+execute @p ~ ~ ~ detect -1103 64 292 stone_pressure_plate -1 tp @p[x=-889,y=119,z=366,dx=25,dy=29,dz=25,c=1] -1103 64 292
+execute @p ~ ~ ~ detect -1153 64 292 stone_pressure_plate -1 tp @p[x=-889,y=119,z=366,dx=25,dy=29,dz=25,c=1] -1153 64 292
+execute @p ~ ~ ~ detect -1203 64 292 stone_pressure_plate -1 tp @p[x=-889,y=119,z=366,dx=25,dy=29,dz=25,c=1] -1203 64 292
+execute @p ~ ~ ~ detect -1253 64 292 stone_pressure_plate -1 tp @p[x=-889,y=119,z=366,dx=25,dy=29,dz=25,c=1] -1253 64 292
+execute @p ~ ~ ~ detect -1303 64 292 stone_pressure_plate -1 tp @p[x=-889,y=119,z=366,dx=25,dy=29,dz=25,c=1] -1303 64 292
+execute @p ~ ~ ~ detect -1353 64 292 stone_pressure_plate -1 tp @p[x=-889,y=119,z=366,dx=25,dy=29,dz=25,c=1] -1353 64 292
+execute @p ~ ~ ~ detect -903 64 222 stone_pressure_plate -1 tp @p[x=-889,y=119,z=366,dx=25,dy=29,dz=25,c=1] -903 64 222
+execute @p ~ ~ ~ detect -953 64 222 stone_pressure_plate -1 tp @p[x=-889,y=119,z=366,dx=25,dy=29,dz=25,c=1] -953 64 222
+execute @p ~ ~ ~ detect -1003 64 222 stone_pressure_plate -1 tp @p[x=-889,y=119,z=366,dx=25,dy=29,dz=25,c=1] -1003 64 222
+execute @p ~ ~ ~ detect -1053 64 222 stone_pressure_plate -1 tp @p[x=-889,y=119,z=366,dx=25,dy=29,dz=25,c=1] -1053 64 222
+execute @p ~ ~ ~ detect -1103 64 222 stone_pressure_plate -1 tp @p[x=-889,y=119,z=366,dx=25,dy=29,dz=25,c=1] -1103 64 222
+execute @p ~ ~ ~ detect -1153 64 222 stone_pressure_plate -1 tp @p[x=-889,y=119,z=366,dx=25,dy=29,dz=25,c=1] -1153 64 222
+execute @p ~ ~ ~ detect -1203 64 222 stone_pressure_plate -1 tp @p[x=-889,y=119,z=366,dx=25,dy=29,dz=25,c=1] -1203 64 222
+execute @p ~ ~ ~ detect -1253 64 222 stone_pressure_plate -1 tp @p[x=-889,y=119,z=366,dx=25,dy=29,dz=25,c=1] -1253 64 222
+execute @p ~ ~ ~ detect -1303 64 222 stone_pressure_plate -1 tp @p[x=-889,y=119,z=366,dx=25,dy=29,dz=25,c=1] -1303 64 222
+execute @p ~ ~ ~ detect -1353 64 222 stone_pressure_plate -1 tp @p[x=-889,y=119,z=366,dx=25,dy=29,dz=25,c=1] -1353 64 222
+execute @p ~ ~ ~ detect -903 64 152 stone_pressure_plate -1 tp @p[x=-889,y=119,z=366,dx=25,dy=29,dz=25,c=1] -903 64 152
+execute @p ~ ~ ~ detect -953 64 152 stone_pressure_plate -1 tp @p[x=-889,y=119,z=366,dx=25,dy=29,dz=25,c=1] -953 64 152
+execute @p ~ ~ ~ detect -1003 64 152 stone_pressure_plate -1 tp @p[x=-889,y=119,z=366,dx=25,dy=29,dz=25,c=1] -1003 64 152
+execute @p ~ ~ ~ detect -1053 64 152 stone_pressure_plate -1 tp @p[x=-889,y=119,z=366,dx=25,dy=29,dz=25,c=1] -1053 64 152
+execute @p ~ ~ ~ detect -1103 64 152 stone_pressure_plate -1 tp @p[x=-889,y=119,z=366,dx=25,dy=29,dz=25,c=1] -1103 64 152
+execute @p ~ ~ ~ detect -1153 64 152 stone_pressure_plate -1 tp @p[x=-889,y=119,z=366,dx=25,dy=29,dz=25,c=1] -1153 64 152
+execute @p ~ ~ ~ detect -1203 64 152 stone_pressure_plate -1 tp @p[x=-889,y=119,z=366,dx=25,dy=29,dz=25,c=1] -1203 64 152
+execute @p ~ ~ ~ detect -1253 64 152 stone_pressure_plate -1 tp @p[x=-889,y=119,z=366,dx=25,dy=29,dz=25,c=1] -1253 64 152
+execute @p ~ ~ ~ detect -1303 64 152 stone_pressure_plate -1 tp @p[x=-889,y=119,z=366,dx=25,dy=29,dz=25,c=1] -1303 64 152
+execute @p ~ ~ ~ detect -1353 64 152 stone_pressure_plate -1 tp @p[x=-889,y=119,z=366,dx=25,dy=29,dz=25,c=1] -1353 64 152
+
+title @p[x=-871,y=153,z=379,r=8] title Students Teleported! 
