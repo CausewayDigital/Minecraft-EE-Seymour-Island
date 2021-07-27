@@ -1,0 +1,15 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "buttons": [],
+                "npc_name": "brian",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "thing123",
+                "text": "bob"
+            }
+        ]
+    }
+}

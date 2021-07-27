@@ -1,0 +1,191 @@
+{
+	"format_version": "1.14",
+	"minecraft:npc_dialogue":
+	{
+		"scenes":
+		[
+			{
+				"scene_tag": "quest_farming_offer",
+				"npc_name": { "rawtext": [ { "translate": "dialogue.quest.farming.name" } ] },
+				"text": { "rawtext": [ { "translate": "dialogue.quest.farming.offer.body", "with": ["\n"] } ] },
+				"buttons": [
+					{
+						"name": { "rawtext": [ { "translate": "dialogue.button.reject" } ] },
+						"commands": [
+						]
+					},
+					{
+						"name": { "rawtext": [ { "translate": "dialogue.button.accept" } ] },
+						"commands": [
+							"/execute @e[tag=game] ~ ~ ~ function act/5/set"
+						]
+					}
+				],
+				"on_close_commands": [
+				]
+			},
+			{
+				"scene_tag": "quest_farming_standing",
+				"npc_name": { "rawtext": [ { "translate": "npc.no.name" } ] },
+				"text": { "rawtext": [ { "translate": "dialogue.quest.farming.offer.body.standing", "with": ["\n"] } ] },
+				"buttons": [
+					{
+						"name": { "rawtext": [ { "translate": "dialogue.button.close" } ] },
+						"commands": [
+						]
+					}
+				],
+				"on_close_commands": [
+				]
+			},
+			{
+				"scene_tag": "quest_farming_standing_complete",
+				"npc_name": { "rawtext": [ { "translate": "npc.no.name" } ] },
+				"text": { "rawtext": [ { "translate": "dialogue.quest.farming.offer.body.standing.complete", "with": ["\n"] } ] },
+				"buttons": [
+					{
+						"name": { "rawtext": [ { "translate": "dialogue.button.close" } ] },
+						"commands": [
+						]
+					}
+				],
+				"on_close_commands": [
+				]
+			},
+			{
+				"scene_tag": "quest_farming_active",
+				"npc_name": { "rawtext": [ { "translate": "dialogue.quest.farming.name" } ] },
+				"text": { "rawtext": [ { "translate": "dialogue.quest.farming.active.body", "with": ["\n"] } ] },
+				"buttons": [
+					{
+						"name": { "rawtext": [ { "translate": "dialogue.button.close" } ] },
+						"commands": [
+						]
+					},
+					{
+						"name": { "rawtext": [ { "translate": "dialogue.button.hint" } ] },
+						"commands": [
+							"/dialogue open @e[tag=quest_farming2] @a quest_farming_hint",
+							"/execute @e[tag=game] ~ ~ ~ function act/5/hint"
+						]
+					},
+					{
+						"name": { "rawtext": [ { "translate": "dialogue.button.reset" } ] },
+						"commands": [
+							"/dialogue open @e[tag=quest_farming2] @a quest_farming_reset",
+							"/execute @e[tag=game] ~ ~ ~ function act/5/reset"
+						]
+					},
+					{
+						"name": { "rawtext": [ { "translate": "dialogue.button.quit" } ] },
+						"commands": [
+							"/dialogue open @e[tag=quest_farming2] @a quest_farming_quit",
+							"/execute @e[tag=game] ~ ~ ~ function act/5/quit"
+						]
+					}
+				],
+				"on_close_commands": [
+				]
+			},
+			{
+				"scene_tag": "quest_farming_complete",
+				"npc_name": { "rawtext": [ { "translate": "dialogue.guide.name" } ] },
+				"text": { "rawtext": [ { "translate": "dialogue.quest.farming.complete.body", "with": ["\n"] } ] },
+				"buttons": [
+					{
+						"name": { "rawtext": [ { "translate": "dialogue.button.next" } ] },
+						"commands": [
+							"/dialogue open @e[tag=quest_tutorial2] @a quest_farming_complete1"
+						]
+					}
+				],
+				"on_close_commands": [
+				]
+			},
+			{
+				"scene_tag": "quest_farming_complete1",
+				"npc_name": { "rawtext": [ { "translate": "dialogue.guide.name" } ] },
+				"text": { "rawtext": [ { "translate": "dialogue.quest.farming.complete.body.1", "with": ["\n"] } ] },
+				"buttons": [
+					{
+						"name": { "rawtext": [ { "translate": "dialogue.button.previous" } ] },
+						"commands": [
+							"/dialogue open @e[tag=quest_tutorial2] @a quest_farming_complete"
+						]
+					},
+					{
+						"name": { "rawtext": [ { "translate": "dialogue.button.okay" } ] },
+						"commands": [
+						]
+					},
+					{
+						"name": { "rawtext": [ { "translate": "dialogue.button.fast_travel" } ] },
+						"commands": [
+							"/tag @e[tag=game] add delay_complete",
+							"/dialogue open @e[tag=quest_tutorial2] @a fast_travel"
+						]
+					}
+				],
+				"on_close_commands": [
+					"/execute @e[tag=game,tag=!delay_complete] ~ ~ ~ function generic/act_complete"
+				]
+			},
+			{
+				"scene_tag": "quest_farming_post",
+				"npc_name": { "rawtext": [ { "translate": "dialogue.quest.farming.name" } ] },
+				"text": { "rawtext": [ { "translate": "dialogue.quest.farming.post.body", "with": ["\n"] } ] },
+				"buttons": [
+					{
+						"name": { "rawtext": [ { "translate": "dialogue.button.close" } ] },
+						"commands": [
+						]
+					}
+				],
+				"on_close_commands": [
+				]
+			},
+			{
+				"scene_tag": "quest_farming_quit",
+				"npc_name": { "rawtext": [ { "translate": "dialogue.quest.farming.name" } ] },
+				"text": { "rawtext": [ { "translate": "dialogue.quest.farming.quit.body", "with": ["\n"] } ] },
+				"buttons": [
+					{
+						"name": { "rawtext": [ { "translate": "dialogue.button.close" } ] },
+						"commands": [
+						]
+					}
+				],
+				"on_close_commands": [
+				]
+			},
+			{
+				"scene_tag": "quest_farming_hint",
+				"npc_name": { "rawtext": [ { "translate": "dialogue.quest.farming.name" } ] },
+				"text": { "rawtext": [ { "translate": "dialogue.quest.farming.hint.body", "with": ["\n"] } ] },
+				"buttons": [
+					{
+						"name": { "rawtext": [ { "translate": "dialogue.button.close" } ] },
+						"commands": [
+						]
+					}
+				],
+				"on_close_commands": [
+				]
+			},
+			{
+				"scene_tag": "quest_farming_reset",
+				"npc_name": { "rawtext": [ { "translate": "dialogue.quest.farming.name" } ] },
+				"text": { "rawtext": [ { "translate": "dialogue.quest.farming.reset.body", "with": ["\n"] } ] },
+				"buttons": [
+					{
+						"name": { "rawtext": [ { "translate": "dialogue.button.close" } ] },
+						"commands": [
+						]
+					}
+				],
+				"on_close_commands": [
+				]
+			}
+		]
+	}
+}

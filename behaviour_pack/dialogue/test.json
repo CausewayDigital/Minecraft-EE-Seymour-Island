@@ -1,0 +1,1 @@
+{"format_version": "1.14", "minecraft:npc_dialogue": {"scenes": [{"buttons": [{"commands": [], "name": "Do something!"}, {"commands": [], "name": "Do other stuff"}, {"commands": [], "name": "Exit"}], "on_close_commands": ["/say you left early..."], "scene_tag": "hello", "npc_name": "This is the NPC name", "text": "This dialogue box was launched from a .mcfunction!"}]}}
