@@ -9,11 +9,11 @@
                         "name": "Ready to help"
                     }
                 ],
-                "npc_name": "Captain Pappert",
+                "npc_name": "Captain Pappert test",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "task0-intro",
-                "text": "Hello world 123"
+                "text": "Testing"
             }
         ]
     }
