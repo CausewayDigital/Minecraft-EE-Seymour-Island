@@ -1,0 +1,18 @@
+{
+  "scoreboard_sidebar/main/lists/scores": {
+    "offset": [ 0, 0 ]
+  },
+
+
+  "player_rank_panel/player_rank_bg/player_rank": {
+    "text": "#player_score",
+    "bindings": [
+      {
+        "binding_name": "#player_score",
+        "binding_type": "collection",
+        "binding_collection_name": "$sb_collection_name"
+      }
+    ]
+  }
+
+}
