@@ -5,15 +5,14 @@
        "description" : "Seymour Island resource pack",
        "name" : "Seymour Island",
        "uuid" : "4f50f9b3-f117-4b76-9afd-5cf6cdb5ded6",
-       "version" : [ 0, 0, 2 ]
+       "version" : [ 0, 0, 1 ]
     },
     "modules" : [
        {
           "description" : "Seymour Island by Causway Digital",
           "type" : "resources",
           "uuid" : "7feb5363-1e0e-491a-9ed5-8edf3bc18d1d",
-          "version" : [ 0, 0, 2 ]
+          "version" : [ 0, 0, 1 ]
        }
     ]
  }
- 
