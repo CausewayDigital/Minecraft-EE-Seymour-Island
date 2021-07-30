@@ -1,2 +1,4 @@
 flying_enabled
 score
+in_task
+teacher
