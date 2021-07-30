@@ -2,3 +2,6 @@ flying_enabled
 score
 in_task
 teacher
+
+task_0-5_sewer
+task_0-5_fountain
