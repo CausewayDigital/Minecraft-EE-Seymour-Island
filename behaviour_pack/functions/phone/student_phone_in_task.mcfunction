@@ -1,0 +1,1 @@
+dialogue open @e[type=npc, x=-450, y=63, z=247, r=2] @p student_phone_in_task
