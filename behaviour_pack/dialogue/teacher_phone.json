@@ -14,7 +14,7 @@
                         "commands": [
                             "/execute @a[target_type=other] ~ ~ ~ function phone/toggle_flying"
                         ],
-                        "name": "Toggle personal flying"
+                        "name": "Toggle flying"
                     },
                     {
                         "commands": [
