@@ -30,7 +30,7 @@
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~function phone/student_view"
+                            "/execute @a[target_type=other] ~ ~ ~ function phone/student_phone"
                         ],
                         "name": "Student phone"
                     }
