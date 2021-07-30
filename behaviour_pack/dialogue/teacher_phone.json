@@ -117,6 +117,12 @@
                             "/execute @a[target_type=other] ~ ~ ~ /function phone/teleport_list"
                         ],
                         "name": "Return"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ /function phone/teacher_phone"
+                        ],
+                        "name": "Back to menu"
                     }
                 ],
                 "npc_name": "Teacher Phone",
