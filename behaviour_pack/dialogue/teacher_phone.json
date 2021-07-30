@@ -6,31 +6,31 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/function phone/start_world"
+                            "/execute @a[target_type=other] ~ ~ ~ function phone/start_world"
                         ],
                         "name": "Start game"
                     },
                     {
                         "commands": [
-                            "/function phone/toggle_flying"
+                            "/execute @a[target_type=other] ~ ~ ~ function phone/toggle_flying"
                         ],
                         "name": "Toggle personal flying"
                     },
                     {
                         "commands": [
-                            "/function phone/teleport_list"
+                            "/execute @a[target_type=other] ~ ~ ~ function phone/teleport_list"
                         ],
                         "name": "Teleport to..."
                     },
                     {
                         "commands": [
-                            "/function phone/world_preferences"
+                            "/execute @a[target_type=other] ~ ~ ~ function phone/world_preferences"
                         ],
                         "name": "World preferences"
                     },
                     {
                         "commands": [
-                            "/function phone/student_view"
+                            "/execute @a[target_type=other] ~ ~ ~function phone/student_view"
                         ],
                         "name": "Student phone"
                     }
@@ -45,37 +45,37 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/function phone/teleport/spawn"
+                            "/execute @a[target_type=other] ~ ~ ~ function phone/teleport/spawn"
                         ],
                         "name": "Spawn area"
                     },
                     {
                         "commands": [
-                            "/function phone/teleport/town_square"
+                            "/execute @a[target_type=other] ~ ~ ~ function phone/teleport/town_square"
                         ],
                         "name": "Town Square"
                     },
                     {
                         "commands": [
-                            "/function phone/teleport/ship"
+                            "/execute @a[target_type=other] ~ ~ ~ function phone/teleport/ship"
                         ],
-                        "name": "Ship 1 (task 0)"
+                        "name": "Ship (task0)"
                     },
                     {
                         "commands": [
-                            "/function phone/teleport/shipwreck"
+                            "/execute @a[target_type=other] ~ ~ ~ function phone/teleport/shipwreck"
                         ],
                         "name": "Shipwreck"
                     },
                     {
                         "commands": [
-                            "/function phone/teleport/task1"
+                            "/execute @a[target_type=other] ~ ~ ~ function phone/teleport/task1"
                         ],
-                        "name": "Fish & Melon (task 1)"
+                        "name": "Melon (task1)"
                     },
                     {
                         "commands": [
-                            "/function phone/teleport_list_2"
+                            "/execute @a[target_type=other] ~ ~ ~ function phone/teleport_list_2"
                         ],
                         "name": "More..."
                     }
@@ -87,7 +87,38 @@
                 "text": "Choose a location to teleport to"
             },
             {
-                "buttons": [],
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function phone/teleport/task234"
+                        ],
+                        "name": "Mine (task2/3/4)"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function phone/teleport/task5"
+                        ],
+                        "name": "Fish (task5)"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function teleport/task6"
+                        ],
+                        "name": "Shocking (task6)"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function phone/teleport/task78"
+                        ],
+                        "name": "Mazes (task7/8)"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ /function phone/teleport_list"
+                        ],
+                        "name": "Return"
+                    }
+                ],
                 "npc_name": "Teacher Phone",
                 "on_close_commands": [],
                 "on_open_commands": [],
