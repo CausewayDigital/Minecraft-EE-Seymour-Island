@@ -39,7 +39,7 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function phone/teleport_town_square"
+                            "/execute @a[target_type=other] ~ ~ ~ function phone/teleport/town_square"
                         ],
                         "name": "Return to town square"
                     },
