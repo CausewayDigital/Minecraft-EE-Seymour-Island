@@ -1,0 +1,107 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/function phone/start_world"
+                        ],
+                        "name": "Start game"
+                    },
+                    {
+                        "commands": [
+                            "/function phone/toggle_flying"
+                        ],
+                        "name": "Toggle personal flying"
+                    },
+                    {
+                        "commands": [
+                            "/function phone/teleport_list"
+                        ],
+                        "name": "Teleport to..."
+                    },
+                    {
+                        "commands": [
+                            "/function phone/world_preferences"
+                        ],
+                        "name": "World preferences"
+                    },
+                    {
+                        "commands": [
+                            "/function phone/student_view"
+                        ],
+                        "name": "Student phone"
+                    }
+                ],
+                "npc_name": "Teacher Phone",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "teacher_phone",
+                "text": "Select an option below"
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/function phone/teleport/spawn"
+                        ],
+                        "name": "Spawn area"
+                    },
+                    {
+                        "commands": [
+                            "/function phone/teleport/town_square"
+                        ],
+                        "name": "Town Square"
+                    },
+                    {
+                        "commands": [
+                            "/function phone/teleport/ship"
+                        ],
+                        "name": "Ship 1 (task 0)"
+                    },
+                    {
+                        "commands": [
+                            "/function phone/teleport/shipwreck"
+                        ],
+                        "name": "Shipwreck"
+                    },
+                    {
+                        "commands": [
+                            "/function phone/teleport/task1"
+                        ],
+                        "name": "Fish & Melon (task 1)"
+                    },
+                    {
+                        "commands": [
+                            "/function phone/teleport_list_2"
+                        ],
+                        "name": "More..."
+                    }
+                ],
+                "npc_name": "Teacher Phone",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "teacher_phone_teleport_1",
+                "text": "Choose a location to teleport to"
+            },
+            {
+                "buttons": [],
+                "npc_name": "Teacher Phone",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "teacher_phone_teleport_2",
+                "text": "Choose a location to teleport to"
+            },
+            {
+                "buttons": [],
+                "npc_name": "Teacher Phone",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "teacher_phone_world_options",
+                "text": "Choose an option to edit below"
+            }
+        ]
+    }
+}
