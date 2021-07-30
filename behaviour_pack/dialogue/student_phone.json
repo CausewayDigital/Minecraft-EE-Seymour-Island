@@ -6,25 +6,25 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/function phone/reset_task"
+                            "/execute @a[target_type=other] ~ ~ ~ function phone/reset_task"
                         ],
                         "name": "Reset task"
                     },
                     {
                         "commands": [
-                            "/function phone/reset_agent"
+                            "/execute @a[target_type=other] ~ ~ ~ function phone/reset_agent"
                         ],
                         "name": "Reset agent"
                     },
                     {
                         "commands": [
-                            "/function phone/quit_task"
+                            "/execute @a[target_type=other] ~ ~ ~ function phone/quit_task"
                         ],
                         "name": "Quit task"
                     },
                     {
                         "commands": [
-                            "/function phone/reset_codebuilder_check"
+                            "/execute @a[target_type=other] ~ ~ ~ function phone/reset_codebuilder_check"
                         ],
                         "name": "Reset Code Builder"
                     }
@@ -39,13 +39,13 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/function phone/teleport_town_square"
+                            "/execute @a[target_type=other] ~ ~ ~ function phone/teleport_town_square"
                         ],
                         "name": "Return to town square"
                     },
                     {
                         "commands": [
-                            "/function phone/open_map"
+                            "/execute @a[target_type=other] ~ ~ ~ function phone/open_map"
                         ],
                         "name": "Open map"
                     }
@@ -64,7 +64,7 @@
                     },
                     {
                         "commands": [
-                            "/function phone/reset_codebuilder"
+                            "/execute @a[target_type=other] ~ ~ ~  function phone/reset_codebuilder"
                         ],
                         "name": "Yes reset"
                     }
