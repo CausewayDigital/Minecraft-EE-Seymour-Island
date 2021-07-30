@@ -18,7 +18,7 @@ scoreboard objectives remove task_0-5_sewer
 scoreboard objectives add task_0-5_sewer dummy
 scoreboard players set @a task_0-5_sewer 0
 
-scoreboard objectives remove task_0-5_fountain
-scoreboard objectives add task_0-5_fountain dummy
-scoreboard players set @a task_0-5_fountain 0
+scoreboard objectives remove task_0-5_fon
+scoreboard objectives add task_0-5_fon dummy
+scoreboard players set @a task_0-5_fon 0
 
