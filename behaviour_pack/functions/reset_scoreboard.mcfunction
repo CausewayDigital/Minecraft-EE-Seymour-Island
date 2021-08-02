@@ -46,3 +46,11 @@ scoreboard objectives remove task_1_rs_1_done
 scoreboard objectives add task_1_rs_1_done dummy
 scoreboard players set @a task_1_rs_1_done 0
 
+scoreboard objectives remove task_1_rs_2_done
+scoreboard objectives add task_1_rs_2_done dummy
+scoreboard players set @a task_1_rs_2_done 0
+
+scoreboard objectives remove task_1_rs_3_done
+scoreboard objectives add task_1_rs_3_done dummy
+scoreboard players set @a task_1_rs_3_done 0
+
