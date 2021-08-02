@@ -14,10 +14,6 @@ scoreboard objectives remove teacher
 scoreboard objectives add teacher dummy
 scoreboard players set @a teacher 0
 
-scoreboard objectives remove task_0-5_sewer
-scoreboard objectives add task_0-5_sewer dummy
-scoreboard players set @a task_0-5_sewer 0
-
 scoreboard objectives remove task_0-5_fon
 scoreboard objectives add task_0-5_fon dummy
 scoreboard players set @a task_0-5_fon 0
