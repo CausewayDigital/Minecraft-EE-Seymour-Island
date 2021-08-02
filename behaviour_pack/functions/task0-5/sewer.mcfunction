@@ -1,9 +1,11 @@
-# Display a title and TP the player when the reach the end of the sewer
-execute @a[x=-319, y=62 , z=280, dx=-4, dy=4, dz=-4] ~ ~ ~ title @p title Is that light up ahead...?
-execute @a[x=-319, y=62 , z=280, dx=-4, dy=4, dz=-4] ~ ~ ~ tp @p -441 61 243 facing -441 61 241
+# End sound before tp-ing player
 execute @a[x=-319, y=62 , z=280, dx=-4, dy=4, dz=-4 ~ ~ ~ stopsound @p cd.sewer.sewer
 execute @a[x=-319, y=62 , z=280, dx=-4, dy=4, dz=-4] ~ ~ ~ scoreboard players set @p task_0-5_ss 0
 execute @a[x=-319, y=62 , z=280, dx=-4, dy=4, dz=-4] ~ ~ ~ scoreboard players set @p task_0-5_sstimer 0
+
+# Display a title and TP the player when the reach the end of the sewer
+execute @a[x=-319, y=62 , z=280, dx=-4, dy=4, dz=-4] ~ ~ ~ title @p title Is that light up ahead...?
+execute @a[x=-319, y=62 , z=280, dx=-4, dy=4, dz=-4] ~ ~ ~ tp @p -441 61 243 facing -441 61 241
 
 # Play sewer Sounds
 # if the player enters the sewer play the sound  and start the timer
