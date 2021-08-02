@@ -1,0 +1,32 @@
+{
+    "ambient.sea.waves": {
+        "category": "sea",
+        "min_distance": 100.0,
+        "sounds": [
+            {
+                "name": "sounds/ambient/waves_2",
+                "load_on_low_memory": true
+            }
+        ]
+    },
+    "ambient.sewer.sewer": {
+        "category": "sewer",
+        "min_distance": 100.0,
+        "sounds": [
+            {
+                "name": "sounds/ambient/sewer",
+                "load_on_low_memory": true
+            }
+        ]
+    },
+    "events.ship.crash": {
+        "category": "ship",
+        "min_distance": 100.0,
+        "sounds": [
+            {
+                "name": "sounds/events/crash",
+                "load_on_low_memory": true
+            }
+        ]
+    }
+}
