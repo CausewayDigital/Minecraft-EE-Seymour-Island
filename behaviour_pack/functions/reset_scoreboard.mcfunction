@@ -22,3 +22,11 @@ scoreboard objectives remove task_0-5_fon
 scoreboard objectives add task_0-5_fon dummy
 scoreboard players set @a task_0-5_fon 0
 
+scoreboard objectives remove task_0-5_ss
+scoreboard objectives add task_0-5_ss dummy
+scoreboard players set @a task_0-5_ss 0
+
+scoreboard objectives remove task_0-5_sstimer
+scoreboard objectives add task_0-5_sstimer dummy
+scoreboard players set @a task_0-5_sstimer 0
+
