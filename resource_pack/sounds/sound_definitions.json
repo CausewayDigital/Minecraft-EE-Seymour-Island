@@ -1,5 +1,5 @@
 {
-    "ambient.sea.waves": {
+    "cd.sea.waves": {
         "category": "sea",
         "min_distance": 5.0,
         "sounds": [
@@ -9,9 +9,9 @@
             }
         ]
     },
-    "ambient.sewer.sewer": {
+    "cd.sewer.sewer": {
         "category": "sewer",
-        "min_distance": 1.0,
+        "min_distance": 3.0,
         "sounds": [
             {
                 "name": "sounds/ambient/sewer",
@@ -19,7 +19,7 @@
             }
         ]
     },
-    "events.ship.crash": {
+    "cd.ship.crash": {
         "category": "ship",
         "min_distance": 20.0,
         "sounds": [
