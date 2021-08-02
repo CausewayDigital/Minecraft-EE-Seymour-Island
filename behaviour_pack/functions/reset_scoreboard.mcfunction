@@ -26,3 +26,11 @@ scoreboard objectives remove task_0-5_sstimer
 scoreboard objectives add task_0-5_sstimer dummy
 scoreboard players set @a task_0-5_sstimer 0
 
+scoreboard objectives remove task_0_seaS
+scoreboard objectives add task_0_seaS dummy
+scoreboard players set @a task_0_seaS 0
+
+scoreboard objectives remove task_0_crashS
+scoreboard objectives add task_0_crashS dummy
+scoreboard players set @a task_0_crashS 0
+

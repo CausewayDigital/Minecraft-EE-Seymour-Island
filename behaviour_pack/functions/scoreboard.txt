@@ -6,3 +6,6 @@ teacher
 task_0-5_fon
 task_0-5_ss
 task_0-5_sstimer
+
+task_0_seaS
+task_0_crashS
