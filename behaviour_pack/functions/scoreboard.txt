@@ -3,14 +3,20 @@ score
 in_task
 teacher
 
-task_0-5_fon
-task_0-5_ss
-task_0-5_sstimer
-
+# Task 0
+# vars with S at the end mean they show the status of a sound while the others are user intractable to start/stop a sound
 task_0_sea
 task_0_crash
 task_0_seaS
 task_0_crashS
+
+# Task 0.5
+# sews represents the status of the sewer sound. sewst is the sewer sound timer to allow it to loop when done
+# sewpos is the position of which the sound originates from to stop minecraft from loading it out 
+task_0-5_fon
+task_0-5_sews
+task_0-5_sewst
+task_0-5_sewpos
 
 task_1_rs_1_done
 task_1_rs_2_done

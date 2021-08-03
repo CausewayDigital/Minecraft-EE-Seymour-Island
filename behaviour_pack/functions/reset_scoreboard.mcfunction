@@ -14,18 +14,6 @@ scoreboard objectives remove teacher
 scoreboard objectives add teacher dummy
 scoreboard players set @a teacher 0
 
-scoreboard objectives remove task_0-5_fon
-scoreboard objectives add task_0-5_fon dummy
-scoreboard players set @a task_0-5_fon 0
-
-scoreboard objectives remove task_0-5_ss
-scoreboard objectives add task_0-5_ss dummy
-scoreboard players set @a task_0-5_ss 0
-
-scoreboard objectives remove task_0-5_sstimer
-scoreboard objectives add task_0-5_sstimer dummy
-scoreboard players set @a task_0-5_sstimer 0
-
 scoreboard objectives remove task_0_sea
 scoreboard objectives add task_0_sea dummy
 scoreboard players set @a task_0_sea 0
@@ -41,6 +29,22 @@ scoreboard players set @a task_0_seaS 0
 scoreboard objectives remove task_0_crashS
 scoreboard objectives add task_0_crashS dummy
 scoreboard players set @a task_0_crashS 0
+
+scoreboard objectives remove task_0-5_fon
+scoreboard objectives add task_0-5_fon dummy
+scoreboard players set @a task_0-5_fon 0
+
+scoreboard objectives remove task_0-5_sews
+scoreboard objectives add task_0-5_sews dummy
+scoreboard players set @a task_0-5_sews 0
+
+scoreboard objectives remove task_0-5_sewst
+scoreboard objectives add task_0-5_sewst dummy
+scoreboard players set @a task_0-5_sewst 0
+
+scoreboard objectives remove task_0-5_sewpos
+scoreboard objectives add task_0-5_sewpos dummy
+scoreboard players set @a task_0-5_sewpos 0
 
 scoreboard objectives remove task_1_rs_1_done
 scoreboard objectives add task_1_rs_1_done dummy
