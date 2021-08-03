@@ -3,3 +3,9 @@
 # Below find all task teleports based on if already a student in a task
 execute @s[x=-486, y=68, z=242, dx=10, dy=3, dz=8] ~ ~ ~ detect -489 65 251 air -1 tp @s -488 63 246 facing -491 63 246
 
+
+
+# If no task is available
+execute @s[x=-486, y=68, z=242, dx=10, dy=3, dz=8] ~ ~ ~ title @s subtitle Try again later
+execute @s[x=-486, y=68, z=242, dx=10, dy=3, dz=8] ~ ~ ~ title @s title Task already in use
+

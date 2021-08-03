@@ -16,6 +16,7 @@ task_0-5_fon
 task_0-5_sews
 task_0-5_sewst
 
+task_1_done
 task_1_rs_1_done
 task_1_rs_2_done
 task_1_rs_3_done
