@@ -34,6 +34,10 @@ scoreboard objectives remove task_0-5_fon
 scoreboard objectives add task_0-5_fon dummy
 scoreboard players set @a task_0-5_fon 0
 
+scoreboard objectives remove task_0-5_insew
+scoreboard objectives add task_0-5_insew dummy
+scoreboard players set @a task_0-5_insew 0
+
 scoreboard objectives remove task_0-5_sews
 scoreboard objectives add task_0-5_sews dummy
 scoreboard players set @a task_0-5_sews 0
