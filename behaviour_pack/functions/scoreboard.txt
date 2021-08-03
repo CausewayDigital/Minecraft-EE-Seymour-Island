@@ -11,14 +11,10 @@ task_0_seaS
 task_0_crashS
 
 # Task 0.5
-# insew represents if a player is in the sewer
 # sews represents the status of the sewer sound. sewst is the sewer sound timer to allow it to loop when done
-# sewpos is the position of which the sound originates from to stop minecraft from loading it out 
 task_0-5_fon
-task_0-5_insew
 task_0-5_sews
 task_0-5_sewst
-task_0-5_sewpos
 
 task_1_rs_1_done
 task_1_rs_2_done
