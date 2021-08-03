@@ -1,1 +1,1 @@
-function task1/start
+execute @s ~ ~ ~ function task1/start
