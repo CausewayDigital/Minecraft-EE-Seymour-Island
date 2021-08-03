@@ -1,0 +1,40 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "buttons": [],
+                "npc_name": "Bob",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "bobs",
+                "text": "Unfortunately, our electricity is out. Please talk to the manager, Jill."
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ task_1/start_blocks"
+                        ],
+                        "name": "Sure! Blocks"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ task_1/start_python"
+                        ],
+                        "name": "Sure! Python"
+                    },
+                    {
+                        "commands": [],
+                        "name": "No thanks"
+                    }
+                ],
+                "npc_name": "Jill",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "jills",
+                "text": "Well hello there. Unfortunately we aren't able to serve anything currently, our electric is out. Do you think you could fix it"
+            }
+        ]
+    }
+}

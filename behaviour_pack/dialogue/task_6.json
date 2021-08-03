@@ -1,0 +1,23 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "buttons": [],
+                "npc_name": "Player 1",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "player1s",
+                "text": "Due to the recent storm, a large amount of the electronic substation in behind us has been damaged. Do you think you could use your agent to help repair it?%1%1This is an extension activity to the Fish & Melon, so I recommend you have completed it first. You also need 2 players for this task. Ready to help?"
+            },
+            {
+                "buttons": [],
+                "npc_name": "Player 2",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "player2s",
+                "text": "Due to the recent storm, a large amount of the electronic substation in behind us has been damaged. Do you think you could use your agent to help repair it?%1%1This is an extension activity to the Fish & Melon, so I recommend you have completed it first. You also need 2 players for this task. Ready to help?"
+            }
+        ]
+    }
+}

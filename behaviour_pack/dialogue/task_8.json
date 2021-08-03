@@ -1,0 +1,23 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "buttons": [],
+                "npc_name": "Navigator",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "navigators2",
+                "text": "Hi there!\r\nWant to try out the intermedate version of the new town security system? This is a two player task where one of you codes your agent and the other one is the eyes for the coder.\r\nThis task is the eyes.\r\nDo you want to be the eyes?"
+            },
+            {
+                "buttons": [],
+                "npc_name": "Driver",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "drivers2",
+                "text": "Hi there!\r\nWant to try out the intermediate version of the new town security system? This is a 2 player task where one of you codes your agent and the other is the eyes for the coder.\r\nThis task is the coder.\r\nDo you want to be the coder?"
+            }
+        ]
+    }
+}

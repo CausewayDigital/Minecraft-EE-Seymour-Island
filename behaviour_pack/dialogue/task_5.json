@@ -1,0 +1,31 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "buttons": [],
+                "npc_name": "Captain",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "captains",
+                "text": "Hey there, we have just had a HUGE haul of fish come in. Any chance you could help us bring it ashore?"
+            },
+            {
+                "buttons": [],
+                "npc_name": "Crew",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "crew1s",
+                "text": "Haha, \"fishy\" business going on here.\t"
+            },
+            {
+                "buttons": [],
+                "npc_name": "Crew",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "crew2s",
+                "text": "Hi there!\r\nNice job on offloading the fish from our boat so far, but I think theres some more left to take off.\r\nHead onto the boat to help us unload it. Someone will tell you when it's finished.\r\nThanks again!"
+            }
+        ]
+    }
+}

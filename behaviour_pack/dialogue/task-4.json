@@ -1,0 +1,15 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "buttons": [],
+                "npc_name": "Miner - Talk to me!",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "miners4",
+                "text": "Make sure you have done autominer tasks 1 and 2 before this, as I only want the best miners on this one!\r\nWe've hit a rich mining vain! Don't remove any stone as the tunnel might collapse. Just to be on the safe side though, you need to get in and out in 50 seconds. Think you can do it?"
+            }
+        ]
+    }
+}
