@@ -6,42 +6,9 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function phone/reset_task"
-                        ],
-                        "name": "Reset task"
-                    },
-                    {
-                        "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function phone/reset_agent"
-                        ],
-                        "name": "Reset agent"
-                    },
-                    {
-                        "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function phone/quit_task"
-                        ],
-                        "name": "Quit task"
-                    },
-                    {
-                        "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function phone/reset_codebuilder_check"
-                        ],
-                        "name": "Reset Code Builder"
-                    }
-                ],
-                "npc_name": "Student Phone",
-                "on_close_commands": [],
-                "on_open_commands": [],
-                "scene_tag": "student_phone_in_task",
-                "text": "Select an option below"
-            },
-            {
-                "buttons": [
-                    {
-                        "commands": [
                             "/execute @a[target_type=other] ~ ~ ~ function phone/teleport/town_square"
                         ],
-                        "name": "Return to town square"
+                        "name": "Return to square"
                     },
                     {
                         "commands": [

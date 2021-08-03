@@ -26,7 +26,7 @@
                         "commands": [
                             "/execute @a[target_type=other] ~ ~ ~ function phone/world_preferences"
                         ],
-                        "name": "World preferences"
+                        "name": "Work settings"
                     },
                     {
                         "commands": [
