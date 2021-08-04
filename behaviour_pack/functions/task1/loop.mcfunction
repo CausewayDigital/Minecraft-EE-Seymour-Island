@@ -15,3 +15,5 @@ execute @e[type=armor_stand, tag=task_1] ~ ~ ~ execute @p[x=~-9, y=~2, z=~-7, dx
 
 # Get player that timer is done with, then get nearest armor stand, then confirm player is in the area, then run the agent reset
 execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=task_1, r=7, c=1] ~ ~ ~ execute @p[x=~-9, y=~2, z=~-7, dx=15, dy=8, dz=13] ~ ~ ~ function task1/reset_agent
+# Also set the in_task scoreboard to 1
+execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=task_1, r=7, c=1] ~ ~ ~ execute @p[x=~-9, y=~2, z=~-7, dx=15, dy=8, dz=13] ~ ~ ~ scoreboard players set @s in_task 1
