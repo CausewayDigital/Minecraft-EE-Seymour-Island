@@ -14,6 +14,10 @@ scoreboard objectives remove teacher
 scoreboard objectives add teacher dummy
 scoreboard players set @a teacher 0
 
+scoreboard objectives remove task_start_timer
+scoreboard objectives add task_start_timer dummy
+scoreboard players set @a task_start_timer 0
+
 scoreboard objectives remove task_0_sea
 scoreboard objectives add task_0_sea dummy
 scoreboard players set @a task_0_sea 0

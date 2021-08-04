@@ -3,6 +3,9 @@ score
 in_task
 teacher
 
+# A countdown timer to be used at the start of tasks to allow time for the agent to be teleported in later
+task_start_timer
+
 # Task 0
 # vars with S at the end mean they show the status of a sound while the others are user intractable to start/stop a sound
 task_0_sea
@@ -20,3 +23,4 @@ task_1_done
 task_1_rs_1_done
 task_1_rs_2_done
 task_1_rs_3_done
+
