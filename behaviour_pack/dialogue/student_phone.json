@@ -41,6 +41,39 @@
                 "on_open_commands": [],
                 "scene_tag": "student_phone_reset_codebuilder",
                 "text": "Are you sure you want to reset your Code Builder? This will clear all your Makecode/Notebook progress... Only use this if it has got stuck."
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function phone/reset_task"
+                        ],
+                        "name": "Reset task"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function phone/reset_agent"
+                        ],
+                        "name": "Reset agent"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function phone/quit_task"
+                        ],
+                        "name": "Quit task"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~  function phone/reset_codebuilder"
+                        ],
+                        "name": "Reset codebuilde"
+                    }
+                ],
+                "npc_name": "Student Phone",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "student_phone_in_task",
+                "text": "Select an option below"
             }
         ]
     }
