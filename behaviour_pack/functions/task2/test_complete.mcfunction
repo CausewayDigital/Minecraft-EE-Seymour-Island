@@ -1,8 +1,5 @@
 # Executing as the armor stand
 
-# Set prog scoreboard 
-execute @e[type=armor_stand, tag=task_2] ~ ~ ~ execute @p[x=~-9, y=~3, z=~-3, dx=16, dy=2, dz=7] ~ ~ ~ execute @e[type=armor_stand, tag=task_2, c=1] ~ ~ ~ execute @p ~ ~ ~ scoreboard players set @s task_2_prog 0
-
 # Check if blocks are gone
 
 # Column 1
