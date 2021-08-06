@@ -9,6 +9,9 @@ function task0/loop
 # Task 0-5
 function task0-5/loop
 
+# Task 2
+function task2/loop
+
 
 
 
