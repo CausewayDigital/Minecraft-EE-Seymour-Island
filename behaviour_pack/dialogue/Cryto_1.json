@@ -1,0 +1,285 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "buttons": [],
+                "npc_name": "Cryptographer 1",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "Cryto_1_ciphertext",
+                "text": "Cryptography is the use of a serIes of comPlex puzzles tHat to concEal and uncoveR messages"
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/correct"
+                        ],
+                        "name": "C"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/incorrect"
+                        ],
+                        "name": "E"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/incorrect"
+                        ],
+                        "name": "J"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/incorrect"
+                        ],
+                        "name": "T"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/incorrect"
+                        ],
+                        "name": "U"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/incorrect"
+                        ],
+                        "name": "R"
+                    }
+                ],
+                "npc_name": "Cryptographer 1",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "Cryto_1_Input_1",
+                "text": "What is the first letter of the secret message?"
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/incorrect"
+                        ],
+                        "name": "X"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/incorrect"
+                        ],
+                        "name": "O"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/correct"
+                        ],
+                        "name": "I"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/incorrect"
+                        ],
+                        "name": "A"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/incorrect"
+                        ],
+                        "name": "Y"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/incorrect"
+                        ],
+                        "name": "P"
+                    }
+                ],
+                "npc_name": "Cryptographer 1",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "Cryto_1_Input_2",
+                "text": "What is the second letter of the secret message?"
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/incorrect"
+                        ],
+                        "name": "C"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/correct"
+                        ],
+                        "name": "P"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/incorrect"
+                        ],
+                        "name": "K"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/incorrect"
+                        ],
+                        "name": "V"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/incorrect"
+                        ],
+                        "name": "L"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/incorrect"
+                        ],
+                        "name": "G"
+                    }
+                ],
+                "npc_name": "Cryptographer 1",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "Cryto_1_Input_3",
+                "text": "What is the third letter of the secret message?"
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/incorrect"
+                        ],
+                        "name": "I"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/incorrect"
+                        ],
+                        "name": "P"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/incorrect"
+                        ],
+                        "name": "Q"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/incorrect"
+                        ],
+                        "name": "M"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/correct"
+                        ],
+                        "name": "H"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/incorrect"
+                        ],
+                        "name": "R"
+                    }
+                ],
+                "npc_name": "Cryptographer 1",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "Cryto_1_Input_4",
+                "text": "What is the fourth letter of the secret message?"
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/incorrect"
+                        ],
+                        "name": "P"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/incorrect"
+                        ],
+                        "name": "J"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/incorrect"
+                        ],
+                        "name": "C"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/incorrect"
+                        ],
+                        "name": "N"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/incorrect"
+                        ],
+                        "name": "T"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/correct"
+                        ],
+                        "name": "E"
+                    }
+                ],
+                "npc_name": "Cryptographer 1",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "Cryto_1_Input_5",
+                "text": "What is the fifth letter of the secret message?"
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/correct"
+                        ],
+                        "name": "R"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/incorrect"
+                        ],
+                        "name": "U"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/incorrect"
+                        ],
+                        "name": "A"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/incorrect"
+                        ],
+                        "name": "H"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/incorrect"
+                        ],
+                        "name": "S"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/incorrect"
+                        ],
+                        "name": "Q"
+                    }
+                ],
+                "npc_name": "Cryptographer 1",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "Cryto_1_Input_6",
+                "text": "What is the final letter of the secret message?"
+            }
+        ]
+    }
+}
