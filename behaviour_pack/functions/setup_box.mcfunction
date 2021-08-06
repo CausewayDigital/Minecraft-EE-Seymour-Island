@@ -14,10 +14,9 @@ scoreboard players set @a[x=-878,y=120,z=383,r=2] task8 0
 scoreboard players set @a[x=-878,y=120,z=383,r=2] score 0
 
 scoreboard players set @a[x=-878,y=120,z=383,r=2] tick 0
+scoreboard players set @a[x=-878,y=120,z=383,r=2] teacher 0
+scoreboard players set @a[x=-878,y=120,z=383,r=2] in_task 0
 
 title @a[x=-878,y=120,z=383,r=2] title Welcome to Seymour Island Map
 
 tp @a[x=-878,y=120,z=383,r=2] -876 124 386 facing -876 124 388
-
-# Part 0-5 setup
-function task0-5/setup
