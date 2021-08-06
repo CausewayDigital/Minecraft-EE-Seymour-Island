@@ -5,3 +5,4 @@ execute @p[x=~-9, y=~3, z=~-3, dx=16, dy=2, dz=7] ~ ~ ~ scoreboard players set @
 
 # Reset XP
 execute @p[x=~-9, y=~3, z=~-3, dx=16, dy=2, dz=7] ~ ~ ~ xp -1000L @s
+savestructure -480 31 233 -482 34 245 task_3_autominer

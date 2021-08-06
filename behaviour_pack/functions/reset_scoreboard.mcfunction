@@ -70,3 +70,11 @@ scoreboard objectives remove task_2_prog
 scoreboard objectives add task_2_prog dummy
 scoreboard players set @a task_2_prog 0
 
+scoreboard objectives remove task_3_done
+scoreboard objectives add task_3_done dummy
+scoreboard players set @a task_3_done 0
+
+scoreboard objectives remove task_3_prog
+scoreboard objectives add task_3_prog dummy
+scoreboard players set @a task_3_prog 0
+

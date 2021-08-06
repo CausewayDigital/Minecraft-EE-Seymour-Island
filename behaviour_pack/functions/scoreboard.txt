@@ -29,3 +29,7 @@ task_1_rs_3_done
 task_2_done
 task_2_prog
 
+# Task 3
+task_3_done
+task_3_prog
+
