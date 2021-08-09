@@ -86,3 +86,7 @@ scoreboard objectives remove task_4_prog
 scoreboard objectives add task_4_prog dummy
 scoreboard players set @a task_4_prog 0
 
+scoreboard objectives remove task_4_timer
+scoreboard objectives add task_4_timer dummy
+scoreboard players set @a task_4_timer 0
+
