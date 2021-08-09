@@ -19,7 +19,7 @@ execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=
 execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7] ~ ~ ~ scoreboard players set @s in_task 1
 
 # Start the timer for this task (50 Seconds)
-execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=!-1}] ~ ~ ~ scoreboard players add @s task_4_timer 1
+execute @a[scores={in_task=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=!-1}] ~ ~ ~ scoreboard players add @s task_4_timer 1
 
 # Show 10 second countdown for timer
 execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=800}] ~ ~ ~ title @s actionbar 10 Seconds Left!
