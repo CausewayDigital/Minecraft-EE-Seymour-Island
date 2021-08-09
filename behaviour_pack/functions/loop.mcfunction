@@ -15,6 +15,9 @@ function task2/loop
 # Task 3
 function task3/loop
 
+# Task 4
+function task4/loop
+
 
 
 
