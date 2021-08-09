@@ -12,8 +12,8 @@ execute @e[type=armor_stand, tag=task_4] ~ ~ ~ detect ~-3 ~5 ~2 barrel -1 setblo
 execute @e[type=armor_stand, tag=task_4] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, c=1] ~ ~ ~ setblock ~-3 ~5 ~2 barrel 0
 
 # Set a scoreboard that shows if the agent is on the starting block. Set it to 0 first
-execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7] ~ ~ ~ scoreboard players set @s task_4_start 0
-execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4] ~ ~ ~ execute @e[type=agent, x=~6, y=~3, z=~-4] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7] ~ ~ ~ scoreboard players set @s task_4_start 1
+execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7] ~ ~ ~ scoreboard players set @s task_4_start 0
+execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @e[type=agent, x=~6, y=~3, z=~-4] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7] ~ ~ ~ scoreboard players set @s task_4_start 1
 
 
 # Get player that timer is done with, then get nearest armor stand, then confirm player is in the area, then run the agent reset
