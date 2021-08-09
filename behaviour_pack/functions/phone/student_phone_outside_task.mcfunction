@@ -1,1 +1,1 @@
-dialogue open @e[type=npc, tag=phone] @p student_phone_outside_task
+dialogue open @e[type=npc, tag=phone, c=1] @p student_phone_outside_task
