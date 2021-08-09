@@ -32,7 +32,7 @@ execute @e[type=armor_stand, tag=task_4] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=
 
 # Column 6
 execute @e[type=armor_stand, tag=task_4] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~-2 ~5 ~-5 air -1 execute @p ~ ~ ~ scoreboard players add @s task_4_prog 1
-execute @e[type=armor_stand, tag=task_4] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, c=1] ~ ~ ~ execute @p[scores={task_4_prog=10}] ~ ~ ~ xp 2 @s
+execute @e[type=armor_stand, tag=task_4] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, c=1] ~ ~ ~ execute @p[scores={task_4_prog=10}] ~ ~ ~ xp 1 @s
 
 # Column 7
 execute @e[type=armor_stand, tag=task_4] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~-3 ~3 ~-5 air -1 execute @p ~ ~ ~ scoreboard players add @s task_4_prog 1
