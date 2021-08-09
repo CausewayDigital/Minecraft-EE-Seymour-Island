@@ -8,7 +8,7 @@ execute @e[type=armor_stand, tag=task_4] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=
 # This is split into 7 colums as there are 7 XP in a level. This allows us to display an xp bar from 0 to 1 to display the progress in the task
 # Column 1
 execute @e[type=armor_stand, tag=task_4] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~3 ~-5 air -1 execute @p ~ ~ ~ scoreboard players add @s task_4_prog 1
-execute @e[type=armor_stand, tag=task_4] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~5 ~-5 air -1 execute @p ~ ~ ~ scoreboard players add @s task_4_prog 1
+execute @e[type=armor_stand, tag=task_4] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~4 ~-5 air -1 execute @p ~ ~ ~ scoreboard players add @s task_4_prog 1
 execute @e[type=armor_stand, tag=task_4] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~5 ~-5 air -1 execute @p ~ ~ ~ scoreboard players add @s task_4_prog 1
 execute @e[type=armor_stand, tag=task_4] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, c=1] ~ ~ ~ execute @p[scores={task_4_prog=3}] ~ ~ ~ xp 1 @s
 
@@ -32,10 +32,10 @@ execute @e[type=armor_stand, tag=task_4] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=
 
 # Column 6
 execute @e[type=armor_stand, tag=task_4] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~-2 ~5 ~-5 air -1 execute @p ~ ~ ~ scoreboard players add @s task_4_prog 1
-execute @e[type=armor_stand, tag=task_4] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, c=1] ~ ~ ~ execute @p[scores={task_4_prog=10}] ~ ~ ~ xp 1 @s
+execute @e[type=armor_stand, tag=task_4] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, c=1] ~ ~ ~ execute @p[scores={task_4_prog=10}] ~ ~ ~ xp 2 @s
 
 # Column 7
-execute @e[type=armor_stand, tag=task_4] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~-4 ~4 ~-5 air -1 execute @p ~ ~ ~ scoreboard players add @s task_4_prog 1
+execute @e[type=armor_stand, tag=task_4] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~-3 ~3 ~-5 air -1 execute @p ~ ~ ~ scoreboard players add @s task_4_prog 1
 execute @e[type=armor_stand, tag=task_4] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, c=1] ~ ~ ~ execute @p[scores={task_4_prog=11}] ~ ~ ~ xp 1 @s
 
 
