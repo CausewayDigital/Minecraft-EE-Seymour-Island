@@ -24,12 +24,6 @@
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function phone/world_preferences"
-                        ],
-                        "name": "Work settings"
-                    },
-                    {
-                        "commands": [
                             "/execute @a[target_type=other] ~ ~ ~ function phone/student_phone"
                         ],
                         "name": "Student phone"
