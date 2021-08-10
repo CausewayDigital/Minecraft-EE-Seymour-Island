@@ -102,7 +102,7 @@
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function teleport/task6"
+                            "/execute @a[target_type=other] ~ ~ ~ function phone/teleport/task6"
                         ],
                         "name": "Shocking (task6)"
                     },
@@ -114,13 +114,13 @@
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ /function phone/teleport_list"
+                            "/execute @a[target_type=other] ~ ~ ~ function phone/teleport_list"
                         ],
                         "name": "Return"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ /function phone/teacher_phone"
+                            "/execute @a[target_type=other] ~ ~ ~ function phone/teacher_phone"
                         ],
                         "name": "Back to menu"
                     }
