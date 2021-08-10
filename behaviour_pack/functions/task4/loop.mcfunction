@@ -6,7 +6,7 @@ execute @e[type=armor_stand, tag=task_4] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=
 
 # A marker block is used to mark an individual task as in use. Each tick it is removed, then replaced if there is a student in the task
 # Remove the marker block if it exists
-execute @e[type=armor_stand, tag=task_4] ~ ~ ~ a2 barrel -1 setblock ~-3 ~5 ~2 air
+execute @e[type=armor_stand, tag=task_4] ~ ~ ~ detect barrel -1 setblock ~-3 ~5 ~2 air
 
 # If it still needs to be there, put the marker block back
 execute @e[type=armor_stand, tag=task_4] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, c=1] ~ ~ ~ setblock ~-3 ~5 ~2 barrel 0
