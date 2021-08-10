@@ -24,7 +24,51 @@ execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=
 # Start the timer for this task (50 Seconds)
 execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7] ~ ~ ~ scoreboard players add @s task_4_timer 1
 
-# Show 10 second countdown for timer
+# Show 50 second countdown for timer
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=0}] ~ ~ ~ title @s actionbar 10 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=20}] ~ ~ ~ title @s actionbar 9 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=30}] ~ ~ ~ title @s actionbar 8 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=60}] ~ ~ ~ title @s actionbar 7 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=80}] ~ ~ ~ title @s actionbar 6 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=100}] ~ ~ ~ title @s actionbar 5 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=120}] ~ ~ ~ title @s actionbar 4 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=140}] ~ ~ ~ title @s actionbar 3 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=160}] ~ ~ ~ title @s actionbar 2 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=180}] ~ ~ ~ title @s actionbar 1 Second Left!
+
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=200}] ~ ~ ~ title @s actionbar 10 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=220}] ~ ~ ~ title @s actionbar 9 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=240}] ~ ~ ~ title @s actionbar 8 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=260}] ~ ~ ~ title @s actionbar 7 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=280}] ~ ~ ~ title @s actionbar 6 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=300}] ~ ~ ~ title @s actionbar 5 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=320}] ~ ~ ~ title @s actionbar 4 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=340}] ~ ~ ~ title @s actionbar 3 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=360}] ~ ~ ~ title @s actionbar 2 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=380}] ~ ~ ~ title @s actionbar 1 Second Left!
+
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=400}] ~ ~ ~ title @s actionbar 10 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=420}] ~ ~ ~ title @s actionbar 9 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=440}] ~ ~ ~ title @s actionbar 8 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=460}] ~ ~ ~ title @s actionbar 7 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=480}] ~ ~ ~ title @s actionbar 6 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=500}] ~ ~ ~ title @s actionbar 5 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=520}] ~ ~ ~ title @s actionbar 4 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=540}] ~ ~ ~ title @s actionbar 3 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=560}] ~ ~ ~ title @s actionbar 2 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=580}] ~ ~ ~ title @s actionbar 1 Second Left!
+
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=600}] ~ ~ ~ title @s actionbar 10 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=620}] ~ ~ ~ title @s actionbar 9 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=640}] ~ ~ ~ title @s actionbar 8 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=660}] ~ ~ ~ title @s actionbar 7 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=680}] ~ ~ ~ title @s actionbar 6 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=700}] ~ ~ ~ title @s actionbar 5 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=720}] ~ ~ ~ title @s actionbar 4 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=740}] ~ ~ ~ title @s actionbar 3 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=760}] ~ ~ ~ title @s actionbar 2 Seconds Left!
+execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=780}] ~ ~ ~ title @s actionbar 1 Second Left!
+
 execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=800}] ~ ~ ~ title @s actionbar 10 Seconds Left!
 execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=820}] ~ ~ ~ title @s actionbar 9 Seconds Left!
 execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=840}] ~ ~ ~ title @s actionbar 8 Seconds Left!
@@ -39,3 +83,5 @@ execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand
 
 # Fail the task if the timer reaches 50
 execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=1000}] ~ ~ ~ function task4/fail
+
+savestructure -535 31 228 -522 34 228 task_4_autominer
