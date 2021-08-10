@@ -73,7 +73,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "student_phone_in_task",
-                "text": "Hello there, how can I help?\r\n\r\nIf you need to start again, select \"Reset task\". Need to just bring your agent back to the start? For that, use the \"Reset agent\" option. Having issues with the Code Builder? Select Reset Code."
+                "text": "Hello there, how can I help?\n\nIf you need to start again, select \"Reset task\". Need to just bring your agent back to the start? For that, use the \"Reset agent\" option. Having issues with the Code Builder? Select Reset Code."
             }
         ]
     }
