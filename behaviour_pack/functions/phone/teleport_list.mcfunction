@@ -1,1 +1,1 @@
-dialogue open @e[type=npc, tag=phone] @p teacher_phone_teleport_1
+dialogue open @e[type=npc, tag=phone, c=1] @p teacher_phone_teleport_1
