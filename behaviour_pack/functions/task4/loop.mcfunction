@@ -83,5 +83,3 @@ execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand
 
 # Fail the task if the timer reaches 50
 execute @a[scores={in_task=1, task_4_start=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7, scores={task_4_timer=1000}] ~ ~ ~ function task4/fail
-
-savestructure -535 31 228 -522 34 228 task_4_autominer
