@@ -85,7 +85,7 @@ execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx
 
 
 # Column 9
-execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~4 ~3 ~7 air -1 execute @p ~ ~ ~ scoreboard players set @s task_3_fail 1
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~4 ~2 ~7 air -1 execute @p ~ ~ ~ scoreboard players set @s task_3_fail 1
 execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~3 ~7 air -1 execute @p ~ ~ ~ scoreboard players set @s task_3_fail 1
 execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~4 ~7 air -1 execute @p ~ ~ ~ scoreboard players set @s task_3_fail 1
 
