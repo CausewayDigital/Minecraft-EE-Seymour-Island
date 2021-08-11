@@ -45,6 +45,80 @@ execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx
 execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @p[scores={task_3_prog=17}] ~ ~ ~ xp 1 @s
 
 
+# If a stone block is destryed, fail the task
+# Column 1
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~3 ~-1 air -1 execute @p ~ ~ ~ scoreboard players set @s task_3_fail 1
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~4 ~-1 air -1 execute @p ~ ~ ~ scoreboard players set @s task_3_fail 1
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~5 ~-1 air -1 execute @p ~ ~ ~ scoreboard players set @s task_3_fail 1
+
+# Column 2
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~4 ~2 ~ air -1 execute @p ~ ~ ~ scoreboard players set @s task_3_fail 1
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~5 ~ air -1 execute @p ~ ~ ~ scoreboard players set @s task_3_fail 1
+
+
+# Column 3
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~4 ~1 air -1 execute @p ~ ~ ~ scoreboard players set @s task_3_fail 1
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~5 ~1 air -1 execute @p ~ ~ ~ scoreboard players set @s task_3_fail 1
+
+
+# Column 4
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~3 ~2 air -1 execute @p ~ ~ ~ scoreboard players set @s task_3_fail 1
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~4 ~2 air -1 execute @p ~ ~ ~ scoreboard players set @s task_3_fail 1
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~5 ~2 air -1 execute @p ~ ~ ~ scoreboard players set @s task_3_fail 1
+
+# Column 5
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~4 ~2 ~3 air -1 execute @p ~ ~ ~ scoreboard players set @s task_3_fail 1
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~3 ~3 air -1 execute @p ~ ~ ~ scoreboard players set @s task_3_fail 1
+
+# Column 6
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~4 ~2 ~4 air -1 execute @p ~ ~ ~ scoreboard players set @s task_3_fail 1
+
+
+# Column 7
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~3 ~5 air -1 execute @p ~ ~ ~ scoreboard players set @s task_3_fail 1
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~4 ~5 air -1 execute @p ~ ~ ~ scoreboard players set @s task_3_fail 1
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~5 ~5 air -1 execute @p ~ ~ ~ scoreboard players set @s task_3_fail 1
+
+# Column 8
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~4 ~2 ~6 air -1 execute @p ~ ~ ~ scoreboard players set @s task_3_fail 1
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~5 ~6 air -1 execute @p ~ ~ ~ scoreboard players set @s task_3_fail 1
+
+
+# Column 9
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~4 ~3 ~7 air -1 execute @p ~ ~ ~ scoreboard players set @s task_3_fail 1
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~3 ~7 air -1 execute @p ~ ~ ~ scoreboard players set @s task_3_fail 1
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~4 ~7 air -1 execute @p ~ ~ ~ scoreboard players set @s task_3_fail 1
+
+
+# Column 10
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~3 ~8 air -1 execute @p ~ ~ ~ scoreboard players set @s task_3_fail 1
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~5 ~8 air -1 execute @p ~ ~ ~ scoreboard players set @s task_3_fail 1
+
+
+# Column 11
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~4 ~2 ~9 air -1 execute @p ~ ~ ~ scoreboard players set @s task_3_fail 1
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~3 ~9 air -1 execute @p ~ ~ ~ scoreboard players set @s task_3_fail 1
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~5 ~9 air -1 execute @p ~ ~ ~ scoreboard players set @s task_3_fail 1
+
+
+# Column 12
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~3 ~10 air -1 execute @p ~ ~ ~ scoreboard players set @s task_3_fail 1
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~4 ~10 air -1 execute @p ~ ~ ~ scoreboard players set @s task_3_fail 1
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~5 ~10 air -1 execute @p ~ ~ ~ scoreboard players set @s task_3_fail 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Check if task complete
 execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @p[scores={task_3_prog=17}] ~ ~ ~ execute @s ~ ~ ~ function task3/complete
 

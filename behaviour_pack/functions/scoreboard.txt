@@ -32,6 +32,7 @@ task_2_prog
 # Task 3
 task_3_done
 task_3_prog
+task_4_fail
 
 # Task 4
 task_4_done

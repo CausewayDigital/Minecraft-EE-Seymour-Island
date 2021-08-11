@@ -11,6 +11,8 @@ execute @e[type=armor_stand, tag=task_3] ~ ~ ~ detect ~-2 ~4 ~-1 barrel -1 setbl
 # If it still needs to be there, put the marker block back
 execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ setblock ~-2 ~4 ~-1 barrel 0
 
+# Test if failed
+execute @a[scores={in_task=1, task_3_fail=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, r=8, c=1] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ function task3/fail
 
 
 # Get player that timer is done with, then get nearest armor stand, then confirm player is in the area, then run the agent reset
