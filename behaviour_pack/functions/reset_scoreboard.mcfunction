@@ -90,6 +90,10 @@ scoreboard objectives remove task_4_start
 scoreboard objectives add task_4_start dummy
 scoreboard players set @a task_4_start 0
 
+scoreboard objectives remove task_4_fail
+scoreboard objectives add task_4_fail dummy
+scoreboard players set @a task_4_fail 0
+
 scoreboard objectives remove task_4_timer
 scoreboard objectives add task_4_timer dummy
 scoreboard players set @a task_4_timer 0

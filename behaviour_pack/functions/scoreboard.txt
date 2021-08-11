@@ -37,5 +37,6 @@ task_3_prog
 task_4_done
 task_4_prog
 task_4_start
+task_4_fail
 task_4_timer
 
