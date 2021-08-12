@@ -102,11 +102,11 @@ scoreboard objectives remove task_4_timer
 scoreboard objectives add task_4_timer dummy
 scoreboard players set @a task_4_timer 0
 
-scoreboard objectives remove crypto_current_correct
-scoreboard objectives add crypto_current_correct dummy
-scoreboard players set @a crypto_current_correct 0
+scoreboard objectives remove crypto_current
+scoreboard objectives add crypto_current dummy
+scoreboard players set @a crypto_current 0
 
-scoreboard objectives remove crypto_total_done
-scoreboard objectives add crypto_total_done dummy
-scoreboard players set @a crypto_total_done 0
+scoreboard objectives remove crypto_total
+scoreboard objectives add crypto_total dummy
+scoreboard players set @a crypto_total 0
 
