@@ -121,37 +121,37 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/c3/incorrect"
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/incorrect"
                         ],
                         "name": "C"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/c3/correct"
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/correct"
                         ],
                         "name": "P"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/c3/incorrect"
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/incorrect"
                         ],
                         "name": "K"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/c3/incorrect"
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/incorrect"
                         ],
                         "name": "V"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/c3/incorrect"
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/incorrect"
                         ],
                         "name": "L"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/c3/incorrect"
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/incorrect"
                         ],
                         "name": "G"
                     }
@@ -166,37 +166,37 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/c4/incorrect"
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/incorrect"
                         ],
                         "name": "I"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/c4/incorrect"
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/incorrect"
                         ],
-                        "name": "P"
+                        "name": "Y"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/c4/incorrect"
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/incorrect"
                         ],
                         "name": "Q"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/c4/incorrect"
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/incorrect"
                         ],
                         "name": "M"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/c4/correct"
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/correct"
                         ],
                         "name": "H"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/c4/incorrect"
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/incorrect"
                         ],
                         "name": "R"
                     }
@@ -211,37 +211,37 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/c5/incorrect"
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/incorrect"
                         ],
                         "name": "P"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/c5/incorrect"
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/incorrect"
                         ],
                         "name": "J"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/c5/incorrect"
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/incorrect"
                         ],
                         "name": "C"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/c5/incorrect"
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/incorrect"
                         ],
                         "name": "N"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/c5/incorrect"
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/incorrect"
                         ],
                         "name": "T"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/c5/correct"
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/correct"
                         ],
                         "name": "E"
                     }
@@ -256,37 +256,37 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/c6/correct"
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/correct"
                         ],
                         "name": "R"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/c6/incorrect"
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/incorrect"
                         ],
                         "name": "U"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/c6/incorrect"
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/incorrect"
                         ],
                         "name": "A"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/c6/incorrect"
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/incorrect"
                         ],
                         "name": "H"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/c6/incorrect"
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/incorrect"
                         ],
                         "name": "S"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/c6/incorrect"
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/incorrect"
                         ],
                         "name": "Q"
                     }
