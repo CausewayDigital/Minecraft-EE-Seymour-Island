@@ -1,0 +1,4 @@
+# Add NPC locations below to auto generate reload_npc_dialogue.mcfunction.
+
+# SceneName X Y Z 
+crypto_1_ciphertext -486 82 287
