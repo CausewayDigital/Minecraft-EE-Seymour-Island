@@ -42,5 +42,7 @@ task_4_fail
 task_4_timer
 
 # Cryptography Robots
-crypto_current_correct       # The number of correct Letters the player has inputed
-crypto_total_done            # The number of robots the player has completed
+crypto_current_correct
+# The number of correct Letters the player has inputed
+crypto_total_done
+# The number of robots the player has completed

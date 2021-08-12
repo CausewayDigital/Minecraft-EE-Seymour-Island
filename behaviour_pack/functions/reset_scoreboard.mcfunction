@@ -102,11 +102,11 @@ scoreboard objectives remove task_4_timer
 scoreboard objectives add task_4_timer dummy
 scoreboard players set @a task_4_timer 0
 
-scoreboard objectives remove crypto_current_correct       # The number of correct Letters the player has inputed
-scoreboard objectives add crypto_current_correct       # The number of correct Letters the player has inputed dummy
-scoreboard players set @a crypto_current_correct       # The number of correct Letters the player has inputed 0
+scoreboard objectives remove crypto_current_correct
+scoreboard objectives add crypto_current_correct dummy
+scoreboard players set @a crypto_current_correct 0
 
-scoreboard objectives remove crypto_total_done            # The number of robots the player has completed
-scoreboard objectives add crypto_total_done            # The number of robots the player has completed dummy
-scoreboard players set @a crypto_total_done            # The number of robots the player has completed 0
+scoreboard objectives remove crypto_total_done
+scoreboard objectives add crypto_total_done dummy
+scoreboard players set @a crypto_total_done 0
 
