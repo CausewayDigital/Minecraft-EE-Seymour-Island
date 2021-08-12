@@ -1,1 +1,3 @@
-dialogue open @a[type=other] @p crypto_1_input_1
+# Executing as the player
+
+dialogue open @e[type=npc, tag=crypto_1, r=1] @s crypto_1_input_1
