@@ -1,3 +1,5 @@
+# Do not edit - Automatically generated from scoreboard.txt
+
 scoreboard objectives remove flying_enabled
 scoreboard objectives add flying_enabled dummy
 scoreboard players set @a flying_enabled 0
