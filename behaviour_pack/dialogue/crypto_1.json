@@ -159,7 +159,7 @@
                 "npc_name": "Cryptographer 1",
                 "on_close_commands": [],
                 "on_open_commands": [],
-                "scene_tag": "crypto_1_Input_3",
+                "scene_tag": "crypto_1_input_3",
                 "text": "What is the third letter of the secret message?"
             },
             {
@@ -204,7 +204,7 @@
                 "npc_name": "Cryptographer 1",
                 "on_close_commands": [],
                 "on_open_commands": [],
-                "scene_tag": "crypto_1_Input_4",
+                "scene_tag": "crypto_1_input_4",
                 "text": "What is the fourth letter of the secret message?"
             },
             {
@@ -249,7 +249,7 @@
                 "npc_name": "Cryptographer 1",
                 "on_close_commands": [],
                 "on_open_commands": [],
-                "scene_tag": "crypto_1_Input_5",
+                "scene_tag": "crypto_1_input_5",
                 "text": "What is the fifth letter of the secret message?"
             },
             {
@@ -294,7 +294,7 @@
                 "npc_name": "Cryptographer 1",
                 "on_close_commands": [],
                 "on_open_commands": [],
-                "scene_tag": "crypto_1_Input_6",
+                "scene_tag": "crypto_1_input_6",
                 "text": "What is the final letter of the secret message?"
             }
         ]
