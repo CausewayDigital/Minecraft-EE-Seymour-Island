@@ -1,1 +1,1 @@
-#
+dialogue open @a[type=other] @p crypto_1_input_1
