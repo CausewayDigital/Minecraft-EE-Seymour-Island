@@ -1,2 +1,4 @@
-scoreboard players add @s crypto_current_correct 1
+# Executing as the player
+
+scoreboard players add @s crypto_current 1
 function crypto/input/robot_1/c1/incorrect
