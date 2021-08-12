@@ -102,6 +102,10 @@ scoreboard objectives remove task_4_timer
 scoreboard objectives add task_4_timer dummy
 scoreboard players set @a task_4_timer 0
 
+scoreboard objectives remove crypto_score
+scoreboard objectives add crypto_score dummy
+scoreboard players set @a crypto_score 0
+
 scoreboard objectives remove crypto_current
 scoreboard objectives add crypto_current dummy
 scoreboard players set @a crypto_current 0
