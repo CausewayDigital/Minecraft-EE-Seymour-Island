@@ -42,7 +42,12 @@ task_4_fail
 task_4_timer
 
 # Cryptography Robots
-crypto_current
+
 # The number of correct Letters the player has inputed
-crypto_total
+crypto_score
+
+# The index of the current letter the player is inputing
+crypto_current
+
 # The number of robots the player has completed
+crypto_total
