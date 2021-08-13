@@ -1,3 +1,4 @@
 # Executing as the player
 
-function task0/start
+# Teleport to task holding box
+tp @s -885, 121, 371
