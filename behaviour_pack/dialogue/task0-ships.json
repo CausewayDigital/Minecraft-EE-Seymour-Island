@@ -12,7 +12,7 @@
                 "npc_name": "Captain Papert",
                 "on_close_commands": [],
                 "on_open_commands": [],
-                "scene_tag": "task0-intro",
+                "scene_tag": "task0_intro",
                 "text": "Well that was certainly quite a storm that passed over us, it looks like we have some damage to the ship. Can you use this Agent to repair the damage at the front of the ship on the port (left) side?"
             },
             {
