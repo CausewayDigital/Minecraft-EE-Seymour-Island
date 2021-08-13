@@ -9,11 +9,11 @@
                         "name": "Ready to help"
                     }
                 ],
-                "npc_name": "Captain Pappert test123",
+                "npc_name": "Captain Papert",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "task0-intro",
-                "text": "Testing"
+                "text": "Well that was certainly quite a storm that passed over us, it looks like we have some damage to the ship. Can you use this Agent to repair the damage at the front of the ship on the port (left) side?"
             },
             {
                 "buttons": [
