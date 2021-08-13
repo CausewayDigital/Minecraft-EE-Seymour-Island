@@ -43,7 +43,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "task_0_wheel",
-                "text": "*CRASH*\r\n\r\nQuickly! Grab the steering wheel of the ship, there is another wave coming!"
+                "text": "*CRASH*\n\nQuickly! Grab the steering wheel of the ship, there is another wave coming!"
             }
         ]
     }
