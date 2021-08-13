@@ -25,13 +25,20 @@
                     }
                 ],
                 "npc_name": "Captain Papert",
-                "on_close_commands": [],
+                "on_close_commands": [
+                    "/execute @a[target_type=other] ~ ~ ~ function task0/incoming_wave"
+                ],
                 "on_open_commands": [],
                 "scene_tag": "task_0_complete",
                 "text": "Great job, that repair looks like it should hold for now...\n\nThe weather really is starting to get worse, BRACE YOURSELVES, INCOMING WAVE!"
             },
             {
-                "buttons": [],
+                "buttons": [
+                    {
+                        "commands": [],
+                        "name": "Right away!"
+                    }
+                ],
                 "npc_name": "Captain Papert",
                 "on_close_commands": [],
                 "on_open_commands": [],
