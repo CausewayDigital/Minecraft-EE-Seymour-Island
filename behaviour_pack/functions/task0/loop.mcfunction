@@ -7,7 +7,7 @@ execute @a[x=-885, y=121, z=371, dx=2, dy=2, dz=2] ~ ~ ~ function task0/loop_sta
 execute @e[type=armor_stand, tag=task_0] ~ ~ ~ execute @p[x=~-4, y=~0, z=~-16, dx=10, dy=8, dz=26] ~ ~ ~ execute @e[type=armor_stand, tag=task_0, c=1] ~ ~ ~ detect ~0 ~3 ~9 light_weighted_pressure_plate 1 function task0/1_move_complete
 
 # Check if part 2 (breaing block) is complete
-execute @e[type=armor_stand, tag=task_0] ~ ~ ~ detect ~-1 ~3 ~15 air -1 execute @p[x=~-4, y=~0, z=~-16, dx=10, dy=8, dz=26] ~ ~ ~ execute @e[type=armor_stand, tag=task_0, c=1] ~ ~ ~ detect ~0 ~3 ~10 air -1 function task0/2_block_break_complete.mcfunction 
+execute @e[type=armor_stand, tag=task_0] ~ ~ ~ detect ~-1 ~3 ~15 air -1 execute @p[x=~-4, y=~0, z=~-16, dx=10, dy=8, dz=26] ~ ~ ~ execute @e[type=armor_stand, tag=task_0, c=1] ~ ~ ~ detect ~0 ~3 ~10 air -1 function task0/2_block_break_complete
 
 # Check if full task complete
 execute @e[type=armor_stand, tag=task_0] ~ ~ ~ detect ~-1 ~3 ~15 air -1 execute @p[x=~-4, y=~0, z=~-16, dx=10, dy=8, dz=26] ~ ~ ~ execute @e[type=armor_stand, tag=task_0, c=1] ~ ~ ~ detect ~4 ~3 ~9 planks -1 function task0/complete
