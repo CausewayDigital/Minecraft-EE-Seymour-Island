@@ -1,5 +1,7 @@
 # Run as selected player
 
+scoreboard players set @s task_0_done 0
+
 execute @s ~ ~ ~ detect -853 64 311 air -1 execute @e[type=armor_stand, tag=task_0, x=-853, y=61, z=290, r=1, c=1] ~ ~ ~ function task0/reset
 
 execute @s ~ ~ ~ detect -853 64 311 air -1 scoreboard players set @s task_start_timer 0

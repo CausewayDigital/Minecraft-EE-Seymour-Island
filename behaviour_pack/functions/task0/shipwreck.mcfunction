@@ -1,4 +1,4 @@
-effect @s blindness 1000
+effect @s blindness 1000 255 false
 title @s subtitle We've been shipwrecked...
 title @s title Ohh no!
 
