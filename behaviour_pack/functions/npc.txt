@@ -3,3 +3,4 @@
 # SceneName X Y Z 
 crypto_1_ciphertext -486 82 287
 task_0_intro -853 64 277
+miners4 -515 40 196
