@@ -25,6 +25,13 @@ execute @e[type=armor_stand, tag=task_6] ~ ~ ~ execute @p[x=~-1, y=~5, z=~-1, dx
 # Master Marker. This marker shows whether a level is full or not
 execute @e[type=armor_stand, tag=task_6] ~ ~ ~ detect ~7 ~7 ~1 barrel -1 execute @e[type=armor_stand, tag=task_6] ~ ~ ~ detect ~-7 ~7 ~1 barrel -1 execute @e[type=armor_stand, tag=task_6] ~ ~ ~ setblock ~ ~9 ~-2 barrel 0
 
+# Set master marker to air if either of the player slots are missing
+# Slot 1
+execute @e[type=armor_stand, tag=task_6] ~ ~ ~ detect ~7 ~7 ~1 air -1 setblock ~ ~9 ~-2 air 0
+# Slot 2
+execute @e[type=armor_stand, tag=task_6] ~ ~ ~ detect ~-7 ~7 ~1 air -1 setblock ~ ~9 ~-2 air 0
+
+
 # Test if failed
 execute @a[scores={in_task=1, task_6_fail=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_6, r=8, c=1] ~ ~ ~ execute @p[x=~6, y=~5, z=~-1, dx=-13, dy=3, dz=3] ~ ~ ~ function task6/fail
 
