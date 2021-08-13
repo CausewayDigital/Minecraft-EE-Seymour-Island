@@ -42,6 +42,12 @@ task_4_start
 task_4_fail
 task_4_timer
 
+# Task 6
+task_6_done
+task_6_prog
+task_6_start
+task_6_fail
+
 # Cryptography Robots
 
 # The number of correct Letters the player has inputed

@@ -1,6 +1,7 @@
-# Executing as the player  
+# Executing as the player
 
-# Open the Makecode exercise
+# Open the Python Notebook
 
 # Start main task
+
 execute @s ~ ~ ~ function task6/start
