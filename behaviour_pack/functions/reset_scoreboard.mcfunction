@@ -36,6 +36,10 @@ scoreboard objectives remove task_0_crashS
 scoreboard objectives add task_0_crashS dummy
 scoreboard players set @a task_0_crashS 0
 
+scoreboard objectives remove task_0_done
+scoreboard objectives add task_0_done dummy
+scoreboard players set @a task_0_done 0
+
 scoreboard objectives remove task_0-5_fon
 scoreboard objectives add task_0-5_fon dummy
 scoreboard players set @a task_0-5_fon 0
