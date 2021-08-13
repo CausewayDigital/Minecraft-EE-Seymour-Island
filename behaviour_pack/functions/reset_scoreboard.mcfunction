@@ -108,6 +108,22 @@ scoreboard objectives remove task_4_timer
 scoreboard objectives add task_4_timer dummy
 scoreboard players set @a task_4_timer 0
 
+scoreboard objectives remove task_6_done
+scoreboard objectives add task_6_done dummy
+scoreboard players set @a task_6_done 0
+
+scoreboard objectives remove task_6_prog
+scoreboard objectives add task_6_prog dummy
+scoreboard players set @a task_6_prog 0
+
+scoreboard objectives remove task_6_start
+scoreboard objectives add task_6_start dummy
+scoreboard players set @a task_6_start 0
+
+scoreboard objectives remove task_6_fail
+scoreboard objectives add task_6_fail dummy
+scoreboard players set @a task_6_fail 0
+
 scoreboard objectives remove crypto_score
 scoreboard objectives add crypto_score dummy
 scoreboard players set @a crypto_score 0

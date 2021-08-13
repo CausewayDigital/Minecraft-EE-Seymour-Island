@@ -107,18 +107,6 @@ execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx
 execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~5 ~10 air -1 execute @p ~ ~ ~ scoreboard players set @s task_3_fail 1
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 # Check if task complete
 execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, c=1] ~ ~ ~ execute @p[scores={task_3_prog=17}] ~ ~ ~ execute @s ~ ~ ~ function task3/complete
 
