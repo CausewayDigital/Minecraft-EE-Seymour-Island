@@ -10,7 +10,7 @@ execute @e[type=armor_stand, tag=task_0] ~ ~ ~ execute @p[x=~-4, y=~0, z=~-16, d
 execute @e[type=armor_stand, tag=task_0] ~ ~ ~ detect ~-1 ~3 ~15 air -1 execute @p[x=~-4, y=~0, z=~-16, dx=10, dy=8, dz=26] ~ ~ ~ execute @e[type=armor_stand, tag=task_0, c=1] ~ ~ ~ detect ~0 ~3 ~10 air -1 function task0/2_block_break_complete
 
 # Check if full task complete
-execute @e[type=armor_stand, tag=task_0] ~ ~ ~ detect ~-1 ~3 ~15 air -1 execute @p[x=~-4, y=~0, z=~-16, dx=10, dy=8, dz=26] ~ ~ ~ execute @e[type=armor_stand, tag=task_0, c=1] ~ ~ ~ detect ~4 ~3 ~9 planks -1 function task0/complete
+execute @e[type=armor_stand, tag=task_0] ~ ~ ~ detect ~1 ~3 ~14 air -1 execute @p[x=~-4, y=~0, z=~-16, dx=10, dy=8, dz=26] ~ ~ ~ execute @e[type=armor_stand, tag=task_0, c=1] ~ ~ ~ detect ~4 ~3 ~9 planks -1 function task0/complete
 
 
 # A marker block is used to mark an individual task as in use. Each tick it is removed, then replaced if there is a student in the task
