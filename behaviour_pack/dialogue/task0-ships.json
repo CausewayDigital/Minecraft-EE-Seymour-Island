@@ -21,7 +21,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "task_0_intro",
-                "text": "Well that was certainly quite a storm that passed over us, it looks like we have some damage to the ship. \nCan you use this Agent to repair the damage at the front of the ship on the port (left) side?\nWould you like to code in Blocks or Python?\nIf you want to change later, come speak to me."
+                "text": "Well that was certainly quite a storm that passed over us, it looks like we have some damage to the ship. \nCan you use this Agent to repair the damage at the front of the ship on the port (left) side?\nWould you like to code in Blocks or Python?"
             },
             {
                 "buttons": [

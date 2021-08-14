@@ -296,6 +296,14 @@
                 "on_open_commands": [],
                 "scene_tag": "crypto_1_input_6",
                 "text": "Cryptography is the use of a serIes of comPlex puzzles tHat to concEal and uncoveR messages\n\n\n\nWhat is the final letter of the secret message?"
+            },
+            {
+                "buttons": [],
+                "npc_name": "Cryptographer 1",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "crypto_help_1",
+                "text": "Comrade in the library innit"
             }
         ]
     }
