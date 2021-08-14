@@ -13,6 +13,7 @@ task_0_crash
 task_0_seaS
 task_0_crashS
 task_0_done
+task_0_lang
 
 # Task 0.5
 # sews represents the status of the sewer sound. sewst is the sewer sound timer to allow it to loop when done
