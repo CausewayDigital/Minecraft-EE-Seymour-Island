@@ -1,5 +1,7 @@
 # Run as selected player
 
+# THIS FILE IS OVERWRITTEN BY AUTO GENERATOR - Do not edit
+
 scoreboard players set @s task_0_done 0
 
 execute @s ~ ~ ~ detect -853 64 311 air -1 execute @e[type=armor_stand, tag=task_0, x=-853, y=61, z=290, r=1, c=1] ~ ~ ~ function task0/reset
