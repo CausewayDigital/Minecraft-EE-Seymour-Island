@@ -1,4 +1,4 @@
-scoreboard players add @a[scores={task_start_timer=0..10}] task_start_timer 1
+scoreboard players add @a[scores={task_start_timer=1..10}] task_start_timer 1
 
 function task1/loop
 execute @e[type=fishing_hook] ~ ~ ~ execute @p ~ ~ ~ function phone/use_phone
@@ -24,4 +24,4 @@ function task6/loop
 
 
 
-scoreboard players set @a[scores={task_start_timer=11}] task_start_timer -1
+scoreboard players set @a[scores={task_start_timer=16}] task_start_timer 0
