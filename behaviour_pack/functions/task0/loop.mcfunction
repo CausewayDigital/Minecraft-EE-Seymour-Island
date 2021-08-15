@@ -29,7 +29,7 @@ execute @a[scores={task_start_timer=6}] ~ ~ ~ execute @e[type=armor_stand, tag=t
 execute @a[scores={task_start_timer=8}] ~ ~ ~ execute @e[type=armor_stand, tag=task_0, r=20, c=1] ~ ~ ~ execute @p[x=~-4, y=~0, z=~-16, dx=10, dy=8, dz=26] ~ ~ ~ function task0/reset_agent
 
 # Display intro message
-execute @a[scores={task_start_timer=6}] ~ ~ ~ execute @e[type=armor_stand, tag=task_0, r=20, c=1] ~ ~ ~ execute @p[x=~-4, y=~0, z=~-16, dx=10, dy=8, dz=26] ~ ~ ~ dialogue open @e[type=npc, tag=papert, c=1] @s task_0_intro
+execute @a[scores={task_start_timer=14}] ~ ~ ~ execute @e[type=armor_stand, tag=task_0, r=20, c=1] ~ ~ ~ execute @p[x=~-4, y=~0, z=~-16, dx=10, dy=8, dz=26] ~ ~ ~ dialogue open @e[type=npc, tag=papert, c=1] @s task_0_intro
 
 # Reset agent for the final time
 execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=task_0, r=20, c=1] ~ ~ ~ execute @p[x=~-4, y=~0, z=~-16, dx=10, dy=8, dz=26] ~ ~ ~ function task0/reset_agent
