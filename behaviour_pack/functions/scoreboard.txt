@@ -3,6 +3,10 @@ score
 in_task
 teacher
 
+# Builder system
+build_mode
+build_timer
+
 # A countdown timer to be used at the start of tasks to allow time for the agent to be teleported in later
 task_start_timer
 
