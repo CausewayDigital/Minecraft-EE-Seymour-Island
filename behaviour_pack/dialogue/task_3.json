@@ -3,7 +3,24 @@
     "minecraft:npc_dialogue": {
         "scenes": [
             {
-                "buttons": [],
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function task2/start_blocks"
+                        ],
+                        "name": "Sure - Blocks"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function task2/start_python"
+                        ],
+                        "name": "Sure - Python"
+                    },
+                    {
+                        "commands": [],
+                        "name": "Not right now"
+                    }
+                ],
                 "npc_name": "Miner - Talk to me!",
                 "on_close_commands": [],
                 "on_open_commands": [],
