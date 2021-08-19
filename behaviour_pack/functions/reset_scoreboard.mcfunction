@@ -16,6 +16,14 @@ scoreboard objectives remove teacher
 scoreboard objectives add teacher dummy
 scoreboard players set @a teacher 0
 
+scoreboard objectives remove build_mode
+scoreboard objectives add build_mode dummy
+scoreboard players set @a build_mode 0
+
+scoreboard objectives remove build_timer
+scoreboard objectives add build_timer dummy
+scoreboard players set @a build_timer 0
+
 scoreboard objectives remove task_start_timer
 scoreboard objectives add task_start_timer dummy
 scoreboard players set @a task_start_timer 0

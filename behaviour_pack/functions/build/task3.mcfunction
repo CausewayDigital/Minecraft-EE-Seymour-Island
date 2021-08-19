@@ -1,5 +1,5 @@
 # Do not edit - Auto generated
-savestructure -489 35 154 -478 45 175 task3
+execute @p[scores={build_timer=3, build_mode=3}] ~ ~ ~ savestructure -489 35 154 -478 45 175 task3
 
 # Room 0-1-0
 execute @p[scores={build_timer=10, build_mode=3}] ~ ~ ~ kill @e[x=-484, y=24, z=164, r=10]
@@ -40,4 +40,3 @@ execute @p[scores={build_timer=77, build_mode=3}] ~ ~ ~ placestructure -529 20 1
 execute @p[scores={build_timer=80, build_mode=3}] ~ ~ ~ kill @e[x=-524, y=9, z=164, r=10]
 execute @p[scores={build_timer=82, build_mode=3}] ~ ~ ~ fill -529 5 154 -518 15 175 air
 execute @p[scores={build_timer=87, build_mode=3}] ~ ~ ~ placestructure -529 5 154 task3
-scoreboard players set @p[scores={build_timer=400.., build_mode=1}] build_timer 0

@@ -1,13 +1,18 @@
 scoreboard players add @a[scores={task_start_timer=1..15}] task_start_timer 1
 
-function task1/loop
 execute @e[type=fishing_hook] ~ ~ ~ execute @p ~ ~ ~ function phone/use_phone
+
+# Builder system
+function build/loop
 
 # Task 0
 function task0/loop
 
 # Task 0-5
 function task0-5/loop
+
+# Task 1
+function task1/loop
 
 # Task 2
 function task2/loop
