@@ -3,12 +3,29 @@
     "minecraft:npc_dialogue": {
         "scenes": [
             {
-                "buttons": [],
+                "buttons": [
+                    {
+                        "commands": [
+                            "/function task2/start_blocks"
+                        ],
+                        "name": "Sure! Blocks"
+                    },
+                    {
+                        "commands": [
+                            "/function task2/start_python"
+                        ],
+                        "name": "Sure! Python"
+                    },
+                    {
+                        "commands": [],
+                        "name": "No thanks"
+                    }
+                ],
                 "npc_name": "Miner - Talk to me!",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "miners2",
-                "text": "My pickaxe just broke! Do you think you could help me mine out that last wall of stone? \r\nIt shouldn't take long with that Agent of yours!"
+                "text": "My pickaxe just broke! Do you think you could help me mine out that last wall of stone? \nIt shouldn't take long with that Agent of yours!"
             }
         ]
     }
