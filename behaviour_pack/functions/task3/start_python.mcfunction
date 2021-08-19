@@ -4,4 +4,4 @@
 
 # Start main task
 
-execute @s ~ ~ ~ function task4/start
+execute @s ~ ~ ~ function task3/start
