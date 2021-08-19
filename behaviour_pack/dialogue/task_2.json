@@ -6,7 +6,7 @@
                 "buttons": [
                     {
                         "commands": [
-                            "//execute @a[target_type=other] ~ ~ ~ function task2/start_blocks"
+                            "/execute @a[target_type=other] ~ ~ ~ function task2/start_blocks"
                         ],
                         "name": "Sure! Blocks"
                     },
