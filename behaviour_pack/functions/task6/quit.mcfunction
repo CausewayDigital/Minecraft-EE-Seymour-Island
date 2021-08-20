@@ -11,3 +11,4 @@ scoreboard players set @s in_task 0
 scoreboard players set @s task_6_start 0
 
 tp @s -507 68 249 facing  -507 68 248
+function reset_agent
