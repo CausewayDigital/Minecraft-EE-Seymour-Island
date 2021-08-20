@@ -6,13 +6,13 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/function task2/start_blocks"
+                            "/execute @a[target_type=other] ~ ~ ~ function task2/start_blocks"
                         ],
                         "name": "Sure! Blocks"
                     },
                     {
                         "commands": [
-                            "/function task2/start_python"
+                            "/execute @a[target_type=other] ~ ~ ~ function task2/start_python"
                         ],
                         "name": "Sure! Python"
                     },
