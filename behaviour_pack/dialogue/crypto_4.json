@@ -1,0 +1,220 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_4/start"
+                        ],
+                        "name": "Input Codeword"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/help"
+                        ],
+                        "name": "Help"
+                    },
+                    {
+                        "commands": [],
+                        "name": "Exit"
+                    }
+                ],
+                "npc_name": "Cryptographer 4",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "crypto_4_ciphertext",
+                "text": "Sx ybnob dy vokbx klyed cywodrsxq xog, psbcd iye cryevn myvvomd kvyd yp NKDK klyed dro dyzsm"
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_4/incorrect"
+                        ],
+                        "name": "N"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_4/incorrect"
+                        ],
+                        "name": "J"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_4/incorrect"
+                        ],
+                        "name": "M"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_4/incorrect"
+                        ],
+                        "name": "W"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_4/incorrect"
+                        ],
+                        "name": "K"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_4/correct"
+                        ],
+                        "name": "D"
+                    }
+                ],
+                "npc_name": "Cryptographer 4",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "crypto_4_input_1",
+                "text": "Sx ybnob dy vokbx klyed cywodrsxq xog, psbcd iye cryevn myvvomd kvyd yp NKDK klyed dro dyzsm\n\n\n\nWhat is the first letter of the secret message?"
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_4/incorrect"
+                        ],
+                        "name": "G"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_4/incorrect"
+                        ],
+                        "name": "F"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_4/correct"
+                        ],
+                        "name": "A"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_4/incorrect"
+                        ],
+                        "name": "R"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_4/incorrect"
+                        ],
+                        "name": "T"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_4/incorrect"
+                        ],
+                        "name": "O"
+                    }
+                ],
+                "npc_name": "Cryptographer 4",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "crypto_4_input_2",
+                "text": "Sx ybnob dy vokbx klyed cywodrsxq xog, psbcd iye cryevn myvvomd kvyd yp NKDK klyed dro dyzsm\n\n\n\nWhat is the second letter of the secret message?"
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_4/incorrect"
+                        ],
+                        "name": "D"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_4/correct"
+                        ],
+                        "name": "T"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_4/incorrect"
+                        ],
+                        "name": "B"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_4/incorrect"
+                        ],
+                        "name": "P"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_4/incorrect"
+                        ],
+                        "name": "H"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_4/incorrect"
+                        ],
+                        "name": "I"
+                    }
+                ],
+                "npc_name": "Cryptographer 4",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "crypto_4_input_3",
+                "text": "Sx ybnob dy vokbx klyed cywodrsxq xog, psbcd iye cryevn myvvomd kvyd yp NKDK klyed dro dyzsm\n\n\n\nWhat is the third letter of the secret message?"
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_4/incorrect"
+                        ],
+                        "name": "Q"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_4/incorrect"
+                        ],
+                        "name": "H"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_4/incorrect"
+                        ],
+                        "name": "S"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_4/correct"
+                        ],
+                        "name": "A"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_4/incorrect"
+                        ],
+                        "name": "G"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_4/incorrect"
+                        ],
+                        "name": "Y"
+                    }
+                ],
+                "npc_name": "Cryptographer 4",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "crypto_4_input_4",
+                "text": "Sx ybnob dy vokbx klyed cywodrsxq xog, psbcd iye cryevn myvvomd kvyd yp NKDK klyed dro dyzsm\n\n\n\nWhat is the final letter of the secret message?"
+            },
+            {
+                "buttons": [],
+                "npc_name": "Cryptographer 4",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "crypto_help_4",
+                "text": "Comrade in the library innit"
+            }
+        ]
+    }
+}
