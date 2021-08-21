@@ -15,6 +15,10 @@
                             "/execute @a[target_type=other] ~ ~ ~ function task4/start_python"
                         ],
                         "name": "Sure! Python"
+                    },
+                    {
+                        "commands": [],
+                        "name": "No thanks!"
                     }
                 ],
                 "npc_name": "Miner - Talk to me!",
