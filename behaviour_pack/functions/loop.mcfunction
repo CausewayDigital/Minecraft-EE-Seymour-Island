@@ -28,7 +28,7 @@ function task6/loop
 
 
 
-# Score display system
-function misc/score_display
+# Score display system - Only run if a player is in the room
+execute @p[x=-474, y=71, z=274, dx=12, dy=3, dz=7] ~ ~ ~ function misc/score_display
 
 scoreboard players set @a[scores={task_start_timer=16..}] task_start_timer 0
