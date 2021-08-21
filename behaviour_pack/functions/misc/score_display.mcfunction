@@ -1,5 +1,18 @@
-# Executed from main loop
+# Executed from a player
 # Auto updates the display system each tick in the town hall to show the score of the current player
+
+# Reset at the start of each tick
+setblock -462 72 282 air
+setblock -463 72 282 air
+setblock -464 72 282 air
+setblock -465 72 282 air
+setblock -466 72 282 air
+setblock -467 72 282 air
+setblock -468 72 282 air
+setblock -469 72 282 air
+setblock -470 72 282 air
+
+
 
 # Task 0
 execute @p[x=-467, y=71, z=277, r=1] ~ ~ ~ execute @s[scores={task0=1}] ~ ~ ~ setblock -462 72 282 redstone_block
