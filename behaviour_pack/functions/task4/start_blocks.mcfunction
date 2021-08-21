@@ -3,4 +3,4 @@
 # Open the Makecode exercise
 
 # Start main task
-execute @s ~ ~ ~ function task6/start
+execute @s ~ ~ ~ function task4/start
