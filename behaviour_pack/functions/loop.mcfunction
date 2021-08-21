@@ -28,5 +28,7 @@ function task6/loop
 
 
 
+# Score display system
+function misc/score_display
 
 scoreboard players set @a[scores={task_start_timer=16..}] task_start_timer 0
