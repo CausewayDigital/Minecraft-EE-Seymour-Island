@@ -136,6 +136,10 @@ scoreboard objectives remove task_6_fail
 scoreboard objectives add task_6_fail dummy
 scoreboard players set @a task_6_fail 0
 
+scoreboard objectives remove task_6_done
+scoreboard objectives add task_6_done dummy
+scoreboard players set @a task_6_done 0
+
 scoreboard objectives remove crypto_score
 scoreboard objectives add crypto_score dummy
 scoreboard players set @a crypto_score 0
