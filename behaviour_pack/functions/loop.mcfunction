@@ -26,6 +26,9 @@ function task4/loop
 # Task 6
 function task6/loop
 
+# Task 7
+function task7/loop
+
 
 
 # Score display system - Only run if a player is in the room
