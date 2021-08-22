@@ -9,7 +9,7 @@ execute @s[x=-513, y=68, z=250, dx=12, dy=5, dz=-2] ~ ~ ~ detect -508 64 253 air
 execute @s[x=-513, y=68, z=250, dx=12, dy=5, dz=-2] ~ ~ ~ detect -508 64 253 air -1 execute @s ~ ~ ~ detect -515 62 256 air -1 tp @s -512 60 255 facing -512 60 254
 
 # Player 1
-execute @s[x=-513, y=68, z=250, dx=12, dy=5, dz=-2] ~ ~ ~ detect -508 64 253 air -1 execute @s ~ ~ ~ detect -501 62 256 air -1 execute @e[type=armor_stand, tag=task_6, x=-508, y=55, z=255, r=1] ~ ~ ~ function task6/reset_p1
+execute @s[x=-513, y=68, z=250, dx=12, dy=5, dz=-2] ~ ~ ~ detect -508 64 253 air -1 execute @s ~ ~ ~ detect -501 62 256 air -1 execute @e[type=armor_stand, tag=task_6, x=-508, y=55, z=255, r=1] ~ ~ ~ function task6/reset
 execute @s[x=-513, y=68, z=250, dx=12, dy=5, dz=-2] ~ ~ ~ detect -508 64 253 air -1 execute @s ~ ~ ~ detect -501 62 256 air -1 scoreboard players set @s task_start_timer 1
 execute @s[x=-513, y=68, z=250, dx=12, dy=5, dz=-2] ~ ~ ~ detect -508 64 253 air -1 execute @s ~ ~ ~ detect -501 62 256 air -1 tp @s -504 60 255 facing -504 60 254
 

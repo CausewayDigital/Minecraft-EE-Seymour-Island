@@ -1,7 +1,7 @@
 # Executed as the player
 
 # Player 1
-execute @e[type=armor_stand, tag=task_6, r=8] ~ ~ ~ execute @p[x=~6, y=~5, z=~-1, dx=-5, dy=3, dz=2] ~ ~ ~  execute @e[type=armor_stand, tag=task_6, c=1] ~ ~ ~ function task6/reset_p1
+execute @e[type=armor_stand, tag=task_6, r=8] ~ ~ ~ execute @p[x=~6, y=~5, z=~-1, dx=-5, dy=3, dz=2] ~ ~ ~  execute @e[type=armor_stand, tag=task_6, c=1] ~ ~ ~ function task6/reset
 # Player 2
 execute @e[type=armor_stand, tag=task_6, r=8] ~ ~ ~ execute @p[x=~-1, y=~5, z=~-1, dx=-5, dy=3, dz=3] ~ ~ ~ execute @e[type=armor_stand, tag=task_6, c=1] ~ ~ ~ function task6/reset_p2
 
