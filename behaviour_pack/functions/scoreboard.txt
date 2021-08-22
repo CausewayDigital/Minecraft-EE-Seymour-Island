@@ -10,6 +10,9 @@ build_timer
 # A countdown timer to be used at the start of tasks to allow time for the agent to be teleported in later
 task_start_timer
 
+# The room number selected for multiplayer tasks
+task_room_num
+
 # Task 0
 # vars with S at the end mean they show the status of a sound while the others are user intractable to start/stop a sound
 task_0_sea

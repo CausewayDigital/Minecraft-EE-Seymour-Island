@@ -28,6 +28,10 @@ scoreboard objectives remove task_start_timer
 scoreboard objectives add task_start_timer dummy
 scoreboard players set @a task_start_timer 0
 
+scoreboard objectives remove task_room_num
+scoreboard objectives add task_room_num dummy
+scoreboard players set @a task_room_num 0
+
 scoreboard objectives remove task_0_sea
 scoreboard objectives add task_0_sea dummy
 scoreboard players set @a task_0_sea 0
