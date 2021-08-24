@@ -10,6 +10,7 @@ execute @p[scores={build_timer=1..399, build_mode=3}] ~ ~ ~ function build/task3
 execute @p[scores={build_timer=1..399, build_mode=4}] ~ ~ ~ function build/task4
 execute @p[scores={build_timer=1..399, build_mode=6}] ~ ~ ~ function build/task6
 execute @p[scores={build_timer=1..399, build_mode=7}] ~ ~ ~ function build/task7
+execute @p[scores={build_timer=1..399, build_mode=8}] ~ ~ ~ function build/task8
 
 
 # Once build is done
