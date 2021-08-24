@@ -57,7 +57,10 @@ task_6_start
 task_6_fail
 
 # Task 7
-task_6_done
+task_7_done
+
+# Task 8
+task_8_done
 
 # Cryptography Robots
 
