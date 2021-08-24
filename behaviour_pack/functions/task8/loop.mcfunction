@@ -13,13 +13,13 @@ execute @e[type=armor_stand, tag=task_8] ~ ~ ~ detect ~-8 ~3 ~5 barrel -1 setblo
 
 # If it still needs to be there, put the marker block back
 # Player 1
-execute @e[type=armor_stand, tag=task_8] ~ ~ ~ execute @p[x=~-7, y=~3, z=~5, dx=-1, dy=3, dz=7] ~ ~ ~ execute @e[type=armor_stand, tag=task_8, c=1] ~ ~ ~ setblock ~-7 ~3 ~5 barrel 0
+execute @e[type=armor_stand, tag=task_8] ~ ~ ~ execute @p[x=~-7, y=~3, z=~5, dx=-1, dy=3, dz=-7] ~ ~ ~ execute @e[type=armor_stand, tag=task_8, c=1] ~ ~ ~ setblock ~-7 ~3 ~5 barrel 0
 # Player 2
 execute @e[type=armor_stand, tag=task_8] ~ ~ ~ execute @p[x=~-5, y=~5, z=~5, dx=11, dy=3, dz=-8] ~ ~ ~ execute @e[type=armor_stand, tag=task_8, c=1] ~ ~ ~ setblock ~-8 ~3 ~5 barrel 0
 
 # Get player that timer is done with, then get nearest armor stand, then confirm player is in the area, then run the agent reset
 # Player 1
-execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=task_8, r=8, c=1] ~ ~ ~ execute @p[x=~-7, y=~3, z=~5, dx=-1, dy=3, dz=7] ~ ~ ~ function task8/reset_agent
+execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=task_8, r=8, c=1] ~ ~ ~ execute @p[x=~-7, y=~3, z=~5, dx=-1, dy=3, dz=-7] ~ ~ ~ function task8/reset_agent
 # Player 2
 execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=task_8, r=8, c=1] ~ ~ ~ execute @p[x=~-5, y=~5, z=~5, dx=11, dy=3, dz=-8] ~ ~ ~ function task8/reset_agent_p2
 
