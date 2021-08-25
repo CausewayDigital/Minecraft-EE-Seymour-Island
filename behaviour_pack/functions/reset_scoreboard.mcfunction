@@ -36,6 +36,10 @@ scoreboard objectives remove task_player_num
 scoreboard objectives add task_player_num dummy
 scoreboard players set @a task_player_num 0
 
+scoreboard objectives remove task_lang
+scoreboard objectives add task_lang dummy
+scoreboard players set @a task_lang 0
+
 scoreboard objectives remove task_0_sea
 scoreboard objectives add task_0_sea dummy
 scoreboard players set @a task_0_sea 0
