@@ -4,7 +4,7 @@
 scoreboard players set @s task_start_timer 5
 
 # If working on task 1 (temp coordinates for now)
-execute @s[x=-500, y=60, z=239, dx=25, dy=10, dz=12] ~ ~ ~ function task1/reset_agent
+execute @s[scores={in_task=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_1, r=8, c=1] ~ ~ ~ execute @p[x=~-9, y=~2, z=~-7, dx=15, dy=8, dz=13] ~ ~ ~ function task1/reset_agent
 
 # Task 2
 execute @s[scores={in_task=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_2, r=8, c=1] ~ ~ ~ execute @p[x=~-9, y=~3, z=~-3, dx=16, dy=2, dz=7] ~ ~ ~ function task2/reset_agent
