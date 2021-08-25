@@ -44,7 +44,7 @@ execute @e[type=armor_stand, tag=task_6] ~ ~ ~ execute @p[x=~-1, y=~5, z=~-1, dx
 
 # Row 9
 execute @e[type=armor_stand, tag=task_6] ~ ~ ~ execute @p[x=~-1, y=~5, z=~-1, dx=-5, dy=3, dz=3] ~ ~ ~ execute @e[type=armor_stand, tag=task_6, c=1] ~ ~ ~ detect ~-2 ~3 ~-11 redstone_wire -1 scoreboard players set @p task_6_fail 1
-execute @e[type=armor_stand, tag=task_6] ~ ~ ~ execute @p[x=~-1, y=~5, z=~-1, dx=-5, dy=3, dz=3] ~ ~ ~ execute @e[type=armor_stand, tag=task_6, c=1] ~ ~ ~ detect ~-3 ~3 ~-11 redstone_wire -1 scoreboard players set @p task_6_fail 1
+execute @e[type=armor_stand, tag=task_6] ~ ~ ~ execute @p[x=~-1, y=~5, z=~-1, dx=-5, dy=3, dz=3] ~ ~ ~ execute @e[type=armor_stand, tag=task_6, c=1] ~ ~ ~ detect ~-4 ~3 ~-11 redstone_wire -1 scoreboard players set @p task_6_fail 1
 
 # Row 10
 execute @e[type=armor_stand, tag=task_6] ~ ~ ~ execute @p[x=~-1, y=~5, z=~-1, dx=-5, dy=3, dz=3] ~ ~ ~ execute @e[type=armor_stand, tag=task_6, c=1] ~ ~ ~ detect ~-4 ~3 ~-12 redstone_wire -1 scoreboard players set @p task_6_fail 1
