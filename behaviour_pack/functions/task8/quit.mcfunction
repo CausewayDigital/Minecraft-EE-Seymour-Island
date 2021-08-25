@@ -8,5 +8,5 @@ execute @e[type=armor_stand, tag=task_8, r=8] ~ ~ ~ execute @p[x=~-5, y=~5, z=~5
 # Reset task progress
 scoreboard players set @s in_task 0
 
-tp @s -454 77 277 facing  -455 77 277
+tp @s -446 82 282 facing  -444 82 282
 function reset_agent
