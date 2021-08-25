@@ -79,5 +79,10 @@ crypto_score
 # The index of the current letter the player is inputing
 crypto_current
 
-# The number of robots the player has completed
-crypto_total
+crypto_cmplt_1
+crypto_cmplt_2
+crypto_cmplt_3
+crypto_cmplt_4
+crypto_cmplt_5
+
+crypto_timer

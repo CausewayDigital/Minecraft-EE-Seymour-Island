@@ -176,7 +176,27 @@ scoreboard objectives remove crypto_current
 scoreboard objectives add crypto_current dummy
 scoreboard players set @a crypto_current 0
 
-scoreboard objectives remove crypto_total
-scoreboard objectives add crypto_total dummy
-scoreboard players set @a crypto_total 0
+scoreboard objectives remove crypto_cmplt_1
+scoreboard objectives add crypto_cmplt_1 dummy
+scoreboard players set @a crypto_cmplt_1 0
+
+scoreboard objectives remove crypto_cmplt_2
+scoreboard objectives add crypto_cmplt_2 dummy
+scoreboard players set @a crypto_cmplt_2 0
+
+scoreboard objectives remove crypto_cmplt_3
+scoreboard objectives add crypto_cmplt_3 dummy
+scoreboard players set @a crypto_cmplt_3 0
+
+scoreboard objectives remove crypto_cmplt_4
+scoreboard objectives add crypto_cmplt_4 dummy
+scoreboard players set @a crypto_cmplt_4 0
+
+scoreboard objectives remove crypto_cmplt_5
+scoreboard objectives add crypto_cmplt_5 dummy
+scoreboard players set @a crypto_cmplt_5 0
+
+scoreboard objectives remove crypto_timer
+scoreboard objectives add crypto_timer dummy
+scoreboard players set @a crypto_timer 0
 
