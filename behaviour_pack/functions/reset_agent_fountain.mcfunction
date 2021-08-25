@@ -1,5 +1,2 @@
-function reset_agent_inventory
-execute @p ~ ~ ~ tp @c -450 86 237
-
-# blank.md
-#codebuilder navigate @p false https://minecraft.makecode.com/?ipc=1&lockedEditor=1&inGame=1#tutorial:54765-55775-25481-55805
+# Legacy function
+function reset_agent 
