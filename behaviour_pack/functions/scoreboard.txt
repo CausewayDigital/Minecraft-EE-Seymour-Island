@@ -13,6 +13,9 @@ task_start_timer
 # The room number selected for multiplayer tasks
 task_room_num
 
+# The player number (used for multiplayer tasks). Should only be 0, 1 or 2.
+task_player_num
+
 # Task 0
 # vars with S at the end mean they show the status of a sound while the others are user intractable to start/stop a sound
 task_0_sea
