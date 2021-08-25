@@ -35,3 +35,4 @@ execute @s[x=-445, y=77, z=272, dx=-10, dy=3, dz=14, scores={task_room_num=6}] ~
 # If no task slots available
 execute @s[x=-445, y=77, z=272, dx=-10, dy=3, dz=14] ~ ~ ~ title @s subtitle Please wait a little...
 execute @s[x=-445, y=77, z=272, dx=-10, dy=3, dz=14] ~ ~ ~ title @s title No task slots available
+execute @s[x=-445, y=77, z=272, dx=-10, dy=3, dz=14] ~ ~ ~ function misc/no_coding

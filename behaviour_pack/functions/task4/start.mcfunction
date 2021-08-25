@@ -50,3 +50,4 @@ execute @s[x=-515, y=40, z=192, dx=8, dy=3, dz=8] ~ ~ ~ detect -582 15 191 air -
 # If no task slots available
 execute @s[x=-515, y=40, z=192, dx=8, dy=3, dz=8] ~ ~ ~ title @s subtitle Please wait a little...
 execute @s[x=-515, y=40, z=192, dx=8, dy=3, dz=8] ~ ~ ~ title @s title No task slots available
+execute @s[x=-515, y=40, z=192, dx=8, dy=3, dz=8] ~ ~ ~ function misc/no_coding
