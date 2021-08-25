@@ -156,9 +156,9 @@ scoreboard objectives remove task_7_done
 scoreboard objectives add task_7_done dummy
 scoreboard players set @a task_7_done 0
 
-scoreboard objectives remove task_8_player
-scoreboard objectives add task_8_player dummy
-scoreboard players set @a task_8_player 0
+scoreboard objectives remove task_7_player
+scoreboard objectives add task_7_player dummy
+scoreboard players set @a task_7_player 0
 
 scoreboard objectives remove task_8_done
 scoreboard objectives add task_8_done dummy
