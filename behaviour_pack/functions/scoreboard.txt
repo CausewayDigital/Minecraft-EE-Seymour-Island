@@ -61,12 +61,15 @@ task_6_done
 task_6_prog
 task_6_start
 task_6_fail
+task_6_player
 
 # Task 7
 task_7_done
+task_8_player
 
 # Task 8
 task_8_done
+task_8_player
 
 # Cryptography Robots
 
