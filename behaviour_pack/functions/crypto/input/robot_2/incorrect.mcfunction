@@ -12,6 +12,10 @@ execute @s[scores={crypto_current=4}] ~ ~ ~ dialogue open @e[type=npc, tag=crypt
 
 execute @s[scores={crypto_current=5}] ~ ~ ~ dialogue open @e[type=npc, tag=crypto_2, c=1] @s crypto_2_input_6
 
-execute @s[scores={crypto_current=6}] ~ ~ ~ function crypto/input/robot_2/complete
+execute @s[scores={crypto_current=6}] ~ ~ ~ dialogue open @e[type=npc, tag=crypto_2, c=1] @s crypto_2_input_7
+
+execute @s[scores={crypto_current=7}] ~ ~ ~ dialogue open @e[type=npc, tag=crypto_2, c=1] @s crypto_2_input_8
+
+execute @s[scores={crypto_current=8}] ~ ~ ~ function crypto/input/robot_2/complete
 
 scoreboard players add @s crypto_current 1
