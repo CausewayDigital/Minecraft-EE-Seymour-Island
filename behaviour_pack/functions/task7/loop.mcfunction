@@ -1,8 +1,12 @@
 # Run as main loop
 
+# Mark player as player 1
+execute @e[type=armor_stand, tag=task_6] ~ ~ ~ execute @p[x=~5, y=~3, z=~-4, dx=1, dy=3, dz=7] ~ ~ ~ scoreboard players set @s task_6_player 1
+# Mark player as player 1
+execute @e[type=armor_stand, tag=task_6] ~ ~ ~ execute @p[x=~3, y=~5, z=~3, dx=-8, dy=3, dz=-7] ~ ~ ~ scoreboard players set @s task_6_player 2
+
 # Check if task is complete. Only run if there is a player in the task.
 execute @e[type=armor_stand, tag=task_7] ~ ~ ~ execute @a[x=~6, y=~3, z=~-4, dx=-11, dy=3, dz=4] ~ ~ ~ execute @e[type=armor_stand, tag=task_7, c=1] ~ ~ ~ function task7/test_complete
-
 
 # A marker block is used to mark an individual task as in use. Each tick it is removed, then replaced if there is a student in the task
 # Remove the marker block if it exists
