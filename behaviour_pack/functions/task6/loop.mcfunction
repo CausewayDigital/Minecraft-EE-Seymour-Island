@@ -1,5 +1,10 @@
 # Run as main loop
 
+# Mark player as player 1
+execute @e[type=armor_stand, tag=task_6] ~ ~ ~ execute @p[x=~6, y=~5, z=~-1, dx=-5, dy=3, dz=3] ~ ~ ~ scoreboard players set @s task_6_player 1
+# Mark player as player 1
+execute @e[type=armor_stand, tag=task_6] ~ ~ ~ execute @p[x=~-1, y=~5, z=~-1, dx=-5, dy=3, dz=3] ~ ~ ~ scoreboard players set @s task_6_player 2
+
 # Player 1
 execute @e[type=armor_stand, tag=task_6] ~ ~ ~ execute @p[x=~6, y=~5, z=~-1, dx=-5, dy=3, dz=3] ~ ~ ~ execute @e[type=armor_stand, tag=task_6, c=1] ~ ~ ~ function task6/test_fail_p1
 # Player 2
