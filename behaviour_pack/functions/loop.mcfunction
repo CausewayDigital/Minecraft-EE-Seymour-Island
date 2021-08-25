@@ -38,4 +38,7 @@ function crypto/loop
 # Score display system - Only run if a player is in the room
 execute @p[x=-474, y=71, z=274, dx=12, dy=3, dz=7] ~ ~ ~ function misc/score_display
 
+# Starting box when new player joins
+execute @a[x=-878,y=120,z=383,r=2] ~ ~ ~ function misc/loop_setup_box
+
 scoreboard players set @a[scores={task_start_timer=16..}] task_start_timer 0
