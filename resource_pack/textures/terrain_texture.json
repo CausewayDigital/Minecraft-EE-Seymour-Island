@@ -1,0 +1,138 @@
+{
+    "resource_pack_name": "seymour_island_resource_pack",
+    "texture_name": "atlas.terrain",
+    "padding": 8,
+    "num_mip_levels": 4,
+    "texture_data": {
+        "letter_a": {
+            "textures": [
+                "textures/blocks/letter_a"
+            ]
+        },
+        "letter_b": {
+            "textures": [
+                "textures/blocks/letter_b"
+            ]
+        },
+        "letter_c": {
+            "textures": [
+                "textures/blocks/letter_c"
+            ]
+        },
+        "letter_d": {
+            "textures": [
+                "textures/blocks/letter_d"
+            ]
+        },
+        "letter_e": {
+            "textures": [
+                "textures/blocks/letter_e"
+            ]
+        },
+        "letter_f": {
+            "textures": [
+                "textures/blocks/letter_f"
+            ]
+        },
+        "letter_g": {
+            "textures": [
+                "textures/blocks/letter_g"
+            ]
+        },
+        "letter_h": {
+            "textures": [
+                "textures/blocks/letter_h"
+            ]
+        },
+        "letter_i": {
+            "textures": [
+                "textures/blocks/letter_i"
+            ]
+        },
+        "letter_j": {
+            "textures": [
+                "textures/blocks/letter_j"
+            ]
+        },
+        "letter_k": {
+            "textures": [
+                "textures/blocks/letter_k"
+            ]
+        },
+        "letter_l": {
+            "textures": [
+                "textures/blocks/letter_l"
+            ]
+        },
+        "letter_m": {
+            "textures": [
+                "textures/blocks/letter_m"
+            ]
+        },
+        "letter_n": {
+            "textures": [
+                "textures/blocks/letter_n"
+            ]
+        },
+        "letter_o": {
+            "textures": [
+                "textures/blocks/letter_o"
+            ]
+        },
+        "letter_p": {
+            "textures": [
+                "textures/blocks/letter_p"
+            ]
+        },
+        "letter_q": {
+            "textures": [
+                "textures/blocks/letter_q"
+            ]
+        },
+        "letter_r": {
+            "textures": [
+                "textures/blocks/letter_r"
+            ]
+        },
+        "letter_s": {
+            "textures": [
+                "textures/blocks/letter_s"
+            ]
+        },
+        "letter_t": {
+            "textures": [
+                "textures/blocks/letter_t"
+            ]
+        },
+        "letter_u": {
+            "textures": [
+                "textures/blocks/letter_u"
+            ]
+        },
+        "letter_v": {
+            "textures": [
+                "textures/blocks/letter_v"
+            ]
+        },
+        "letter_w": {
+            "textures": [
+                "textures/blocks/letter_w"
+            ]
+        },
+        "letter_x": {
+            "textures": [
+                "textures/blocks/letter_x"
+            ]
+        },
+        "letter_y": {
+            "textures": [
+                "textures/blocks/letter_y"
+            ]
+        },
+        "letter_z": {
+            "textures": [
+                "textures/blocks/letter_z"
+            ]
+        }
+    }
+}

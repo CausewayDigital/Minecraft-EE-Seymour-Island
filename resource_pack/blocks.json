@@ -1,0 +1,215 @@
+{
+    "format_version": [
+        1,
+        1,
+        0
+    ],
+    "cd:letter_a": {
+        "textures": {
+            "up": "letter_a",
+            "down": "letter_a",
+            "side": "letter_a"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_b": {
+        "textures": {
+            "up": "letter_b",
+            "down": "letter_b",
+            "side": "letter_b"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_c": {
+        "textures": {
+            "up": "letter_c",
+            "down": "letter_c",
+            "side": "letter_c"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_d": {
+        "textures": {
+            "up": "letter_d",
+            "down": "letter_d",
+            "side": "letter_d"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_e": {
+        "textures": {
+            "up": "letter_e",
+            "down": "letter_e",
+            "side": "letter_e"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_f": {
+        "textures": {
+            "up": "letter_f",
+            "down": "letter_f",
+            "side": "letter_f"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_g": {
+        "textures": {
+            "up": "letter_g",
+            "down": "letter_g",
+            "side": "letter_g"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_h": {
+        "textures": {
+            "up": "letter_h",
+            "down": "letter_h",
+            "side": "letter_h"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_i": {
+        "textures": {
+            "up": "letter_i",
+            "down": "letter_i",
+            "side": "letter_i"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_j": {
+        "textures": {
+            "up": "letter_j",
+            "down": "letter_j",
+            "side": "letter_j"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_k": {
+        "textures": {
+            "up": "letter_k",
+            "down": "letter_k",
+            "side": "letter_k"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_l": {
+        "textures": {
+            "up": "letter_l",
+            "down": "letter_l",
+            "side": "letter_l"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_m": {
+        "textures": {
+            "up": "letter_m",
+            "down": "letter_m",
+            "side": "letter_m"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_n": {
+        "textures": {
+            "up": "letter_n",
+            "down": "letter_n",
+            "side": "letter_n"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_o": {
+        "textures": {
+            "up": "letter_o",
+            "down": "letter_o",
+            "side": "letter_o"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_p": {
+        "textures": {
+            "up": "letter_p",
+            "down": "letter_p",
+            "side": "letter_p"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_q": {
+        "textures": {
+            "up": "letter_q",
+            "down": "letter_q",
+            "side": "letter_q"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_r": {
+        "textures": {
+            "up": "letter_r",
+            "down": "letter_r",
+            "side": "letter_r"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_s": {
+        "textures": {
+            "up": "letter_s",
+            "down": "letter_s",
+            "side": "letter_s"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_t": {
+        "textures": {
+            "up": "letter_t",
+            "down": "letter_t",
+            "side": "letter_t"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_u": {
+        "textures": {
+            "up": "letter_u",
+            "down": "letter_u",
+            "side": "letter_u"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_v": {
+        "textures": {
+            "up": "letter_v",
+            "down": "letter_v",
+            "side": "letter_v"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_w": {
+        "textures": {
+            "up": "letter_w",
+            "down": "letter_w",
+            "side": "letter_w"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_x": {
+        "textures": {
+            "up": "letter_x",
+            "down": "letter_x",
+            "side": "letter_x"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_y": {
+        "textures": {
+            "up": "letter_y",
+            "down": "letter_y",
+            "side": "letter_y"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_z": {
+        "textures": {
+            "up": "letter_z",
+            "down": "letter_z",
+            "side": "letter_z"
+        },
+        "sound": "stone"
+    }
+}
