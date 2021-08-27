@@ -10,6 +10,7 @@ scoreboard players set @s build_timer 0
 scoreboard players set @s task_start_timer 0
 scoreboard players set @s task_room_num 0
 scoreboard players set @s task_player_num 0
+scoreboard players set @s phone_selected 0
 scoreboard players set @s task_lang 0
 scoreboard players set @s task_0_sea 0
 scoreboard players set @s task_0_crash 0

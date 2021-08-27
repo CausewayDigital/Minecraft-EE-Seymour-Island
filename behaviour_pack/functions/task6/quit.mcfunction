@@ -8,6 +8,7 @@ execute @e[type=armor_stand, tag=task_6, r=8] ~ ~ ~ execute @p[x=~-1, y=~5, z=~-
 # Reset task progress
 execute @e[type=armor_stand, tag=task_6, r=8] ~ ~ ~ scoreboard players set @s task_6_prog 0
 scoreboard players set @s in_task 0
+scoreboard players set @s phone_selected 0
 scoreboard players set @s task_6_start 0
 
 tp @s -507 68 249 facing  -507 68 248
