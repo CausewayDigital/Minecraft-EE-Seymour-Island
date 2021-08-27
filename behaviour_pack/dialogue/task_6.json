@@ -77,13 +77,13 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function task_6/start_blocks"
+                            "/execute @a[target_type=other] ~ ~ ~ function task6/start_blocks"
                         ],
                         "name": "Blocks"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function task_6/start_python"
+                            "/execute @a[target_type=other] ~ ~ ~ function task6/start_python"
                         ],
                         "name": "Python"
                     }
@@ -98,7 +98,7 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_6_npc"
+                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_6_player_num"
                         ],
                         "name": "Proceed"
                     },
