@@ -19,17 +19,31 @@
                 "text": "Due to the recent storm, a large amount of the electronic substation in behind us has been damaged. Do you think you could use your agent to help repair it?%1%1This is an extension activity to the Fish & Melon, so I recommend you have completed it first. You also need 2 players for this task. Ready to help?"
             },
             {
-                "buttons": [],
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function task6/npc/check_enough_score"
+                        ],
+                        "name": "Sure"
+                    },
+                    {
+                        "commands": [],
+                        "name": "Maybe later"
+                    }
+                ],
                 "npc_name": "Substation Engineer",
                 "on_close_commands": [],
                 "on_open_commands": [],
-                "scene_tag": "task6_npc",
-                "text": "Due to the recent storm, a large amount of the electronic substation in behind us has been damaged. Do you think you could use your agent to help repair it? You will need a second player to help do this. Which player are you?"
+                "scene_tag": "task_6_npc",
+                "text": "Due to the recent storm, a large amount of the electronic substation in behind us has been damaged. Do you think you could use your agent to help repair it? "
             },
             {
                 "buttons": [
                     {
-                        "commands": [],
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ scoreboard players set task_room_num 1",
+                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_6_lang"
+                        ],
                         "name": "Room 1"
                     },
                     {
@@ -56,7 +70,7 @@
                 "npc_name": "Substation Engineer",
                 "on_close_commands": [],
                 "on_open_commands": [],
-                "scene_tag": "task6_npc_p1",
+                "scene_tag": "task_6_room_select",
                 "text": "Great, which room would you like to join? Make sure the partner that is helping you complete the task joins the same room."
             },
             {
@@ -81,12 +95,46 @@
                 "text": "Do you want to use Blocks or Python with this task?"
             },
             {
-                "buttons": [],
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_6_npc"
+                        ],
+                        "name": "Proceed"
+                    },
+                    {
+                        "commands": [],
+                        "name": "Come back later"
+                    }
+                ],
                 "npc_name": "Substation Engineer",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "task_6_adv_warning",
                 "text": "This task is an advanced task, you may want to try a few of the easier tasks first. Are you sure you want to try this task?"
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ scoreboard players set task_player_num 1",
+                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_6_room_select"
+                        ],
+                        "name": "Player 1"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ scoreboard players set task_player_num 2",
+                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_6_room_select"
+                        ],
+                        "name": "Player 2"
+                    }
+                ],
+                "npc_name": "Substation Engineer",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "task_6_player_num",
+                "text": "As this is a 2 player task, you will need a partner to help you with it. Which are you, player 1 or player 2 in the pair?"
             }
         ]
     }
