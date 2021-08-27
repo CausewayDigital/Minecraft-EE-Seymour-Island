@@ -12,7 +12,7 @@
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/help"
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_1/help"
                         ],
                         "name": "Help"
                     },
@@ -303,7 +303,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_help_1",
-                "text": "Comrade in the library innit"
+                "text": "The books in this library contain some data about cryptography i have gathered"
             }
         ]
     }
