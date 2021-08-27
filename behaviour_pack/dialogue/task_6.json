@@ -17,6 +17,76 @@
                 "on_open_commands": [],
                 "scene_tag": "player2s",
                 "text": "Due to the recent storm, a large amount of the electronic substation in behind us has been damaged. Do you think you could use your agent to help repair it?%1%1This is an extension activity to the Fish & Melon, so I recommend you have completed it first. You also need 2 players for this task. Ready to help?"
+            },
+            {
+                "buttons": [],
+                "npc_name": "Substation Engineer",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "task6_npc",
+                "text": "Due to the recent storm, a large amount of the electronic substation in behind us has been damaged. Do you think you could use your agent to help repair it? You will need a second player to help do this. Which player are you?"
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [],
+                        "name": "Room 1"
+                    },
+                    {
+                        "commands": [],
+                        "name": "Room 2"
+                    },
+                    {
+                        "commands": [],
+                        "name": "Room 3"
+                    },
+                    {
+                        "commands": [],
+                        "name": "Room 4"
+                    },
+                    {
+                        "commands": [],
+                        "name": "Room 5"
+                    },
+                    {
+                        "commands": [],
+                        "name": "Room 6"
+                    }
+                ],
+                "npc_name": "Substation Engineer",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "task6_npc_p1",
+                "text": "Great, which room would you like to join? Make sure the partner that is helping you complete the task joins the same room."
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ /function task_6/start_blocks"
+                        ],
+                        "name": "Blocks"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ /function task_6/start_python"
+                        ],
+                        "name": "Python"
+                    }
+                ],
+                "npc_name": "Substation Engineer",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "task_6_lang",
+                "text": "Do you want to use Blocks or Python with this task?"
+            },
+            {
+                "buttons": [],
+                "npc_name": "Substation Engineer",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "task_6_adv_warning",
+                "text": "This task is an advanced task, you may want to try a few of the easier tasks first. Are you sure you want to try this task?"
             }
         ]
     }
