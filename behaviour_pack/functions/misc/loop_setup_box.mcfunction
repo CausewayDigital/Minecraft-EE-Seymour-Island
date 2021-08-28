@@ -8,7 +8,7 @@ scoreboard players set @s teacher 0
 scoreboard players set @s build_mode 0
 scoreboard players set @s build_timer 0
 scoreboard players set @s task_start_timer 0
-scoreboard players set @s task_timer_active 0
+scoreboard players set @s task_timer_act 0
 scoreboard players set @s task_room_num 0
 scoreboard players set @s task_player_num 0
 scoreboard players set @s phone_selected 0
