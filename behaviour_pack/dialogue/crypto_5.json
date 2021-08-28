@@ -349,6 +349,14 @@
                 "on_open_commands": [],
                 "scene_tag": "crypto_help_5",
                 "text": "There is a fellow unit in the library who would quite like to talk you"
+            },
+            {
+                "buttons": [],
+                "npc_name": "Cryptographer 5",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "crypto_5_intro",
+                "text": ""
             }
         ]
     }
