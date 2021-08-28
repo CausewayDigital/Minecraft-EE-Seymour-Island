@@ -317,7 +317,7 @@
                 "npc_name": "Cryptographer 1",
                 "on_close_commands": [],
                 "on_open_commands": [],
-                "scene_tag": "crypto_help_1",
+                "scene_tag": "crypto_1_help",
                 "text": "The books in this library contain some data about cryptography i have gathered"
             },
             {
