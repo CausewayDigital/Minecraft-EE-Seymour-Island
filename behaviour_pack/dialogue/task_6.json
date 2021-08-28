@@ -3,22 +3,6 @@
     "minecraft:npc_dialogue": {
         "scenes": [
             {
-                "buttons": [],
-                "npc_name": "Player 1",
-                "on_close_commands": [],
-                "on_open_commands": [],
-                "scene_tag": "player1s",
-                "text": "Due to the recent storm, a large amount of the electronic substation in behind us has been damaged. Do you think you could use your agent to help repair it?%1%1This is an extension activity to the Fish & Melon, so I recommend you have completed it first. You also need 2 players for this task. Ready to help?"
-            },
-            {
-                "buttons": [],
-                "npc_name": "Player 2",
-                "on_close_commands": [],
-                "on_open_commands": [],
-                "scene_tag": "player2s",
-                "text": "Due to the recent storm, a large amount of the electronic substation in behind us has been damaged. Do you think you could use your agent to help repair it?%1%1This is an extension activity to the Fish & Melon, so I recommend you have completed it first. You also need 2 players for this task. Ready to help?"
-            },
-            {
                 "buttons": [
                     {
                         "commands": [
@@ -47,23 +31,38 @@
                         "name": "Room 1"
                     },
                     {
-                        "commands": [],
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s task_room_num 2",
+                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_6_lang"
+                        ],
                         "name": "Room 2"
                     },
                     {
-                        "commands": [],
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s task_room_num 3",
+                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_6_lang"
+                        ],
                         "name": "Room 3"
                     },
                     {
-                        "commands": [],
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s task_room_num 4",
+                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_6_lang"
+                        ],
                         "name": "Room 4"
                     },
                     {
-                        "commands": [],
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s task_room_num 5",
+                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_6_lang"
+                        ],
                         "name": "Room 5"
                     },
                     {
-                        "commands": [],
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s task_room_num 6",
+                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_6_lang"
+                        ],
                         "name": "Room 6"
                     }
                 ],
