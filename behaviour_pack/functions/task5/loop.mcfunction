@@ -29,12 +29,12 @@ execute @e[type=armor_stand, tag=task_5] ~ ~ ~ execute @a[x=~-10, y=~1, z=~-11, 
 # Loop for checking the contents of the fishing bays
 
 # Found Pufferfish, update scoreboard and kill entity
-execute @e[type=armor_stand, tag=task_5] ~ ~ ~ execute @e[x=~-6, y=~2, z=~-2, dx=0, dy=0, dz=-2, scores={task_5_pufferfis=..50}] ~ ~ ~ execute @s[name="Pufferfish", c=1, x=~, y=~, z=~, dx=0, dy=0, dz=0] ~ ~ ~ execute @e[type=armor_stand, tag=task_5, c=1] ~ ~ ~ scoreboard players add @a[x=~-10, y=~1, z=~-11, dx=14, dy=5, dz=18] task_5_pufferfis 1
-execute @e[type=armor_stand, tag=task_5] ~ ~ ~ execute @e[x=~-6, y=~2, z=~-2, dx=0, dy=0, dz=-2, scores={task_5_pufferfis=..50}] ~ ~ ~ execute @s[name="Pufferfish", c=1, x=~, y=~, z=~, dx=0, dy=0, dz=0] ~ ~ ~ kill @s
+execute @e[type=armor_stand, tag=task_5] ~ ~ ~ execute @e[x=~-6, y=~2, z=~-2, dx=0, dy=0, dz=-2] ~ ~ ~ execute @s[name="Pufferfish", c=1, x=~, y=~, z=~, dx=0, dy=0, dz=0] ~ ~ ~ execute @e[type=armor_stand, tag=task_5, c=1] ~ ~ ~ scoreboard players add @a[x=~-10, y=~1, z=~-11, dx=14, dy=5, dz=18] task_5_pufferfis 1
+execute @e[type=armor_stand, tag=task_5] ~ ~ ~ execute @e[x=~-6, y=~2, z=~-2, dx=0, dy=0, dz=-2] ~ ~ ~ execute @s[name="Pufferfish", c=1, x=~, y=~, z=~, dx=0, dy=0, dz=0] ~ ~ ~ kill @s
 
 # Found Clownfish, update scoreboard and kill entity
-execute @e[type=armor_stand, tag=task_5] ~ ~ ~ execute @e[x=~-6, y=~2, z=~-2, dx=0, dy=0, dz=-2, scores={task_5_clownfish=..50}] ~ ~ ~ execute @s[name="Tropical Fish", c=1, x=~, y=~, z=~, dx=0, dy=0, dz=0] ~ ~ ~ execute @e[type=armor_stand, tag=task_5, c=1] ~ ~ ~ scoreboard players add @a[x=~-10, y=~1, z=~-11, dx=14, dy=5, dz=18] task_5_clownfish 1
-execute @e[type=armor_stand, tag=task_5] ~ ~ ~ execute @e[x=~-6, y=~2, z=~-2, dx=0, dy=0, dz=-2, scores={task_5_clownfish=..50}] ~ ~ ~ execute @s[name="Tropical Fish", c=1, x=~, y=~, z=~, dx=0, dy=0, dz=0] ~ ~ ~ kill @s
+execute @e[type=armor_stand, tag=task_5] ~ ~ ~ execute @e[x=~-6, y=~2, z=~-2, dx=0, dy=0, dz=-2] ~ ~ ~ execute @s[name="Tropical Fish", c=1, x=~, y=~, z=~, dx=0, dy=0, dz=0] ~ ~ ~ execute @e[type=armor_stand, tag=task_5, c=1] ~ ~ ~ scoreboard players add @a[x=~-10, y=~1, z=~-11, dx=14, dy=5, dz=18] task_5_clownfish 1
+execute @e[type=armor_stand, tag=task_5] ~ ~ ~ execute @e[x=~-6, y=~2, z=~-2, dx=0, dy=0, dz=-2] ~ ~ ~ execute @s[name="Tropical Fish", c=1, x=~, y=~, z=~, dx=0, dy=0, dz=0] ~ ~ ~ kill @s
 
 # If player in task, update the score display actionbar
 execute @e[type=armor_stand, tag=task_5] ~ ~ ~ execute @a[x=~-10, y=~1, z=~-11, dx=14, dy=5, dz=18] ~ ~ ~ function task5/update_score_display
