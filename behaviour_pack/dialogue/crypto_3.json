@@ -302,7 +302,7 @@
                 "npc_name": "Cryptographer 3",
                 "on_close_commands": [],
                 "on_open_commands": [],
-                "scene_tag": "crypto_help_3",
+                "scene_tag": "crypto_3_help",
                 "text": "There is a fellow unit in the library who would quite like to talk you"
             },
             {
