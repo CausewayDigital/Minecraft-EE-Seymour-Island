@@ -1,4 +1,5 @@
 scoreboard players add @a[scores={task_start_timer=1..15}] task_start_timer 1
+scoreboard players set @a[scores={task_start_timer=1..15}] task_timer_act 1
 
 execute @e[type=fishing_hook] ~ ~ ~ execute @p ~ ~ ~ function phone/use_phone
 
