@@ -11,7 +11,7 @@
 #~0      ~-1     ~10       Master Dispenser
 
 # Check Completion status
-execute @e[type=armor_stand, tag=task_5] ~ ~ ~ execute @a[x=~-10, y=~1, z=~-11, dx=14, dy=5, dz=18] ~ ~ ~ function task5/test_complete
+execute @e[type=armor_stand, tag=task_5] ~ ~ ~ execute @a[x=~-10, y=~1, z=~-11, dx=14, dy=5, dz=18, scores={task_5_clownfish=50, task_5_pufferfis=50}] ~ ~ ~ function task5/complete
 
 # Remove marker to reset task task status
 execute @e[type=armor_stand, tag=task_5] ~ ~ ~ detect ~0 ~2 ~26 lit_pumpkin -1 setblock ~0 ~2 ~26 air
