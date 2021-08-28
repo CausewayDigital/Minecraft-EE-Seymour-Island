@@ -9,6 +9,7 @@ build_timer
 
 # A countdown timer to be used at the start of tasks to allow time for the agent to be teleported in later
 task_start_timer
+task_timer_active
 
 # The room number selected for multiplayer tasks
 task_room_num
