@@ -60,6 +60,13 @@ task_4_start
 task_4_fail
 task_4_timer
 
+# Task 5
+task_5_done
+task_5_prog
+task_5_start
+task_5_clownfish
+task_5_pufferfis
+
 # Task 6
 task_6_done
 task_6_prog

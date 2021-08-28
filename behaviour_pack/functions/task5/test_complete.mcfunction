@@ -1,0 +1,1 @@
+execute @a[scores={task_5_clownfish=1, task_5_pufferfis=1}] ~~~ say hi
