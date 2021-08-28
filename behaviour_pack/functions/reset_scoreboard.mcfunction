@@ -140,6 +140,26 @@ scoreboard objectives remove task_4_timer
 scoreboard objectives add task_4_timer dummy
 scoreboard players set @a task_4_timer 0
 
+scoreboard objectives remove task_5_done
+scoreboard objectives add task_5_done dummy
+scoreboard players set @a task_5_done 0
+
+scoreboard objectives remove task_5_prog
+scoreboard objectives add task_5_prog dummy
+scoreboard players set @a task_5_prog 0
+
+scoreboard objectives remove task_5_start
+scoreboard objectives add task_5_start dummy
+scoreboard players set @a task_5_start 0
+
+scoreboard objectives remove task_5_clownfish
+scoreboard objectives add task_5_clownfish dummy
+scoreboard players set @a task_5_clownfish 0
+
+scoreboard objectives remove task_5_pufferfis
+scoreboard objectives add task_5_pufferfis dummy
+scoreboard players set @a task_5_pufferfis 0
+
 scoreboard objectives remove task_6_done
 scoreboard objectives add task_6_done dummy
 scoreboard players set @a task_6_done 0
