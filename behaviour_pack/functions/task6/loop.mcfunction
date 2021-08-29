@@ -1,12 +1,12 @@
 # Run as main loop
 
 # Mark player as player 1
-execute @e[type=armor_stand, tag=task_6] ~ ~ ~ execute @p[x=~7, y=~5, z=~-1, dx=-5, dy=3, dz=3] ~ ~ ~ scoreboard players set @s task_6_player 1
+execute @e[type=armor_stand, tag=task_6] ~ ~ ~ execute @p[x=~7, y=~5, z=~-1, dx=-6, dy=3, dz=3] ~ ~ ~ scoreboard players set @s task_6_player 1
 # Mark player as player 1
 execute @e[type=armor_stand, tag=task_6] ~ ~ ~ execute @p[x=~-1, y=~5, z=~-1, dx=-7, dy=3, dz=3] ~ ~ ~ scoreboard players set @s task_6_player 2
 
 # Player 1
-execute @e[type=armor_stand, tag=task_6] ~ ~ ~ execute @p[x=~7, y=~5, z=~-1, dx=-5, dy=3, dz=3] ~ ~ ~ execute @e[type=armor_stand, tag=task_6, c=1] ~ ~ ~ function task6/test_fail_p1
+execute @e[type=armor_stand, tag=task_6] ~ ~ ~ execute @p[x=~7, y=~5, z=~-1, dx=-6, dy=3, dz=3] ~ ~ ~ execute @e[type=armor_stand, tag=task_6, c=1] ~ ~ ~ function task6/test_fail_p1
 # Player 2
 execute @e[type=armor_stand, tag=task_6] ~ ~ ~ execute @p[x=~-1, y=~5, z=~-1, dx=-7, dy=3, dz=3] ~ ~ ~ execute @e[type=armor_stand, tag=task_6, c=1] ~ ~ ~ function task6/test_fail_p2
 
@@ -23,7 +23,7 @@ execute @e[type=armor_stand, tag=task_6] ~ ~ ~ detect ~-7 ~7 ~1 barrel -1 setblo
 
 # If it still needs to be there, put the marker block back
 # Player 1
-execute @e[type=armor_stand, tag=task_6] ~ ~ ~ execute @p[x=~7, y=~5, z=~-1, dx=-5, dy=3, dz=3] ~ ~ ~ execute @e[type=armor_stand, tag=task_6, c=1] ~ ~ ~ setblock ~7 ~7 ~1 barrel 0
+execute @e[type=armor_stand, tag=task_6] ~ ~ ~ execute @p[x=~7, y=~5, z=~-1, dx=-6, dy=3, dz=3] ~ ~ ~ execute @e[type=armor_stand, tag=task_6, c=1] ~ ~ ~ setblock ~7 ~7 ~1 barrel 0
 # Player 2
 execute @e[type=armor_stand, tag=task_6] ~ ~ ~ execute @p[x=~-1, y=~5, z=~-1, dx=-7, dy=3, dz=3] ~ ~ ~ execute @e[type=armor_stand, tag=task_6, c=1] ~ ~ ~ setblock ~-7 ~7 ~1 barrel 0
 # Master Marker. This marker shows whether a level is full or not
@@ -42,7 +42,7 @@ execute @a[scores={in_task=1, task_6_fail=1}] ~ ~ ~ execute @e[type=armor_stand,
 
 # Get player that timer is done with, then get nearest armor stand, then confirm player is in the area, then run the agent reset
 # Player 1
-execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=task_6, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~5, z=~-1, dx=-5, dy=3, dz=3, scores={task_timer_act=1}] ~ ~ ~ function task6/reset_agent
+execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=task_6, r=8, c=1] ~ ~ ~ execute @p[x=~7, y=~5, z=~-1, dx=-6, dy=3, dz=3, scores={task_timer_act=1}] ~ ~ ~ function task6/reset_agent
 # Player 2
 execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=task_6, r=8, c=1] ~ ~ ~ execute @p[x=~-1, y=~5, z=~-1, dx=-7, dy=3, dz=3, scores={task_timer_act=1}] ~ ~ ~ function task6/reset_agent_p2
 
