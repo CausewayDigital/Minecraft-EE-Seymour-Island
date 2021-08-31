@@ -21,7 +21,7 @@ execute @e[type=armor_stand, tag=task_5] ~ ~ ~ execute @a[x=~-10, y=~1, z=~-11, 
 
 # Set redstone circuit to run if task status is in-use. If no pumpkin, remove 
 execute @e[type=armor_stand, tag=task_5, scores={task_5_timer=0}] ~ ~ ~ detect ~ ~2 ~26 lit_pumpkin -1 scoreboard players set @s task_5_timer 1
-execute @e[type=armor_stand, tag=task_5] ~ ~ ~ detect ~ ~2 ~26 air -1 setblock ~1 ~ ~3 air scoreboard players set @s task_5_timer 0
+execute @e[type=armor_stand, tag=task_5] ~ ~ ~ detect ~ ~2 ~26 air -1 scoreboard players set @s task_5_timer 0
 
 # Increment timer every tick
 execute @e[type=armor_stand, tag=task_5, scores={task_5_timer=1..99}] ~ ~ ~ scoreboard players add @s task_5_timer 1
