@@ -152,6 +152,10 @@ scoreboard objectives remove task_5_start
 scoreboard objectives add task_5_start dummy
 scoreboard players set @a task_5_start 0
 
+scoreboard objectives remove task_5_timer
+scoreboard objectives add task_5_timer dummy
+scoreboard players set @a task_5_timer 0
+
 scoreboard objectives remove task_5_clownfish
 scoreboard objectives add task_5_clownfish dummy
 scoreboard players set @a task_5_clownfish 0
