@@ -14,34 +14,34 @@ execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx
 # Column 2
 execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, r=8, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~3 ~1 air -1 execute @p ~ ~ ~ scoreboard players add @s task_3_prog 1
 execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, r=8, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~4 ~2 ~2 air -1 execute @p ~ ~ ~ scoreboard players add @s task_3_prog 1
-execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, r=8, c=1] ~ ~ ~ execute @p[scores={task_3_prog=5}] ~ ~ ~ xp 1 @s
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, r=8, c=1] ~ ~ ~ execute @p[scores={task_3_prog=4}] ~ ~ ~ xp 1 @s
 
 # Column 3
 execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, r=8, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~5 ~3 air -1 execute @p ~ ~ ~ scoreboard players add @s task_3_prog 1
 execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, r=8, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~4 ~3 air -1 execute @p ~ ~ ~ scoreboard players add @s task_3_prog 1
-execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, r=8, c=1] ~ ~ ~ execute @p[scores={task_3_prog=7}] ~ ~ ~ xp 1 @s
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, r=8, c=1] ~ ~ ~ execute @p[scores={task_3_prog=6}] ~ ~ ~ xp 1 @s
 
 # Column 4
 execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, r=8, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~5 ~4 air -1 execute @p ~ ~ ~ scoreboard players add @s task_3_prog 1
 execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, r=8, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~4 ~4 air -1 execute @p ~ ~ ~ scoreboard players add @s task_3_prog 1
 execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, r=8, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~3 ~4 air -1 execute @p ~ ~ ~ scoreboard players add @s task_3_prog 1
 execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, r=8, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~4 ~2 ~5 air -1 execute @p ~ ~ ~ scoreboard players add @s task_3_prog 1
-execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, r=8, c=1] ~ ~ ~ execute @p[scores={task_3_prog=11}] ~ ~ ~ xp 1 @s
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, r=8, c=1] ~ ~ ~ execute @p[scores={task_3_prog=10}] ~ ~ ~ xp 1 @s
 
 # Column 5
 execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, r=8, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~4 ~6 air -1 execute @p ~ ~ ~ scoreboard players add @s task_3_prog 1
 execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, r=8, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~3 ~6 air -1 execute @p ~ ~ ~ scoreboard players add @s task_3_prog 1
 execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, r=8, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~5 ~7 air -1 execute @p ~ ~ ~ scoreboard players add @s task_3_prog 1
-execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, r=8, c=1] ~ ~ ~ execute @p[scores={task_3_prog=14}] ~ ~ ~ xp 1 @s
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, r=8, c=1] ~ ~ ~ execute @p[scores={task_3_prog=13}] ~ ~ ~ xp 1 @s
 
 # Column 6
 execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, r=8, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~4 ~2 ~8 air -1 execute @p ~ ~ ~ scoreboard players add @s task_3_prog 1
 execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, r=8, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~4 ~8 air -1 execute @p ~ ~ ~ scoreboard players add @s task_3_prog 1
-execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, r=8, c=1] ~ ~ ~ execute @p[scores={task_3_prog=16}] ~ ~ ~ xp 1 @s
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, r=8, c=1] ~ ~ ~ execute @p[scores={task_3_prog=15}] ~ ~ ~ xp 1 @s
 
 # Column 7
 execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, r=8, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~5 ~4 ~9 air -1 execute @p ~ ~ ~ scoreboard players add @s task_3_prog 1
-execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, r=8, c=1] ~ ~ ~ execute @p[scores={task_3_prog=17}] ~ ~ ~ xp 1 @s
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, r=8, c=1] ~ ~ ~ execute @p[scores={task_3_prog=16}] ~ ~ ~ xp 1 @s
 
 
 # If a stone block is destryed, fail the task
@@ -107,7 +107,7 @@ execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx
 
 
 # Check if task complete
-execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, r=8, c=1] ~ ~ ~ execute @p[scores={task_3_prog=17}] ~ ~ ~ execute @s ~ ~ ~ function task3/complete
+execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, r=8, c=1] ~ ~ ~ execute @p[scores={task_3_prog=16}] ~ ~ ~ execute @s ~ ~ ~ function task3/complete
 
 # Reset prog scoreboard 
 execute @e[type=armor_stand, tag=task_3] ~ ~ ~ execute @p[x=~-2, y=~3, z=~10, dx=7, dy=2, dz=-17] ~ ~ ~ execute @e[type=armor_stand, tag=task_3, r=8, c=1] ~ ~ ~ execute @p ~ ~ ~ scoreboard players set @s task_3_prog 0
