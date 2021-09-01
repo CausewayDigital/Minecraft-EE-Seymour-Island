@@ -1,4 +1,7 @@
-execute @e[type=armor_stand, tag=task_5, c=1] ~ ~ ~ tp @a[x=~-10, y=~1, z=~-11, dx=14, dy=5, dz=18] ~0 ~2 ~2 facing ~0 ~0 ~6
-tp @c ~4 ~0 ~6 facing ~-4 ~0 ~0
+# Executing as the player 
+
+# TP the player first, then tp the agent based off the player location. Armor stand can't tp the player...
+scoreboard players set @s phone_selected 0
+tp @c ~4 ~ ~6 facing ~-4 ~ ~
 
 function reset_agent_inventory
