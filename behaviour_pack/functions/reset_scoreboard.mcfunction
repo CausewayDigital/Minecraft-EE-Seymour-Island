@@ -200,6 +200,10 @@ scoreboard objectives remove task_8_player
 scoreboard objectives add task_8_player dummy
 scoreboard players set @a task_8_player 0
 
+scoreboard objectives remove crypto_robot
+scoreboard objectives add crypto_robot dummy
+scoreboard players set @a crypto_robot 0
+
 scoreboard objectives remove crypto_score
 scoreboard objectives add crypto_score dummy
 scoreboard players set @a crypto_score 0

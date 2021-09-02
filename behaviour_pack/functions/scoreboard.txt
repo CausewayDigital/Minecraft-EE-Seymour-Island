@@ -85,6 +85,9 @@ task_8_player
 
 # Cryptography Robots
 
+# The current robot number that the player is on. Used for hints
+crypto_robot
+
 # The number of correct Letters the player has inputed
 crypto_score
 
