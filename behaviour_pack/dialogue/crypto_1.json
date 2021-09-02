@@ -351,6 +351,66 @@
                 "on_open_commands": [],
                 "scene_tag": "crypto_1_next_loc",
                 "text": "Next robot is Robot 2"
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s crypto_robot 0"
+                        ],
+                        "name": "OK!"
+                    }
+                ],
+                "npc_name": "Cryptographer 1",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "crypto_2_next_loc",
+                "text": "Robot 3"
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s crypto_robot 0"
+                        ],
+                        "name": "OK!"
+                    }
+                ],
+                "npc_name": "Cryptographer 1",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "crypto_3_next_loc",
+                "text": "Robot 4"
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s crypto_robot 0"
+                        ],
+                        "name": "OK!"
+                    }
+                ],
+                "npc_name": "Cryptographer 1",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "crypto_4_next_loc",
+                "text": "Robot 5"
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s crypto_robot 0"
+                        ],
+                        "name": "OK!"
+                    }
+                ],
+                "npc_name": "Cryptographer 1",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "crypto_5_next_loc",
+                "text": "Robot 1"
             }
         ]
     }
