@@ -304,7 +304,9 @@
                         "name": "Hint"
                     },
                     {
-                        "commands": [],
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/next_loc"
+                        ],
                         "name": "Next Location"
                     },
                     {
@@ -334,6 +336,21 @@
                 "on_open_commands": [],
                 "scene_tag": "crypto_1_intro",
                 "text": "Welcome to the library, help us"
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s crypto_robot 0"
+                        ],
+                        "name": "OK!"
+                    }
+                ],
+                "npc_name": "Cryptographer 1",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "crypto_1_next_loc",
+                "text": "Next robot is Robot 2"
             }
         ]
     }
