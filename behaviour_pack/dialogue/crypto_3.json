@@ -298,7 +298,26 @@
                 "text": "7:5:1 8:7:7 1:4:8 5:3:6 3:6:2 6:5:1\n\n\n\nWhat is the final letter of the secret message?"
             },
             {
-                "buttons": [],
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, tag=crypto_3, c=1] @s crypto_3_hint"
+                        ],
+                        "name": "Hint"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, tag=crypto_3, c=1] @s crypto_3_next_loc"
+                        ],
+                        "name": "Next Location"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, tag=crypto_3, c=1] @s crypto_3_intro"
+                        ],
+                        "name": "Back"
+                    }
+                ],
                 "npc_name": "Cryptographer 3",
                 "on_close_commands": [],
                 "on_open_commands": [],
@@ -312,6 +331,32 @@
                 "on_open_commands": [],
                 "scene_tag": "crypto_3_intro",
                 "text": ""
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [],
+                        "name": "Thanks!"
+                    }
+                ],
+                "npc_name": "Cryptographer 3",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "crypto_3_hint",
+                "text": "Hint 3"
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [],
+                        "name": "Thanks!"
+                    }
+                ],
+                "npc_name": "Cryptographer 3",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "crypto_3_next_loc",
+                "text": "Robot 4"
             }
         ]
     }

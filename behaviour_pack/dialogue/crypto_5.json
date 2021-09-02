@@ -343,7 +343,26 @@
                 "text": "TysnosiRo_efnhrY_sco,osPstrr_utTaoemyl__frtaodEiee_tu_Ntl_ii_fC.\n\n\n\nWhat is the final letter of the secret message?"
             },
             {
-                "buttons": [],
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, tag=crypto_5, c=1] @s crypto_5_hint"
+                        ],
+                        "name": "Hint"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, tag=crypto_5, c=1] @s crypto_5_next_loc"
+                        ],
+                        "name": "Next Location"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, tag=crypto_5, c=1] @s crypto_5_intro"
+                        ],
+                        "name": "Back"
+                    }
+                ],
                 "npc_name": "Cryptographer 5",
                 "on_close_commands": [],
                 "on_open_commands": [],
@@ -357,6 +376,32 @@
                 "on_open_commands": [],
                 "scene_tag": "crypto_5_intro",
                 "text": ""
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [],
+                        "name": "Thanks!"
+                    }
+                ],
+                "npc_name": "Cryptographer 5",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "crypto_5_hint",
+                "text": "Hint 5"
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [],
+                        "name": "Thanks!"
+                    }
+                ],
+                "npc_name": "Cryptographer 5",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "crypto_5_next_loc",
+                "text": "Robot 1"
             }
         ]
     }
