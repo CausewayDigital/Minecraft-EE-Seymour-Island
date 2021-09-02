@@ -267,6 +267,19 @@
                 "on_open_commands": [],
                 "scene_tag": "crypto_4_hint",
                 "text": "Hint 4"
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [],
+                        "name": "Exit"
+                    }
+                ],
+                "npc_name": "Cryptographer 4",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "crypto_4_correct",
+                "text": "Well Done!"
             }
         ]
     }
