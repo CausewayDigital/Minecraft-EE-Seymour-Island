@@ -402,6 +402,19 @@
                 "on_open_commands": [],
                 "scene_tag": "crypto_5_next_loc",
                 "text": "Robot 1"
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [],
+                        "name": "Exit"
+                    }
+                ],
+                "npc_name": "Cryptographer 5",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "crypto_5_correct",
+                "text": "Well Done!"
             }
         ]
     }
