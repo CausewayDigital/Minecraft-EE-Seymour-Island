@@ -442,10 +442,10 @@
                         "name": "Thanks!"
                     }
                 ],
-                "npc_name": "Cryptographer 2",
+                "npc_name": "Cryptographer 5",
                 "on_close_commands": [],
                 "on_open_commands": [],
-                "scene_tag": "crypto_2",
+                "scene_tag": "crypto_2_next_loc",
                 "text": "Robot 3"
             }
         ]
