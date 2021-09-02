@@ -51,7 +51,6 @@ scoreboard players set @s task_7_done 0
 scoreboard players set @s task_7_player 0
 scoreboard players set @s task_8_done 0
 scoreboard players set @s task_8_player 0
-scoreboard players set @s crypto_robot 0
 scoreboard players set @s crypto_score 0
 scoreboard players set @s crypto_current 0
 scoreboard players set @s crypto_cmplt_1 0
