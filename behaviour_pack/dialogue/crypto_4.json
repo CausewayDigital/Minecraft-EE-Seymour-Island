@@ -222,6 +222,21 @@
                 "on_open_commands": [],
                 "scene_tag": "crypto_4_intro",
                 "text": ""
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s crypto_robot 0"
+                        ],
+                        "name": "OK!"
+                    }
+                ],
+                "npc_name": "Cryptographer 4",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "crypto_4_next_loc",
+                "text": "Robot 5"
             }
         ]
     }
