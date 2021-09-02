@@ -252,8 +252,8 @@
                 "npc_name": "Cryptographer 4",
                 "on_close_commands": [],
                 "on_open_commands": [],
-                "scene_tag": "task_4_hint",
-                "text": "Hint 4"
+                "scene_tag": "crypto_4_next_loc",
+                "text": "Robot 5"
             },
             {
                 "buttons": [
@@ -265,8 +265,8 @@
                 "npc_name": "Cryptographer 4",
                 "on_close_commands": [],
                 "on_open_commands": [],
-                "scene_tag": "crypto_4_next_loc",
-                "text": "Robot 5"
+                "scene_tag": "crypto_4_hint",
+                "text": "Hint 4"
             }
         ]
     }
