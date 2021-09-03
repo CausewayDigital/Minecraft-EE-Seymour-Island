@@ -98,3 +98,5 @@ crypto_cmplt_4
 crypto_cmplt_5
 
 crypto_timer
+
+crypto_loc_show

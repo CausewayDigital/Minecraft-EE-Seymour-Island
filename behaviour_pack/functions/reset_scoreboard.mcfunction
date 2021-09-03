@@ -232,3 +232,7 @@ scoreboard objectives remove crypto_timer
 scoreboard objectives add crypto_timer dummy
 scoreboard players set @a crypto_timer 0
 
+scoreboard objectives remove crypto_loc_show
+scoreboard objectives add crypto_loc_show dummy
+scoreboard players set @a crypto_loc_show 0
+

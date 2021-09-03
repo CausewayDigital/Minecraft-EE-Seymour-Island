@@ -59,6 +59,7 @@ scoreboard players set @s crypto_cmplt_3 0
 scoreboard players set @s crypto_cmplt_4 0
 scoreboard players set @s crypto_cmplt_5 0
 scoreboard players set @s crypto_timer 0
+scoreboard players set @s crypto_loc_show 0
 
 title @s title Welcome to Seymour Island Map
 tp @s -876 124 386 facing -876 124 388
