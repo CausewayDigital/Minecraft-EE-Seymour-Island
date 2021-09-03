@@ -1,0 +1,121 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "buttons": [
+                    {
+                        "commands": [],
+                        "name": "OK!"
+                    }
+                ],
+                "npc_name": "Adventurer",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "crypto_a_loc_1",
+                "text": "Robot 1"
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [],
+                        "name": "OK!"
+                    }
+                ],
+                "npc_name": "Adventurer",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "crypto_a_loc_2",
+                "text": "Robot 2"
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [],
+                        "name": "OK!"
+                    }
+                ],
+                "npc_name": "Adventurer",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "crypto_a_loc_3",
+                "text": "Robot 3"
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [],
+                        "name": "OK!"
+                    }
+                ],
+                "npc_name": "Adventurer",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "crypto_a_loc_4",
+                "text": "Robot 4"
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [],
+                        "name": "OK!"
+                    }
+                ],
+                "npc_name": "Adventurer",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "crypto_a_loc_5",
+                "text": "Robot 5"
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/vault/start"
+                        ],
+                        "name": "Sure!"
+                    },
+                    {
+                        "commands": [],
+                        "name": "Nah mate"
+                    }
+                ],
+                "npc_name": "Adventurer",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "crypto_a_vault",
+                "text": "Do you want to go to vault?"
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/adventurer"
+                        ],
+                        "name": "Next"
+                    }
+                ],
+                "npc_name": "Adventurer",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "crypto_a_intro",
+                "text": "Intro..."
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, tag=adventurer, c=1] @s crypto_a_vault"
+                        ],
+                        "name": "Next"
+                    }
+                ],
+                "npc_name": "Adventurer",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "crypto_a_buffer",
+                "text": "Buffer after all robots are done"
+            }
+        ]
+    }
+}
