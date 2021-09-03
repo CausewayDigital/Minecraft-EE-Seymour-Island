@@ -1,0 +1,292 @@
+books need to include
+
+example of:
+
+# CYPHER or cipher
+
+BOOK 1) alternative example, sometimes mistakes are made to mark a word as being part of a cipher, eg having a comma after every keyword
+
+- 'random' capital letters
+- similar cipher example - eg sentence with randomly placed commas 
+- things that look like mistakes might be intentional
+- find name for type of cipher ? - come back to things
+- preculiar mistakes might mean something
+-> katherine johnson (+ team of computers)
+
+2) sounding out phonetic translations into real words (luvlais to lovelace)
+     reference to ada lovelace
+- robot 2 - international phonetic alphabet
+- simple cipher to put it in a different alphabet eg russian or greek
+- translation table on accompanying worksheet
+- trying saying it aloud
+- ADA LOVELACE in this book
+Did you know 
+
+
+3) bible cipher
+- bunch of numbers
+-line the word is on, the number of the word on the line and the character of that word
+-> mayor's speech
+- find line/word/speech -> book cipher
+---book cipher uses any piece of text shared by both people  
+the most common book cipher is a bible cipher
+- before the printing press most people had the bible -> 
+    -you used to be able to go into your local church and read the book?
+    - everyone used to have access as it was so common
+    - another common one is the American Declaration of Independance
+    - brief example 
+        -using a simple sentence 
+            -quick brown fox?
+    -intro text of robot needs indication that there's been eve's dropping
+
+- tim berner lee
+
+
+4) caesar cipher
+     turing is estimated to have saves over 2mill lifes with his groundbreaking work in computing and cryptography
+- turing
+
+-ceaser cipher shifted by 10
+-robot: did u know its 10 billion lightyears to andromeda galaxy.... anyway
+
+- spot because the formatting is similar to a normal sentence.
+letters are gibberish
+- can brute force, but thats slower, it will be much quicker to look for the key 
+- letter frequencies / or use code convertors
+- the key might be in the same place as the ciphertext 
+-often key sent with the ciphertext :)
+- an example of a substitution cipher 
+    - eg. true random substitution - any letter connected to any other letter : freq analysis to break, or break by word length 
+- easy to send decryption key subtley
+- true random is harder for ur recipient to decode
+
+---
+
+
+5) transposition cipher (Columnar transposition)
+     write ciphertext down n characters then move to next coloumb, plaintext will appear leftoright
+
+- column transposition cipher
+- already has all the letters you need just in the wrong order - like an anagram with a full sentence not just one word
+- column t cipher 
+    - write your text 5 characters at a time 
+    - key is how many characters along until you wrap around
+    - ex is 8x8 but could be rectangle instead of square
+
+- 2 or 3 examples so they see it
+
+- lesson is that they exist
+- formatting scrambling
+- simple generation of ciphertext but so difficult to decrypt 
+- just looks like gibberish
+- hard to work it out if you didn't know
+- doesnt even look like words
+- just reordering current information :) 
+
+    robot text - noahs eight by eight
+    eight days and nights
+    or eight
+
+->grace hopper
+-hardest cipher
+
+grace hopper, tim berner lee, katherine johnson (+ team of computers), turing, adalovelace, 
+
+
+- need seperate teacher worksheet and how you get to the solutions
+- explicit version of the above
+
+
+
+//////
+
+    Books explaining the different ciphers
+        Capitals
+        Phonetic alphabet
+        Book cipher
+        Caesar cipher
+        Transposition cipher
+
+    Actual CipherTexts
+        need to figure out the lore
+
+    Placement of robots
+        need to remove old robot (ask sam if he know the locations)
+        Test how hard current locations are to find
+
+    Building
+        Robots secret base (need to consult sam for lore)
+        Signposting to library + Library redesign
+        Remove archive to avoid confusion
+        Furnish robot 3's house and maybe block off the other open house
+
+    Functions for input
+        Scoreboard that keeps track of correct letters and accepts answer as correct if all letter are correct (and therefore the scoreboard it at its highest value)
+        If you get it wrong have a title pop up for you telling you you got it wrong, (maybe a cooldown before you can try again or maybe teleport you back to the fountain)
+
+    Worksheet
+        Map so kids can mark off the location of robots they've found
+        Phonetic Alphabet
+        Grid for the transposition cipher
+        Place to write all the code words
+        Reference to the library
+
+
+-> katherine johnson (+ team of computers)
+
+
+1. do the text 
+2. do the code history background
+3. snags + send it over
+
+--------- Book 1 ---------------------
+-> Grace Hopper
+
+One of the most important skills for a codebreaker is to be able to spot patterns and inconsistencies. 
+When someone is sending a secret message they might put clues in unexpected places or in unexpected ways. 
+
+Key terms:
+Cipher - A cipher is a method of obscuring information, in this puzzle there are five examples, 
+    but there are countless different ciphers and variations.
+Plaintext - This is the term we use for the secret message in it's normal form.
+Ciphertext - This is the term we use for the message when it has been obscured in some way using a cipher.
+Key - This is the term we use for the number or rule which cracks the cipher, this is the hidden piece of information which acts like a key in a lock for the secret message.
+
+Can you work out what the hidden message is?
+Remember: Sometimes a mistake is not a mistake but an intentional message :)
+
+Ciphertext: Bigg rred eaars are cceertain signs  thhat yoou might pposess ppurplee elven rrelatives.
+
+Key: The key here is the rule that you should make a note of every time a letter is repeated (not including letters which normally repeat like the s in posess)
+Plaintext: grace hopper 
+
+Wait who is Grace Hopper?
+
+Glad you asked. 
+
+she! type pillow helped! snail they write! football code! draw that! dog 
+post sent! letter people! wrists to! lamps sunshine the! moon!
+
+Solution:
+she helped write code that sent people to the moon
+
+...-> insert Grace hopper info here later but not now so i don't get distracted :)
+
+
+One more example:
+
+A,stronauts p,refer the co,l,our yel,lo,w
+
+Answer? Apollo
+
+----------------end ------------------
+2) sounding out phonetic translations into real words (luvlais to lovelace)
+     reference to ada lovelace
+- robot 2 - international phonetic alphabet
+- simple cipher to put it in a different alphabet eg russian or greek
+- translation table on accompanying worksheet
+- trying saying it aloud
+- ADA LOVELACE in this book
+Did you know 
+--------- Book 2 ---------------------
+
+Hola! One way to change a communication is to send it in different language. 
+That can work if only the people you want to know the message understand that language,
+but nowadays we can use the internet to translate most languages. That can lead people to use more obscure languages,
+or to make up their own.
+
+eg. piglatin 
+eg. leetspeak :)
+
+
+What if we didn't use a different language, but instead used a different alphabet?
+
+Here's a made up example:
+
+βοθκ, ΓΘβοτ, ρξτΣ -> could become -> book, robot, pete. 
+This example uses the greek alphabet. To an english speaker we might think that the Greek letter ξ looks like a capital E,
+but to a greek speaker they know that letter to be the greek symbol for Xi, the equivalent of X, so those are just nonsense phrases to them. 
+
+
+ α 	Alpha 	a 	
+Β 	β 	Beta 	b 	
+Γ 	γ 	Gamma 	g 	
+Δ 	δ 	Delta 	d 	
+Ε 	ε 	Epsilon 	e 	
+Ζ 	ζ 	Zeta 	z 	
+Η 	η 	Eta 	h 	
+Θ 	θ 	Theta 	th 	
+Ι 	ι 	Iota 	i 	
+Κ 	κ 	Kappa 	k 	
+Λ 	λ 	Lambda 	l 	
+Μ 	μ 	Mu 	m 	
+Ν 	ν 	Nu 	n 	
+Ξ 	ξ 	Xi 	x 	
+Ο 	ο 	Omicron 	o 	
+Π 	π 	Pi 	p 	
+Ρ 	ρ 	Rho 	r 	
+Σ 	σ,ς * 	Sigma 	s 	
+Τ 	τ 	Tau 	t 	
+Υ 	υ 	Upsilon 	u 	
+Φ 	φ 	Phi 	ph 	
+Χ 	χ 	Chi 	ch 	
+Ψ 	ψ 	Psi 	ps 	
+Ω 	ω
+
+----end ----
+
+
+3) bible cipher
+- bunch of numbers
+-line the word is on, the number of the word on the line and the character of that word
+-> mayor's speech
+- find line/word/speech -> book cipher
+---book cipher uses any piece of text shared by both people  
+the most common book cipher is a bible cipher
+- before the printing press most people had the bible -> 
+    -you used to be able to go into your local church and read the book?
+    - everyone used to have access as it was so common
+    - another common one is the American Declaration of Independance
+    - brief example 
+        -using a simple sentence 
+            -quick brown fox?
+    -intro text of robot needs indication that there's been eve's dropping
+
+- tim berner lee
+
+--------- Book 3 ---------------------
+I am sure someone will notice if I keep sending long scrambled messages...
+Instead of sending you all the information you needed to break a code, what if I relied on the information I knew you already had?
+This is what this next type of cipher does. Here is an example:
+
+If I knew you had just read the lines above this, what might the following mean: 
+
+Key:
+2:16 1:2 1:10 2:4 2:7 3:10
+
+Solution:
+I am sending you information here
+
+Each pair of numbers matches to a line and to a word on that line, eg: 1:2 is the first line and the second word, so I.
+
+This is called the book cipher. In the book cipher there might be another number in each code to indicate the page as well.
+This relies on both the sender and reciever having the same book or piece of text with which to communicate with.
+This can also be called the bible cipher because historically the bible has been such an accessible text, but other examples of text used for this cipher
+includ the American Declaration of Independance as well as the Oxford English Dictionary.
+
+Another example:
+
+Ciphertext: The quick brown fox jumped over the lazy dog.
+Key: 1:2 1:3 8:1 9:2
+Plaintext: hello
+
+This example changes what each number refers to. This time it indicates the word and then the letter in the word.
+eg 1:2 is the first word, second letter - aka h
+
+The strength of the cipher is that you can pre-agree the text before hand and then even if someone finds the key, they still have no idea which book to try to use it on.
+
+--------- Book 4 ---------------------
+
+
+--------- Book 5 ---------------------
+
