@@ -9,11 +9,11 @@ execute @s[scores={crypto_cmplt_2=0}] ~ ~ ~ scoreboard players set @s crypto_loc
 execute @s[scores={crypto_cmplt_1=0}] ~ ~ ~ scoreboard players set @s crypto_loc_show 1
 
 # Set the dialogue box depending on the scoreboard you obtained above
-execute @s[scores={=crypto_loc_show=1}] ~ ~ ~ dialogue open @e[type=npc, tag=adventurer, c=1] @s crypto_a_loc_1
-execute @s[scores={=crypto_loc_show=2}] ~ ~ ~ dialogue open @e[type=npc, tag=adventurer, c=1] @s crypto_a_loc_2
-execute @s[scores={=crypto_loc_show=3}] ~ ~ ~ dialogue open @e[type=npc, tag=adventurer, c=1] @s crypto_a_loc_3
-execute @s[scores={=crypto_loc_show=4}] ~ ~ ~ dialogue open @e[type=npc, tag=adventurer, c=1] @s crypto_a_loc_4
-execute @s[scores={=crypto_loc_show=5}] ~ ~ ~ dialogue open @e[type=npc, tag=adventurer, c=1] @s crypto_a_loc_5
+execute @s[scores={crypto_loc_show=1}] ~ ~ ~ dialogue open @e[type=npc, tag=adventurer, c=1] @s crypto_a_loc_1
+execute @s[scores={crypto_loc_show=2}] ~ ~ ~ dialogue open @e[type=npc, tag=adventurer, c=1] @s crypto_a_loc_2
+execute @s[scores={crypto_loc_show=3}] ~ ~ ~ dialogue open @e[type=npc, tag=adventurer, c=1] @s crypto_a_loc_3
+execute @s[scores={crypto_loc_show=4}] ~ ~ ~ dialogue open @e[type=npc, tag=adventurer, c=1] @s crypto_a_loc_4
+execute @s[scores={crypto_loc_show=5}] ~ ~ ~ dialogue open @e[type=npc, tag=adventurer, c=1] @s crypto_a_loc_5
 
 
 # Vault prompt
