@@ -55,4 +55,4 @@ execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=
 
 
 # Update the status board of which tasks are in use/free
-function task6/loop_status_board
+#execute @p ~ ~ ~ function task6/loop_status_board
