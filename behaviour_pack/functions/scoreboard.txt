@@ -84,7 +84,7 @@ task_8_done
 task_8_player
 
 # Multiplayer states -  These will be held by the armour stands in each room
-p1_sate_cur
+p1_state_cur
 p1_state_prev
 p2_state_cur
 p2_state_prev
