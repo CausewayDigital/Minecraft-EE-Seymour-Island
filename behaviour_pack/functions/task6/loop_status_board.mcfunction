@@ -8,7 +8,7 @@ execute @e[type=armor_stand, tag=task_6, x=-508, y=55, z=255, c=1] ~ ~ ~ scorebo
 execute @e[type=armor_stand, tag=task_6, x=-508, y=55, z=255, c=1] ~ ~ ~ scoreboard players operation @s p2_state_prev = @s p2_state_cur
 
 # Set new current state. This can be the same as it was before
-execute @s ~ ~ ~ detect -501 62 256 air -1 execute @e[type=armor_stand, tag=task_6, x=-508, y=55, z=255, c=1] ~ ~ ~ scoreboard players set @s p1_state_cur 1
+execute @s ~ ~ ~ detect -501 62 256 barrel -1 execute @e[type=armor_stand, tag=task_6, x=-508, y=55, z=255, c=1] ~ ~ ~ scoreboard players set @s p1_state_cur 1
 execute @s ~ ~ ~ detect -501 62 256 barrel -1 execute @e[type=armor_stand, tag=task_6, x=-508, y=55, z=255, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 1
 
 # Set sign update state
