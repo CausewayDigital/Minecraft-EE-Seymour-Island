@@ -200,6 +200,26 @@ scoreboard objectives remove task_8_player
 scoreboard objectives add task_8_player dummy
 scoreboard players set @a task_8_player 0
 
+scoreboard objectives remove p1_sate_cur
+scoreboard objectives add p1_sate_cur dummy
+scoreboard players set @a p1_sate_cur 0
+
+scoreboard objectives remove p1_state_prev
+scoreboard objectives add p1_state_prev dummy
+scoreboard players set @a p1_state_prev 0
+
+scoreboard objectives remove p2_state_cur
+scoreboard objectives add p2_state_cur dummy
+scoreboard players set @a p2_state_cur 0
+
+scoreboard objectives remove p2_state_prev
+scoreboard objectives add p2_state_prev dummy
+scoreboard players set @a p2_state_prev 0
+
+scoreboard objectives remove update_signs
+scoreboard objectives add update_signs dummy
+scoreboard players set @a update_signs 0
+
 scoreboard objectives remove crypto_score
 scoreboard objectives add crypto_score dummy
 scoreboard players set @a crypto_score 0
