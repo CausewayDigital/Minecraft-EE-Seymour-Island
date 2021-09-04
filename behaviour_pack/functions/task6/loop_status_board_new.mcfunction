@@ -1,6 +1,5 @@
 # Executed as main loop
-# Reset update signs
-execute @e[type=armor_stand, tag=task_6, x=-508, y=55, z=255, c=1] ~ ~ ~ scoreboard players set @s update_signs 0
+
 # Set state machine
 
 # Set previous state to the current state
@@ -38,3 +37,6 @@ execute @e[type=armor_stand, tag=task_6, x=-508, y=55, z=255, c=1, scores={p1_st
 
 # If 1 in use and 2 in use
 execute @e[type=armor_stand, tag=task_6, x=-508, y=55, z=255, c=1, scores={p1_state_cur=1, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -510 76 45 -510 76 245 -512 69 247
+
+# Reset update signs
+execute @e[type=armor_stand, tag=task_6, x=-508, y=55, z=255, c=1] ~ ~ ~ scoreboard players set @s update_signs 0
