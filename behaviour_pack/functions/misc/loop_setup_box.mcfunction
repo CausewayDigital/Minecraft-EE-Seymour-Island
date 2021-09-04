@@ -51,7 +51,7 @@ scoreboard players set @s task_7_done 0
 scoreboard players set @s task_7_player 0
 scoreboard players set @s task_8_done 0
 scoreboard players set @s task_8_player 0
-scoreboard players set @s p1_sate_cur 0
+scoreboard players set @s p1_state_cur 0
 scoreboard players set @s p1_state_prev 0
 scoreboard players set @s p2_state_cur 0
 scoreboard players set @s p2_state_prev 0

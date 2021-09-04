@@ -200,9 +200,9 @@ scoreboard objectives remove task_8_player
 scoreboard objectives add task_8_player dummy
 scoreboard players set @a task_8_player 0
 
-scoreboard objectives remove p1_sate_cur
-scoreboard objectives add p1_sate_cur dummy
-scoreboard players set @a p1_sate_cur 0
+scoreboard objectives remove p1_state_cur
+scoreboard objectives add p1_state_cur dummy
+scoreboard players set @a p1_state_cur 0
 
 scoreboard objectives remove p1_state_prev
 scoreboard objectives add p1_state_prev dummy
