@@ -170,7 +170,15 @@ post sent! letter people! wrists to! lamps sunshine the! moon!
 Solution:
 she helped write code that sent people to the moon
 
-...-> insert Grace hopper info here later but not now so i don't get distracted :)
+Grace Hopper was an Americian mathematician, computer scientist and Admiral in the navy. She was born in 1906.
+
+She was part of a team that created the first computer compiler. This is a part of a computer which turns human understandable words and numbers into 
+the binary digits (strings of 1s and 0s) that a circuit can understand. 
+Every modern coding language relies on the work she did in developing this compiler.
+Once, a computer Hopper was working on kept short circuiting. She realised a small moth was trapped in the machine, after fishing the bug out of the computer
+the code began to work. To this day you will hear computer programmers talk about de-bugging their code when something goes wrong with it.
+
+Hopper also worked on a special computer called the UNIVAC, this computer was later used by NASA to communicate with astronauts on the Apollo moon missions.
 
 
 One more example:
@@ -285,8 +293,48 @@ eg 1:2 is the first word, second letter - aka h
 
 The strength of the cipher is that you can pre-agree the text before hand and then even if someone finds the key, they still have no idea which book to try to use it on.
 
---------- Book 4 ---------------------
+---- end of book 3---------------
+4) caesar cipher
+     turing is estimated to have saves over 2mill lifes with his groundbreaking work in computing and cryptography
+- turing
 
+-ceaser cipher shifted by 10
+-robot: did u know its 10 billion lightyears to andromeda galaxy.... anyway
+
+- spot because the formatting is similar to a normal sentence.
+letters are gibberish
+- can brute force, but thats slower, it will be much quicker to look for the key 
+- letter frequencies / or use code convertors
+- the key might be in the same place as the ciphertext 
+-often key sent with the ciphertext :)
+- an example of a substitution cipher 
+    - eg. true random substitution - any letter connected to any other letter : freq analysis to break, or break by word length 
+- easy to send decryption key subtley
+- true random is harder for ur recipient to decode
+
+--------- Book 4 ---------------------
+The Caesar Cypher is named after ancient Roman emperor, Julias Caesar, who used this method to hide messages sent about the military.
+This cipher is easier to spot as a scrambled message than some of the others, as the sentence and word lengths tend to be maintained, but the content is scrambled and unreadable.
+
+Here is an example:
+Ciphertext:Xixq Qrofkd zoxzhba qeb zlab
+Key:3
+
+Plaintext: Alan Turing cracked the code
+
+We get this plaintext by writing out the alphabet and then below writing the same alphabet but shifting it by the key amount. 
+In this example, the key is 3 so we write a beneath d (a is letter 1+3 is letter 4 which is d) and then keep writing the alphabet, wrapping the letters around at the end. 
+
+a b c d e f g h i j k l m n o p q r s t u v w x y z  (plaintext)
+---------------------------------------------------
+x y z a b c d e f g h i j k l m n o p q r s t u v w  (ciphertext)
+
+now we can use this table to translate plain to cypher and vice versa.
+
+eg. a in plaintext is now written x and an l in ciphertext means an o.
+
+Who was Alan Turing?
+Born in 1912 Alan Turing was an English 
 
 --------- Book 5 ---------------------
 
