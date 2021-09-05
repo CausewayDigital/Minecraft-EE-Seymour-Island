@@ -34,16 +34,16 @@ execute @e[type=armor_stand, tag=task_7, x=-472, y=54, z=275, c=1, scores={p2_st
 
 # Set Signs
 # If neither is in use
-execute @e[type=armor_stand, tag=task_7, x=-472, y=54, z=275, c=1, r=1, scores={p1_state_cur=0, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -510 76 248 -510 76 248 -457 78 283
+execute @e[type=armor_stand, tag=task_7, x=-472, y=54, z=275, c=1, r=1, scores={p1_state_cur=0, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -482 56 274 -482 56 274 -457 78 283
 
 # If 1 is free and 2 is in use
-execute @e[type=armor_stand, tag=task_7, x=-472, y=54, z=275, c=1, r=1, scores={p1_state_cur=0, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -510 76 247 -510 76 247 -457 78 283
+execute @e[type=armor_stand, tag=task_7, x=-472, y=54, z=275, c=1, r=1, scores={p1_state_cur=0, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -482 56 273 -482 56 273 -457 78 283
 
 # If 1 is in use and 2 is free
-execute @e[type=armor_stand, tag=task_7, x=-472, y=54, z=275, c=1, r=1, scores={p1_state_cur=1, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -510 76 246 -510 76 246 -457 78 283
+execute @e[type=armor_stand, tag=task_7, x=-472, y=54, z=275, c=1, r=1, scores={p1_state_cur=1, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -482 56 272 -482 56 272 -457 78 283
 
 # If both 1 and 2 are in use
-execute @e[type=armor_stand, tag=task_7, x=-472, y=54, z=275, c=1, r=1, scores={p1_state_cur=1, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -510 76 245 -510 76 245 -457 78 283
+execute @e[type=armor_stand, tag=task_7, x=-472, y=54, z=275, c=1, r=1, scores={p1_state_cur=1, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -482 56 271 -482 56 271 -457 78 283
 
 # Reset update signs
 execute @e[type=armor_stand, tag=task_7, x=-472, y=54, z=255, c=1] ~ ~ ~ scoreboard players set @s update_signs 0
@@ -78,16 +78,16 @@ execute @e[type=armor_stand, tag=task_7, x=-472, y=54, z=255, c=1, scores={p2_st
 
 # Set Signs
 # If neither is in use
-execute @e[type=armor_stand, tag=task_7, x=-472, y=54, z=255, c=1, r=1, scores={p1_state_cur=0, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -510 76 248 -510 76 248 -457 78 282
+execute @e[type=armor_stand, tag=task_7, x=-472, y=54, z=255, c=1, r=1, scores={p1_state_cur=0, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -482 56 274 -482 56 274 -457 78 282
 
 # If 1 is free and 2 is in use
-execute @e[type=armor_stand, tag=task_7, x=-472, y=54, z=255, c=1, r=1, scores={p1_state_cur=0, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -510 76 247 -510 76 247 -457 78 282
+execute @e[type=armor_stand, tag=task_7, x=-472, y=54, z=255, c=1, r=1, scores={p1_state_cur=0, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -482 56 273 -482 56 273 -457 78 282
 
 # If 1 is in use and 2 is free
-execute @e[type=armor_stand, tag=task_7, x=-472, y=54, z=255, c=1, r=1, scores={p1_state_cur=1, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -510 76 246 -510 76 246 -457 78 282
+execute @e[type=armor_stand, tag=task_7, x=-472, y=54, z=255, c=1, r=1, scores={p1_state_cur=1, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -482 56 272 -482 56 272 -457 78 282
 
 # If both 1 and 2 are in use
-execute @e[type=armor_stand, tag=task_7, x=-472, y=54, z=255, c=1, r=1, scores={p1_state_cur=1, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -510 76 245 -510 76 245 -457 78 282
+execute @e[type=armor_stand, tag=task_7, x=-472, y=54, z=255, c=1, r=1, scores={p1_state_cur=1, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -482 56 271 -482 56 271 -457 78 282
 
 # Reset update signs
 execute @e[type=armor_stand, tag=task_7, x=-472, y=39, z=275, c=1] ~ ~ ~ scoreboard players set @s update_signs 0
@@ -122,16 +122,16 @@ execute @e[type=armor_stand, tag=task_7, x=-472, y=39, z=275, c=1, scores={p2_st
 
 # Set Signs
 # If neither is in use
-execute @e[type=armor_stand, tag=task_7, x=-472, y=39, z=275, c=1, r=1, scores={p1_state_cur=0, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -510 76 248 -510 76 248 -457 78 281
+execute @e[type=armor_stand, tag=task_7, x=-472, y=39, z=275, c=1, r=1, scores={p1_state_cur=0, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -482 56 274 -482 56 274 -457 78 281
 
 # If 1 is free and 2 is in use
-execute @e[type=armor_stand, tag=task_7, x=-472, y=39, z=275, c=1, r=1, scores={p1_state_cur=0, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -510 76 247 -510 76 247 -457 78 281
+execute @e[type=armor_stand, tag=task_7, x=-472, y=39, z=275, c=1, r=1, scores={p1_state_cur=0, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -482 56 273 -482 56 273 -457 78 281
 
 # If 1 is in use and 2 is free
-execute @e[type=armor_stand, tag=task_7, x=-472, y=39, z=275, c=1, r=1, scores={p1_state_cur=1, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -510 76 246 -510 76 246 -457 78 281
+execute @e[type=armor_stand, tag=task_7, x=-472, y=39, z=275, c=1, r=1, scores={p1_state_cur=1, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -482 56 272 -482 56 272 -457 78 281
 
 # If both 1 and 2 are in use
-execute @e[type=armor_stand, tag=task_7, x=-472, y=39, z=275, c=1, r=1, scores={p1_state_cur=1, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -510 76 245 -510 76 245 -457 78 281
+execute @e[type=armor_stand, tag=task_7, x=-472, y=39, z=275, c=1, r=1, scores={p1_state_cur=1, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -482 56 271 -482 56 271 -457 78 281
 
 # Reset update signs
 execute @e[type=armor_stand, tag=task_7, x=-472, y=39, z=255, c=1] ~ ~ ~ scoreboard players set @s update_signs 0
@@ -166,16 +166,16 @@ execute @e[type=armor_stand, tag=task_7, x=-472, y=39, z=255, c=1, scores={p2_st
 
 # Set Signs
 # If neither is in use
-execute @e[type=armor_stand, tag=task_7, x=-472, y=39, z=255, c=1, r=1, scores={p1_state_cur=0, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -510 76 248 -510 76 248 -457 78 280
+execute @e[type=armor_stand, tag=task_7, x=-472, y=39, z=255, c=1, r=1, scores={p1_state_cur=0, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -482 56 274 -482 56 274 -457 78 280
 
 # If 1 is free and 2 is in use
-execute @e[type=armor_stand, tag=task_7, x=-472, y=39, z=255, c=1, r=1, scores={p1_state_cur=0, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -510 76 247 -510 76 247 -457 78 280
+execute @e[type=armor_stand, tag=task_7, x=-472, y=39, z=255, c=1, r=1, scores={p1_state_cur=0, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -482 56 273 -482 56 273 -457 78 280
 
 # If 1 is in use and 2 is free
-execute @e[type=armor_stand, tag=task_7, x=-472, y=39, z=255, c=1, r=1, scores={p1_state_cur=1, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -510 76 246 -510 76 246 -457 78 280
+execute @e[type=armor_stand, tag=task_7, x=-472, y=39, z=255, c=1, r=1, scores={p1_state_cur=1, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -482 56 272 -482 56 272 -457 78 280
 
 # If both 1 and 2 are in use
-execute @e[type=armor_stand, tag=task_7, x=-472, y=39, z=255, c=1, r=1, scores={p1_state_cur=1, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -510 76 245 -510 76 245 -457 78 280
+execute @e[type=armor_stand, tag=task_7, x=-472, y=39, z=255, c=1, r=1, scores={p1_state_cur=1, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -482 56 271 -482 56 271 -457 78 280
 
 # Reset update signs
 execute @e[type=armor_stand, tag=task_7, x=-472, y=24, z=275, c=1] ~ ~ ~ scoreboard players set @s update_signs 0
@@ -210,16 +210,16 @@ execute @e[type=armor_stand, tag=task_7, x=-472, y=24, z=275, c=1, scores={p2_st
 
 # Set Signs
 # If neither is in use
-execute @e[type=armor_stand, tag=task_7, x=-472, y=24, z=275, c=1, r=1, scores={p1_state_cur=0, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -510 76 248 -510 76 248 -457 78 279
+execute @e[type=armor_stand, tag=task_7, x=-472, y=24, z=275, c=1, r=1, scores={p1_state_cur=0, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -482 56 274 -482 56 274 -457 78 279
 
 # If 1 is free and 2 is in use
-execute @e[type=armor_stand, tag=task_7, x=-472, y=24, z=275, c=1, r=1, scores={p1_state_cur=0, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -510 76 247 -510 76 247 -457 78 279
+execute @e[type=armor_stand, tag=task_7, x=-472, y=24, z=275, c=1, r=1, scores={p1_state_cur=0, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -482 56 273 -482 56 273 -457 78 279
 
 # If 1 is in use and 2 is free
-execute @e[type=armor_stand, tag=task_7, x=-472, y=24, z=275, c=1, r=1, scores={p1_state_cur=1, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -510 76 246 -510 76 246 -457 78 279
+execute @e[type=armor_stand, tag=task_7, x=-472, y=24, z=275, c=1, r=1, scores={p1_state_cur=1, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -482 56 272 -482 56 272 -457 78 279
 
 # If both 1 and 2 are in use
-execute @e[type=armor_stand, tag=task_7, x=-472, y=24, z=275, c=1, r=1, scores={p1_state_cur=1, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -510 76 245 -510 76 245 -457 78 279
+execute @e[type=armor_stand, tag=task_7, x=-472, y=24, z=275, c=1, r=1, scores={p1_state_cur=1, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -482 56 271 -482 56 271 -457 78 279
 
 # Reset update signs
 execute @e[type=armor_stand, tag=task_7, x=-472, y=24, z=255, c=1] ~ ~ ~ scoreboard players set @s update_signs 0
@@ -254,13 +254,13 @@ execute @e[type=armor_stand, tag=task_7, x=-472, y=24, z=255, c=1, scores={p2_st
 
 # Set Signs
 # If neither is in use
-execute @e[type=armor_stand, tag=task_7, x=-472, y=24, z=255, c=1, r=1, scores={p1_state_cur=0, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -510 76 248 -510 76 248 -457 78 278
+execute @e[type=armor_stand, tag=task_7, x=-472, y=24, z=255, c=1, r=1, scores={p1_state_cur=0, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -482 56 274 -482 56 274 -457 78 278
 
 # If 1 is free and 2 is in use
-execute @e[type=armor_stand, tag=task_7, x=-472, y=24, z=255, c=1, r=1, scores={p1_state_cur=0, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -510 76 247 -510 76 247 -457 78 278
+execute @e[type=armor_stand, tag=task_7, x=-472, y=24, z=255, c=1, r=1, scores={p1_state_cur=0, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -482 56 273 -482 56 273 -457 78 278
 
 # If 1 is in use and 2 is free
-execute @e[type=armor_stand, tag=task_7, x=-472, y=24, z=255, c=1, r=1, scores={p1_state_cur=1, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -510 76 246 -510 76 246 -457 78 278
+execute @e[type=armor_stand, tag=task_7, x=-472, y=24, z=255, c=1, r=1, scores={p1_state_cur=1, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -482 56 272 -482 56 272 -457 78 278
 
 # If both 1 and 2 are in use
-execute @e[type=armor_stand, tag=task_7, x=-472, y=24, z=255, c=1, r=1, scores={p1_state_cur=1, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -510 76 245 -510 76 245 -457 78 278
+execute @e[type=armor_stand, tag=task_7, x=-472, y=24, z=255, c=1, r=1, scores={p1_state_cur=1, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -482 56 271 -482 56 271 -457 78 278
