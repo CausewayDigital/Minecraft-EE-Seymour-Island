@@ -1,32 +1,266 @@
 # Run as main loop
 # Do not edit - Auto generated
 
-execute @s ~ ~ ~ detect -501 62 256 air -1 execute @s ~ ~ ~ detect -515 62 256 air -1 clone -510 76 248 -510 76 248 -512 69 247
-execute @s ~ ~ ~ detect -501 62 256 barrel -1 execute @s ~ ~ ~ detect -515 62 256 air -1 clone -510 76 249 -510 76 247 -512 69 247
-execute @s ~ ~ ~ detect -501 62 256 air -1 execute @s ~ ~ ~ detect -515 62 256 barrel -1 clone -510 76 250 -510 76 246 -512 69 247
-execute @s ~ ~ ~ detect -501 62 256 barrel -1 execute @s ~ ~ ~ detect -515 62 256 barrel -1 clone -510 76 251 -510 76 245 -512 69 247
+# Reset update signs
+execute @e[type=armor_stand, tag=task_6, x=-508, y=55, z=255, c=1] ~ ~ ~ scoreboard players set @s update_signs 0
 
-execute @s ~ ~ ~ detect -501 42 256 air -1 execute @s ~ ~ ~ detect -515 42 256 air -1 clone -510 76 248 -510 76 248 -512 69 246
-execute @s ~ ~ ~ detect -501 42 256 barrel -1 execute @s ~ ~ ~ detect -515 42 256 air -1 clone -510 76 249 -510 76 247 -512 69 246
-execute @s ~ ~ ~ detect -501 42 256 air -1 execute @s ~ ~ ~ detect -515 42 256 barrel -1 clone -510 76 250 -510 76 246 -512 69 246
-execute @s ~ ~ ~ detect -501 42 256 barrel -1 execute @s ~ ~ ~ detect -515 42 256 barrel -1 clone -510 76 251 -510 76 245 -512 69 246
+# Set State Machine
+# Set previous state to current state
+execute @e[type=armor_stand, tag=task_6, x=-508, y=55, z=255, c=1] ~ ~ ~ scoreboard players operation @s p1_state_prev = @s p1_state_cur
+execute @e[type=armor_stand, tag=task_6, x=-508, y=55, z=255, c=1] ~ ~ ~ scoreboard players operation @s p2_state_prev = @s p2_state_cur
 
-execute @s ~ ~ ~ detect -524 62 256 air -1 execute @s ~ ~ ~ detect -538 62 256 air -1 clone -510 76 248 -510 76 248 -512 69 245
-execute @s ~ ~ ~ detect -524 62 256 barrel -1 execute @s ~ ~ ~ detect -538 62 256 air -1 clone -510 76 249 -510 76 247 -512 69 245
-execute @s ~ ~ ~ detect -524 62 256 air -1 execute @s ~ ~ ~ detect -538 62 256 barrel -1 clone -510 76 250 -510 76 246 -512 69 245
-execute @s ~ ~ ~ detect -524 62 256 barrel -1 execute @s ~ ~ ~ detect -538 62 256 barrel -1 clone -510 76 251 -510 76 245 -512 69 245
+# Set new current state. This can be the same as the previous state
+execute @s ~ ~ ~ detect -501 62 256 barrel -1 execute @e[type=armor_stand, tag=task_6, x=-508, y=55, z=255, c=1] ~ ~ ~ scoreboard players set @s p1_state_cur 1
+execute @s ~ ~ ~ detect -515 62 256 barrel -1 execute @e[type=armor_stand, tag=task_6, x=-508, y=55, z=255, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 1
+execute @s ~ ~ ~ detect -501 62 256 air -1 execute @e[type=armor_stand, tag=task_6, x=-508, y=55, z=255, c=1] ~ ~ ~ scoreboard players set @s p1_state_cur 0
+execute @s ~ ~ ~ detect -515 62 256 air -1 execute @e[type=armor_stand, tag=task_6, x=-508, y=55, z=255, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 0
 
-execute @s ~ ~ ~ detect -524 42 256 air -1 execute @s ~ ~ ~ detect -538 42 256 air -1 clone -510 76 248 -510 76 248 -512 69 244
-execute @s ~ ~ ~ detect -524 42 256 barrel -1 execute @s ~ ~ ~ detect -538 42 256 air -1 clone -510 76 249 -510 76 247 -512 69 244
-execute @s ~ ~ ~ detect -524 42 256 air -1 execute @s ~ ~ ~ detect -538 42 256 barrel -1 clone -510 76 250 -510 76 246 -512 69 244
-execute @s ~ ~ ~ detect -524 42 256 barrel -1 execute @s ~ ~ ~ detect -538 42 256 barrel -1 clone -510 76 251 -510 76 245 -512 69 244
+# Set sign update state
+# Player 1 - No Change
+execute @e[type=armor_stand, tag=task_6, x=-508, y=55, z=255, c=1, scores={p1_state_cur=1, p1_state_prev=1}] ~ ~ ~ scoreboard players set @s update_signs 0
+execute @e[type=armor_stand, tag=task_6, x=-508, y=55, z=255, c=1, scores={p1_state_cur=0, p1_state_prev=0}] ~ ~ ~ scoreboard players set @s update_signs 0
 
-execute @s ~ ~ ~ detect -547 62 256 air -1 execute @s ~ ~ ~ detect -561 62 256 air -1 clone -510 76 248 -510 76 248 -512 69 243
-execute @s ~ ~ ~ detect -547 62 256 barrel -1 execute @s ~ ~ ~ detect -561 62 256 air -1 clone -510 76 249 -510 76 247 -512 69 243
-execute @s ~ ~ ~ detect -547 62 256 air -1 execute @s ~ ~ ~ detect -561 62 256 barrel -1 clone -510 76 250 -510 76 246 -512 69 243
-execute @s ~ ~ ~ detect -547 62 256 barrel -1 execute @s ~ ~ ~ detect -561 62 256 barrel -1 clone -510 76 251 -510 76 245 -512 69 243
+# Player 2 - No Change
+execute @e[type=armor_stand, tag=task_6, x=-508, y=55, z=255, c=1, scores={p2_state_cur=1, p2_state_prev=1}] ~ ~ ~ scoreboard players set @s update_signs 0
+execute @e[type=armor_stand, tag=task_6, x=-508, y=55, z=255, c=1, scores={p2_state_cur=0, p2_state_prev=0}] ~ ~ ~ scoreboard players set @s update_signs 0
 
-execute @s ~ ~ ~ detect -547 42 256 air -1 execute @s ~ ~ ~ detect -561 42 256 air -1 clone -510 76 248 -510 76 248 -512 69 242
-execute @s ~ ~ ~ detect -547 42 256 barrel -1 execute @s ~ ~ ~ detect -561 42 256 air -1 clone -510 76 249 -510 76 247 -512 69 242
-execute @s ~ ~ ~ detect -547 42 256 air -1 execute @s ~ ~ ~ detect -561 42 256 barrel -1 clone -510 76 250 -510 76 246 -512 69 242
-execute @s ~ ~ ~ detect -547 42 256 barrel -1 execute @s ~ ~ ~ detect -561 42 256 barrel -1 clone -510 76 251 -510 76 245 -512 69 242
+# Player 1 - Change
+execute @e[type=armor_stand, tag=task_6, x=-508, y=55, z=255, c=1, scores={p1_state_cur=0, p1_state_prev=1}] ~ ~ ~ scoreboard players set @s update_signs 1
+execute @e[type=armor_stand, tag=task_6, x=-508, y=55, z=255, c=1, scores={p1_state_cur=1, p1_state_prev=0}] ~ ~ ~ scoreboard players set @s update_signs 1
+
+# Player 2 - Change
+execute @e[type=armor_stand, tag=task_6, x=-508, y=55, z=255, c=1, scores={p2_state_cur=0, p2_state_prev=1}] ~ ~ ~ scoreboard players set @s update_signs 1
+execute @e[type=armor_stand, tag=task_6, x=-508, y=55, z=255, c=1, scores={p2_state_cur=1, p2_state_prev=0}] ~ ~ ~ scoreboard players set @s update_signs 1
+
+# Set Signs
+# If neither is in use
+execute @e[type=armor_stand, tag=task_6, x=-508, y=55, z=255, c=1, scores={p1_state_cur=0, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -510 76 248 -510 76 248 -512 69 247
+
+# If 1 is free and 2 is in use
+execute @e[type=armor_stand, tag=task_6, x=-508, y=55, z=255, c=1, scores={p1_state_cur=0, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -510 76 247 -510 76 247 -512 69 247
+
+# If 1 is in use and 2 is free
+execute @e[type=armor_stand, tag=task_6, x=-508, y=55, z=255, c=1, scores={p1_state_cur=1, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -510 76 246 -510 76 246 -512 69 247
+
+# If both 1 and 2 are in use
+execute @e[type=armor_stand, tag=task_6, x=-508, y=55, z=255, c=1, scores={p1_state_cur=1, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -510 76 245 -510 76 245 -512 69 247
+
+# Reset update signs
+execute @e[type=armor_stand, tag=task_6, x=-508, y=35, z=255, c=1] ~ ~ ~ scoreboard players set @s update_signs 0
+
+# Set State Machine
+# Set previous state to current state
+execute @e[type=armor_stand, tag=task_6, x=-508, y=35, z=255, c=1] ~ ~ ~ scoreboard players operation @s p1_state_prev = @s p1_state_cur
+execute @e[type=armor_stand, tag=task_6, x=-508, y=35, z=255, c=1] ~ ~ ~ scoreboard players operation @s p2_state_prev = @s p2_state_cur
+
+# Set new current state. This can be the same as the previous state
+execute @s ~ ~ ~ detect -501 42 256 barrel -1 execute @e[type=armor_stand, tag=task_6, x=-508, y=35, z=255, c=1] ~ ~ ~ scoreboard players set @s p1_state_cur 1
+execute @s ~ ~ ~ detect -515 42 256 barrel -1 execute @e[type=armor_stand, tag=task_6, x=-508, y=35, z=255, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 1
+execute @s ~ ~ ~ detect -501 42 256 air -1 execute @e[type=armor_stand, tag=task_6, x=-508, y=35, z=255, c=1] ~ ~ ~ scoreboard players set @s p1_state_cur 0
+execute @s ~ ~ ~ detect -515 42 256 air -1 execute @e[type=armor_stand, tag=task_6, x=-508, y=35, z=255, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 0
+
+# Set sign update state
+# Player 1 - No Change
+execute @e[type=armor_stand, tag=task_6, x=-508, y=35, z=255, c=1, scores={p1_state_cur=1, p1_state_prev=1}] ~ ~ ~ scoreboard players set @s update_signs 0
+execute @e[type=armor_stand, tag=task_6, x=-508, y=35, z=255, c=1, scores={p1_state_cur=0, p1_state_prev=0}] ~ ~ ~ scoreboard players set @s update_signs 0
+
+# Player 2 - No Change
+execute @e[type=armor_stand, tag=task_6, x=-508, y=35, z=255, c=1, scores={p2_state_cur=1, p2_state_prev=1}] ~ ~ ~ scoreboard players set @s update_signs 0
+execute @e[type=armor_stand, tag=task_6, x=-508, y=35, z=255, c=1, scores={p2_state_cur=0, p2_state_prev=0}] ~ ~ ~ scoreboard players set @s update_signs 0
+
+# Player 1 - Change
+execute @e[type=armor_stand, tag=task_6, x=-508, y=35, z=255, c=1, scores={p1_state_cur=0, p1_state_prev=1}] ~ ~ ~ scoreboard players set @s update_signs 1
+execute @e[type=armor_stand, tag=task_6, x=-508, y=35, z=255, c=1, scores={p1_state_cur=1, p1_state_prev=0}] ~ ~ ~ scoreboard players set @s update_signs 1
+
+# Player 2 - Change
+execute @e[type=armor_stand, tag=task_6, x=-508, y=35, z=255, c=1, scores={p2_state_cur=0, p2_state_prev=1}] ~ ~ ~ scoreboard players set @s update_signs 1
+execute @e[type=armor_stand, tag=task_6, x=-508, y=35, z=255, c=1, scores={p2_state_cur=1, p2_state_prev=0}] ~ ~ ~ scoreboard players set @s update_signs 1
+
+# Set Signs
+# If neither is in use
+execute @e[type=armor_stand, tag=task_6, x=-508, y=35, z=255, c=1, scores={p1_state_cur=0, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -510 76 248 -510 76 248 -512 69 246
+
+# If 1 is free and 2 is in use
+execute @e[type=armor_stand, tag=task_6, x=-508, y=35, z=255, c=1, scores={p1_state_cur=0, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -510 76 247 -510 76 247 -512 69 246
+
+# If 1 is in use and 2 is free
+execute @e[type=armor_stand, tag=task_6, x=-508, y=35, z=255, c=1, scores={p1_state_cur=1, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -510 76 246 -510 76 246 -512 69 246
+
+# If both 1 and 2 are in use
+execute @e[type=armor_stand, tag=task_6, x=-508, y=35, z=255, c=1, scores={p1_state_cur=1, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -510 76 245 -510 76 245 -512 69 246
+
+# Reset update signs
+execute @e[type=armor_stand, tag=task_6, x=-531, y=55, z=255, c=1] ~ ~ ~ scoreboard players set @s update_signs 0
+
+# Set State Machine
+# Set previous state to current state
+execute @e[type=armor_stand, tag=task_6, x=-531, y=55, z=255, c=1] ~ ~ ~ scoreboard players operation @s p1_state_prev = @s p1_state_cur
+execute @e[type=armor_stand, tag=task_6, x=-531, y=55, z=255, c=1] ~ ~ ~ scoreboard players operation @s p2_state_prev = @s p2_state_cur
+
+# Set new current state. This can be the same as the previous state
+execute @s ~ ~ ~ detect -524 62 256 barrel -1 execute @e[type=armor_stand, tag=task_6, x=-531, y=55, z=255, c=1] ~ ~ ~ scoreboard players set @s p1_state_cur 1
+execute @s ~ ~ ~ detect -538 62 256 barrel -1 execute @e[type=armor_stand, tag=task_6, x=-531, y=55, z=255, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 1
+execute @s ~ ~ ~ detect -524 62 256 air -1 execute @e[type=armor_stand, tag=task_6, x=-531, y=55, z=255, c=1] ~ ~ ~ scoreboard players set @s p1_state_cur 0
+execute @s ~ ~ ~ detect -538 62 256 air -1 execute @e[type=armor_stand, tag=task_6, x=-531, y=55, z=255, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 0
+
+# Set sign update state
+# Player 1 - No Change
+execute @e[type=armor_stand, tag=task_6, x=-531, y=55, z=255, c=1, scores={p1_state_cur=1, p1_state_prev=1}] ~ ~ ~ scoreboard players set @s update_signs 0
+execute @e[type=armor_stand, tag=task_6, x=-531, y=55, z=255, c=1, scores={p1_state_cur=0, p1_state_prev=0}] ~ ~ ~ scoreboard players set @s update_signs 0
+
+# Player 2 - No Change
+execute @e[type=armor_stand, tag=task_6, x=-531, y=55, z=255, c=1, scores={p2_state_cur=1, p2_state_prev=1}] ~ ~ ~ scoreboard players set @s update_signs 0
+execute @e[type=armor_stand, tag=task_6, x=-531, y=55, z=255, c=1, scores={p2_state_cur=0, p2_state_prev=0}] ~ ~ ~ scoreboard players set @s update_signs 0
+
+# Player 1 - Change
+execute @e[type=armor_stand, tag=task_6, x=-531, y=55, z=255, c=1, scores={p1_state_cur=0, p1_state_prev=1}] ~ ~ ~ scoreboard players set @s update_signs 1
+execute @e[type=armor_stand, tag=task_6, x=-531, y=55, z=255, c=1, scores={p1_state_cur=1, p1_state_prev=0}] ~ ~ ~ scoreboard players set @s update_signs 1
+
+# Player 2 - Change
+execute @e[type=armor_stand, tag=task_6, x=-531, y=55, z=255, c=1, scores={p2_state_cur=0, p2_state_prev=1}] ~ ~ ~ scoreboard players set @s update_signs 1
+execute @e[type=armor_stand, tag=task_6, x=-531, y=55, z=255, c=1, scores={p2_state_cur=1, p2_state_prev=0}] ~ ~ ~ scoreboard players set @s update_signs 1
+
+# Set Signs
+# If neither is in use
+execute @e[type=armor_stand, tag=task_6, x=-531, y=55, z=255, c=1, scores={p1_state_cur=0, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -510 76 248 -510 76 248 -512 69 245
+
+# If 1 is free and 2 is in use
+execute @e[type=armor_stand, tag=task_6, x=-531, y=55, z=255, c=1, scores={p1_state_cur=0, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -510 76 247 -510 76 247 -512 69 245
+
+# If 1 is in use and 2 is free
+execute @e[type=armor_stand, tag=task_6, x=-531, y=55, z=255, c=1, scores={p1_state_cur=1, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -510 76 246 -510 76 246 -512 69 245
+
+# If both 1 and 2 are in use
+execute @e[type=armor_stand, tag=task_6, x=-531, y=55, z=255, c=1, scores={p1_state_cur=1, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -510 76 245 -510 76 245 -512 69 245
+
+# Reset update signs
+execute @e[type=armor_stand, tag=task_6, x=-531, y=35, z=255, c=1] ~ ~ ~ scoreboard players set @s update_signs 0
+
+# Set State Machine
+# Set previous state to current state
+execute @e[type=armor_stand, tag=task_6, x=-531, y=35, z=255, c=1] ~ ~ ~ scoreboard players operation @s p1_state_prev = @s p1_state_cur
+execute @e[type=armor_stand, tag=task_6, x=-531, y=35, z=255, c=1] ~ ~ ~ scoreboard players operation @s p2_state_prev = @s p2_state_cur
+
+# Set new current state. This can be the same as the previous state
+execute @s ~ ~ ~ detect -524 42 256 barrel -1 execute @e[type=armor_stand, tag=task_6, x=-531, y=35, z=255, c=1] ~ ~ ~ scoreboard players set @s p1_state_cur 1
+execute @s ~ ~ ~ detect -538 42 256 barrel -1 execute @e[type=armor_stand, tag=task_6, x=-531, y=35, z=255, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 1
+execute @s ~ ~ ~ detect -524 42 256 air -1 execute @e[type=armor_stand, tag=task_6, x=-531, y=35, z=255, c=1] ~ ~ ~ scoreboard players set @s p1_state_cur 0
+execute @s ~ ~ ~ detect -538 42 256 air -1 execute @e[type=armor_stand, tag=task_6, x=-531, y=35, z=255, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 0
+
+# Set sign update state
+# Player 1 - No Change
+execute @e[type=armor_stand, tag=task_6, x=-531, y=35, z=255, c=1, scores={p1_state_cur=1, p1_state_prev=1}] ~ ~ ~ scoreboard players set @s update_signs 0
+execute @e[type=armor_stand, tag=task_6, x=-531, y=35, z=255, c=1, scores={p1_state_cur=0, p1_state_prev=0}] ~ ~ ~ scoreboard players set @s update_signs 0
+
+# Player 2 - No Change
+execute @e[type=armor_stand, tag=task_6, x=-531, y=35, z=255, c=1, scores={p2_state_cur=1, p2_state_prev=1}] ~ ~ ~ scoreboard players set @s update_signs 0
+execute @e[type=armor_stand, tag=task_6, x=-531, y=35, z=255, c=1, scores={p2_state_cur=0, p2_state_prev=0}] ~ ~ ~ scoreboard players set @s update_signs 0
+
+# Player 1 - Change
+execute @e[type=armor_stand, tag=task_6, x=-531, y=35, z=255, c=1, scores={p1_state_cur=0, p1_state_prev=1}] ~ ~ ~ scoreboard players set @s update_signs 1
+execute @e[type=armor_stand, tag=task_6, x=-531, y=35, z=255, c=1, scores={p1_state_cur=1, p1_state_prev=0}] ~ ~ ~ scoreboard players set @s update_signs 1
+
+# Player 2 - Change
+execute @e[type=armor_stand, tag=task_6, x=-531, y=35, z=255, c=1, scores={p2_state_cur=0, p2_state_prev=1}] ~ ~ ~ scoreboard players set @s update_signs 1
+execute @e[type=armor_stand, tag=task_6, x=-531, y=35, z=255, c=1, scores={p2_state_cur=1, p2_state_prev=0}] ~ ~ ~ scoreboard players set @s update_signs 1
+
+# Set Signs
+# If neither is in use
+execute @e[type=armor_stand, tag=task_6, x=-531, y=35, z=255, c=1, scores={p1_state_cur=0, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -510 76 248 -510 76 248 -512 69 244
+
+# If 1 is free and 2 is in use
+execute @e[type=armor_stand, tag=task_6, x=-531, y=35, z=255, c=1, scores={p1_state_cur=0, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -510 76 247 -510 76 247 -512 69 244
+
+# If 1 is in use and 2 is free
+execute @e[type=armor_stand, tag=task_6, x=-531, y=35, z=255, c=1, scores={p1_state_cur=1, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -510 76 246 -510 76 246 -512 69 244
+
+# If both 1 and 2 are in use
+execute @e[type=armor_stand, tag=task_6, x=-531, y=35, z=255, c=1, scores={p1_state_cur=1, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -510 76 245 -510 76 245 -512 69 244
+
+# Reset update signs
+execute @e[type=armor_stand, tag=task_6, x=-554, y=55, z=255, c=1] ~ ~ ~ scoreboard players set @s update_signs 0
+
+# Set State Machine
+# Set previous state to current state
+execute @e[type=armor_stand, tag=task_6, x=-554, y=55, z=255, c=1] ~ ~ ~ scoreboard players operation @s p1_state_prev = @s p1_state_cur
+execute @e[type=armor_stand, tag=task_6, x=-554, y=55, z=255, c=1] ~ ~ ~ scoreboard players operation @s p2_state_prev = @s p2_state_cur
+
+# Set new current state. This can be the same as the previous state
+execute @s ~ ~ ~ detect -547 62 256 barrel -1 execute @e[type=armor_stand, tag=task_6, x=-554, y=55, z=255, c=1] ~ ~ ~ scoreboard players set @s p1_state_cur 1
+execute @s ~ ~ ~ detect -561 62 256 barrel -1 execute @e[type=armor_stand, tag=task_6, x=-554, y=55, z=255, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 1
+execute @s ~ ~ ~ detect -547 62 256 air -1 execute @e[type=armor_stand, tag=task_6, x=-554, y=55, z=255, c=1] ~ ~ ~ scoreboard players set @s p1_state_cur 0
+execute @s ~ ~ ~ detect -561 62 256 air -1 execute @e[type=armor_stand, tag=task_6, x=-554, y=55, z=255, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 0
+
+# Set sign update state
+# Player 1 - No Change
+execute @e[type=armor_stand, tag=task_6, x=-554, y=55, z=255, c=1, scores={p1_state_cur=1, p1_state_prev=1}] ~ ~ ~ scoreboard players set @s update_signs 0
+execute @e[type=armor_stand, tag=task_6, x=-554, y=55, z=255, c=1, scores={p1_state_cur=0, p1_state_prev=0}] ~ ~ ~ scoreboard players set @s update_signs 0
+
+# Player 2 - No Change
+execute @e[type=armor_stand, tag=task_6, x=-554, y=55, z=255, c=1, scores={p2_state_cur=1, p2_state_prev=1}] ~ ~ ~ scoreboard players set @s update_signs 0
+execute @e[type=armor_stand, tag=task_6, x=-554, y=55, z=255, c=1, scores={p2_state_cur=0, p2_state_prev=0}] ~ ~ ~ scoreboard players set @s update_signs 0
+
+# Player 1 - Change
+execute @e[type=armor_stand, tag=task_6, x=-554, y=55, z=255, c=1, scores={p1_state_cur=0, p1_state_prev=1}] ~ ~ ~ scoreboard players set @s update_signs 1
+execute @e[type=armor_stand, tag=task_6, x=-554, y=55, z=255, c=1, scores={p1_state_cur=1, p1_state_prev=0}] ~ ~ ~ scoreboard players set @s update_signs 1
+
+# Player 2 - Change
+execute @e[type=armor_stand, tag=task_6, x=-554, y=55, z=255, c=1, scores={p2_state_cur=0, p2_state_prev=1}] ~ ~ ~ scoreboard players set @s update_signs 1
+execute @e[type=armor_stand, tag=task_6, x=-554, y=55, z=255, c=1, scores={p2_state_cur=1, p2_state_prev=0}] ~ ~ ~ scoreboard players set @s update_signs 1
+
+# Set Signs
+# If neither is in use
+execute @e[type=armor_stand, tag=task_6, x=-554, y=55, z=255, c=1, scores={p1_state_cur=0, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -510 76 248 -510 76 248 -512 69 243
+
+# If 1 is free and 2 is in use
+execute @e[type=armor_stand, tag=task_6, x=-554, y=55, z=255, c=1, scores={p1_state_cur=0, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -510 76 247 -510 76 247 -512 69 243
+
+# If 1 is in use and 2 is free
+execute @e[type=armor_stand, tag=task_6, x=-554, y=55, z=255, c=1, scores={p1_state_cur=1, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -510 76 246 -510 76 246 -512 69 243
+
+# If both 1 and 2 are in use
+execute @e[type=armor_stand, tag=task_6, x=-554, y=55, z=255, c=1, scores={p1_state_cur=1, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -510 76 245 -510 76 245 -512 69 243
+
+# Reset update signs
+execute @e[type=armor_stand, tag=task_6, x=-554, y=35, z=255, c=1] ~ ~ ~ scoreboard players set @s update_signs 0
+
+# Set State Machine
+# Set previous state to current state
+execute @e[type=armor_stand, tag=task_6, x=-554, y=35, z=255, c=1] ~ ~ ~ scoreboard players operation @s p1_state_prev = @s p1_state_cur
+execute @e[type=armor_stand, tag=task_6, x=-554, y=35, z=255, c=1] ~ ~ ~ scoreboard players operation @s p2_state_prev = @s p2_state_cur
+
+# Set new current state. This can be the same as the previous state
+execute @s ~ ~ ~ detect -547 42 256 barrel -1 execute @e[type=armor_stand, tag=task_6, x=-554, y=35, z=255, c=1] ~ ~ ~ scoreboard players set @s p1_state_cur 1
+execute @s ~ ~ ~ detect -561 42 256 barrel -1 execute @e[type=armor_stand, tag=task_6, x=-554, y=35, z=255, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 1
+execute @s ~ ~ ~ detect -547 42 256 air -1 execute @e[type=armor_stand, tag=task_6, x=-554, y=35, z=255, c=1] ~ ~ ~ scoreboard players set @s p1_state_cur 0
+execute @s ~ ~ ~ detect -561 42 256 air -1 execute @e[type=armor_stand, tag=task_6, x=-554, y=35, z=255, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 0
+
+# Set sign update state
+# Player 1 - No Change
+execute @e[type=armor_stand, tag=task_6, x=-554, y=35, z=255, c=1, scores={p1_state_cur=1, p1_state_prev=1}] ~ ~ ~ scoreboard players set @s update_signs 0
+execute @e[type=armor_stand, tag=task_6, x=-554, y=35, z=255, c=1, scores={p1_state_cur=0, p1_state_prev=0}] ~ ~ ~ scoreboard players set @s update_signs 0
+
+# Player 2 - No Change
+execute @e[type=armor_stand, tag=task_6, x=-554, y=35, z=255, c=1, scores={p2_state_cur=1, p2_state_prev=1}] ~ ~ ~ scoreboard players set @s update_signs 0
+execute @e[type=armor_stand, tag=task_6, x=-554, y=35, z=255, c=1, scores={p2_state_cur=0, p2_state_prev=0}] ~ ~ ~ scoreboard players set @s update_signs 0
+
+# Player 1 - Change
+execute @e[type=armor_stand, tag=task_6, x=-554, y=35, z=255, c=1, scores={p1_state_cur=0, p1_state_prev=1}] ~ ~ ~ scoreboard players set @s update_signs 1
+execute @e[type=armor_stand, tag=task_6, x=-554, y=35, z=255, c=1, scores={p1_state_cur=1, p1_state_prev=0}] ~ ~ ~ scoreboard players set @s update_signs 1
+
+# Player 2 - Change
+execute @e[type=armor_stand, tag=task_6, x=-554, y=35, z=255, c=1, scores={p2_state_cur=0, p2_state_prev=1}] ~ ~ ~ scoreboard players set @s update_signs 1
+execute @e[type=armor_stand, tag=task_6, x=-554, y=35, z=255, c=1, scores={p2_state_cur=1, p2_state_prev=0}] ~ ~ ~ scoreboard players set @s update_signs 1
+
+# Set Signs
+# If neither is in use
+execute @e[type=armor_stand, tag=task_6, x=-554, y=35, z=255, c=1, scores={p1_state_cur=0, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -510 76 248 -510 76 248 -512 69 242
+
+# If 1 is free and 2 is in use
+execute @e[type=armor_stand, tag=task_6, x=-554, y=35, z=255, c=1, scores={p1_state_cur=0, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -510 76 247 -510 76 247 -512 69 242
+
+# If 1 is in use and 2 is free
+execute @e[type=armor_stand, tag=task_6, x=-554, y=35, z=255, c=1, scores={p1_state_cur=1, p2_state_cur=0, update_signs=1}] ~ ~ ~ clone -510 76 246 -510 76 246 -512 69 242
+
+# If both 1 and 2 are in use
+execute @e[type=armor_stand, tag=task_6, x=-554, y=35, z=255, c=1, scores={p1_state_cur=1, p2_state_cur=1, update_signs=1}] ~ ~ ~ clone -510 76 245 -510 76 245 -512 69 242
