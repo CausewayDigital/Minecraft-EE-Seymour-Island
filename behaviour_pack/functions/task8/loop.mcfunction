@@ -34,4 +34,4 @@ execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=
 execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=task_7, r=8, c=1] ~ ~ ~ execute @p[x=~-5, y=~5, z=~5, dx=11, dy=3, dz=-8, scores={task_timer_act=1}] ~ ~ ~ scoreboard players set @s in_task 1
 
 # Update the status board of which tasks are in use/free
-function task8/loop_status_board
+execute @p ~ ~ ~ function task8/loop_status_board
