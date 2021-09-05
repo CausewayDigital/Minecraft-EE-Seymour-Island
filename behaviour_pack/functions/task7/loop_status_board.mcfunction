@@ -11,9 +11,9 @@ execute @e[type=armor_stand, tag=task_7, x=-472, y=54, z=275, c=1] ~ ~ ~ scorebo
 
 # Set new current state. This can be the same as the previous state
 execute @s ~ ~ ~ detect -467 57 271 barrel -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=54, z=275, c=1] ~ ~ ~ scoreboard players set @s p1_state_cur 1
-execute @s ~ ~ ~ detect -466 57 272 barrel -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=54, z=275, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 1
+execute @s ~ ~ ~ detect -466 57 271 barrel -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=54, z=275, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 1
 execute @s ~ ~ ~ detect -467 57 271 air -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=54, z=275, c=1] ~ ~ ~ scoreboard players set @s p1_state_cur 0
-execute @s ~ ~ ~ detect -466 57 272 air -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=54, z=275, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 0
+execute @s ~ ~ ~ detect -466 57 271 air -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=54, z=275, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 0
 
 # Set sign update state
 # Player 1 - No Change
@@ -55,9 +55,9 @@ execute @e[type=armor_stand, tag=task_7, x=-472, y=54, z=255, c=1] ~ ~ ~ scorebo
 
 # Set new current state. This can be the same as the previous state
 execute @s ~ ~ ~ detect -467 57 251 barrel -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=54, z=255, c=1] ~ ~ ~ scoreboard players set @s p1_state_cur 1
-execute @s ~ ~ ~ detect -466 57 252 barrel -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=54, z=255, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 1
+execute @s ~ ~ ~ detect -466 57 251 barrel -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=54, z=255, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 1
 execute @s ~ ~ ~ detect -467 57 251 air -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=54, z=255, c=1] ~ ~ ~ scoreboard players set @s p1_state_cur 0
-execute @s ~ ~ ~ detect -466 57 252 air -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=54, z=255, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 0
+execute @s ~ ~ ~ detect -466 57 251 air -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=54, z=255, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 0
 
 # Set sign update state
 # Player 1 - No Change
@@ -99,9 +99,9 @@ execute @e[type=armor_stand, tag=task_7, x=-472, y=39, z=275, c=1] ~ ~ ~ scorebo
 
 # Set new current state. This can be the same as the previous state
 execute @s ~ ~ ~ detect -467 42 271 barrel -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=39, z=275, c=1] ~ ~ ~ scoreboard players set @s p1_state_cur 1
-execute @s ~ ~ ~ detect -466 42 272 barrel -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=39, z=275, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 1
+execute @s ~ ~ ~ detect -466 42 271 barrel -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=39, z=275, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 1
 execute @s ~ ~ ~ detect -467 42 271 air -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=39, z=275, c=1] ~ ~ ~ scoreboard players set @s p1_state_cur 0
-execute @s ~ ~ ~ detect -466 42 272 air -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=39, z=275, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 0
+execute @s ~ ~ ~ detect -466 42 271 air -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=39, z=275, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 0
 
 # Set sign update state
 # Player 1 - No Change
@@ -143,9 +143,9 @@ execute @e[type=armor_stand, tag=task_7, x=-472, y=39, z=255, c=1] ~ ~ ~ scorebo
 
 # Set new current state. This can be the same as the previous state
 execute @s ~ ~ ~ detect -467 42 251 barrel -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=39, z=255, c=1] ~ ~ ~ scoreboard players set @s p1_state_cur 1
-execute @s ~ ~ ~ detect -466 42 252 barrel -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=39, z=255, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 1
+execute @s ~ ~ ~ detect -466 42 251 barrel -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=39, z=255, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 1
 execute @s ~ ~ ~ detect -467 42 251 air -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=39, z=255, c=1] ~ ~ ~ scoreboard players set @s p1_state_cur 0
-execute @s ~ ~ ~ detect -466 42 252 air -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=39, z=255, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 0
+execute @s ~ ~ ~ detect -466 42 251 air -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=39, z=255, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 0
 
 # Set sign update state
 # Player 1 - No Change
@@ -187,9 +187,9 @@ execute @e[type=armor_stand, tag=task_7, x=-472, y=24, z=275, c=1] ~ ~ ~ scorebo
 
 # Set new current state. This can be the same as the previous state
 execute @s ~ ~ ~ detect -467 27 271 barrel -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=24, z=275, c=1] ~ ~ ~ scoreboard players set @s p1_state_cur 1
-execute @s ~ ~ ~ detect -466 27 272 barrel -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=24, z=275, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 1
+execute @s ~ ~ ~ detect -466 27 271 barrel -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=24, z=275, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 1
 execute @s ~ ~ ~ detect -467 27 271 air -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=24, z=275, c=1] ~ ~ ~ scoreboard players set @s p1_state_cur 0
-execute @s ~ ~ ~ detect -466 27 272 air -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=24, z=275, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 0
+execute @s ~ ~ ~ detect -466 27 271 air -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=24, z=275, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 0
 
 # Set sign update state
 # Player 1 - No Change
@@ -231,9 +231,9 @@ execute @e[type=armor_stand, tag=task_7, x=-472, y=24, z=255, c=1] ~ ~ ~ scorebo
 
 # Set new current state. This can be the same as the previous state
 execute @s ~ ~ ~ detect -467 27 251 barrel -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=24, z=255, c=1] ~ ~ ~ scoreboard players set @s p1_state_cur 1
-execute @s ~ ~ ~ detect -466 27 252 barrel -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=24, z=255, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 1
+execute @s ~ ~ ~ detect -466 27 251 barrel -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=24, z=255, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 1
 execute @s ~ ~ ~ detect -467 27 251 air -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=24, z=255, c=1] ~ ~ ~ scoreboard players set @s p1_state_cur 0
-execute @s ~ ~ ~ detect -466 27 252 air -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=24, z=255, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 0
+execute @s ~ ~ ~ detect -466 27 251 air -1 execute @e[type=armor_stand, tag=task_7, x=-472, y=24, z=255, c=1] ~ ~ ~ scoreboard players set @s p2_state_cur 0
 
 # Set sign update state
 # Player 1 - No Change
