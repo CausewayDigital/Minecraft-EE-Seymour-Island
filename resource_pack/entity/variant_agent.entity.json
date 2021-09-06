@@ -7,7 +7,7 @@
 				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/entity/agent"
+				"default": "textures/entity/variant_agent"
 			},
 			"geometry": {
 				"default": "geometry.agent"
