@@ -37,8 +37,6 @@ scoreboard players set @s task_4_start 0
 scoreboard players set @s task_4_fail 0
 scoreboard players set @s task_4_timer 0
 scoreboard players set @s task_5_done 0
-scoreboard players set @s task_5_prog 0
-scoreboard players set @s task_5_start 0
 scoreboard players set @s task_5_timer 0
 scoreboard players set @s task_5_clownfish 0
 scoreboard players set @s task_5_pufferfis 0

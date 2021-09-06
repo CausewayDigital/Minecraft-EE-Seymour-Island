@@ -1,6 +1,7 @@
+# £xecuting as the Player
+
 execute @e[type=armor_stand, tag=task_5, c=1] ~ ~ ~ function task5/reset
 scoreboard players set @s in_task 0
-scoreboard players set @s task_5_start 0
 scoreboard players set @s task_5_clownfish 0
 scoreboard players set @s task_5_pufferfis 0
 
