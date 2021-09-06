@@ -420,7 +420,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_2_intro",
-                "text": ""
+                "text": "bzzt… language core temperamental… you look like a trustworthy person the information you seek is… bzzt"
             },
             {
                 "buttons": [
@@ -442,11 +442,11 @@
                         "name": "Thanks!"
                     }
                 ],
-                "npc_name": "Cryptographer 5",
+                "npc_name": "Cryptographer 2",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_2_next_loc",
-                "text": "Robot 3"
+                "text": "Have you heard the mayor’s speech? The next unit really likes listening to it, but where could you hide within earshot?"
             },
             {
                 "buttons": [
@@ -459,7 +459,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_2_correct",
-                "text": "Well Done!"
+                "text": "Bzzt… you know the international phonetic alphabet? You’re smarter than I originally thought."
             }
         ]
     }

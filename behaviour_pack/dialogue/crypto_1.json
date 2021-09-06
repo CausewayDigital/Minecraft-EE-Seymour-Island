@@ -337,7 +337,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_1_intro",
-                "text": "Welcome to the library, help us"
+                "text": "You seem like all the others who want to get from us without giving, prove yourself by thinking more than just assuming."
             },
             {
                 "buttons": [
@@ -352,7 +352,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_1_next_loc",
-                "text": "Next robot is Robot 2"
+                "text": "Last I heard from my fellow unit, they were looking for gold, now where might they have found some?"
             },
             {
                 "buttons": [
@@ -365,7 +365,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_1_hint",
-                "text": "Hint for robot 1"
+                "text": "Sometimes things that look like mistakes are done with intention."
             },
             {
                 "buttons": [
@@ -378,7 +378,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_1_correct",
-                "text": "Well Done!"
+                "text": "You’ve proven yourself, sorry to have been suspicious of you but I’m so starved of power that I don’t know who to trust, find my fellow units, decrypt their messages and help find out what's happened to the power before it's too late."
             }
         ]
     }
