@@ -19,7 +19,12 @@ execute @e[type=armor_stand, tag=task_5] ~ ~ ~ detect ~ ~2 ~26 lit_pumpkin -1 se
 # Set marker IF player is in zone of armour stand, setting task status to in-use
 execute @e[type=armor_stand, tag=task_5] ~ ~ ~ execute @a[x=~-10, y=~1, z=~-11, dx=14, dy=5, dz=18] ~ ~ ~ execute @e[type=armor_stand, tag=task_5, c=1] ~ ~ ~ setblock ~ ~2 ~26 lit_pumpkin 5
 
-# Set redstone circuit to run if task status is in-use. If no pumpkin, remove 
+# Get player that timer is done with, then get nearest armor stand, then confirm player is in the area, then run the agent reset
+execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=task_5, r=15, c=1] ~ ~ ~ execute @p[x=~-10, y=~1, z=~-11, dx=14, dy=5, dz=18] ~ ~ ~ function task5/reset_agent
+# Also set the in_task scoreboard to 1
+execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=task_5, r=15, c=1] ~ ~ ~ execute @p[x=~-10, y=~1, z=~-11, dx=14, dy=5, dz=18] ~ ~ ~ scoreboard players set @s in_task 1
+
+# Start tick timer if task status is in-use. If no pumpkin, remove 
 execute @e[type=armor_stand, tag=task_5, scores={task_5_timer=0}] ~ ~ ~ detect ~ ~2 ~26 lit_pumpkin -1 scoreboard players set @s task_5_timer 1
 execute @e[type=armor_stand, tag=task_5] ~ ~ ~ detect ~ ~2 ~26 air -1 scoreboard players set @s task_5_timer 0
 
@@ -58,10 +63,5 @@ execute @e[type=armor_stand, tag=task_5] ~ ~ ~ execute @e[x=~-6, y=~2, z=~-2, dx
 
 # If player in task, update the score display actionbar
 execute @e[type=armor_stand, tag=task_5] ~ ~ ~ execute @a[x=~-10, y=~1, z=~-11, dx=14, dy=5, dz=18] ~ ~ ~ function task5/update_score_display
-
-
-# execute @e[type=armor_stand, tag=task_5] ~ ~ ~ say AH!
-# execute @e[type=armor_stand, tag=task_5] ~ ~ ~ scoreboard players add @p fishies 1
-# execute @e[type=armor_stand, tag=task_5] ~ ~ ~ kill @s
 
 
