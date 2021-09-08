@@ -39,6 +39,9 @@ function task8/loop
 # Crypto
 function crypto/loop
 
+# Crypto Vault
+function cryptovault/loop
+
 # Score display system - Only run if a player is in the room
 execute @p[x=-474, y=71, z=274, dx=12, dy=3, dz=7] ~ ~ ~ function misc/score_display
 
