@@ -240,6 +240,14 @@ scoreboard objectives remove crypto_cmplt_5
 scoreboard objectives add crypto_cmplt_5 dummy
 scoreboard players set @a crypto_cmplt_5 0
 
+scoreboard objectives remove crypto_v_done
+scoreboard objectives add crypto_v_done dummy
+scoreboard players set @a crypto_v_done 0
+
+scoreboard objectives remove crypto_v_prog
+scoreboard objectives add crypto_v_prog dummy
+scoreboard players set @a crypto_v_prog 0
+
 scoreboard objectives remove crypto_timer
 scoreboard objectives add crypto_timer dummy
 scoreboard players set @a crypto_timer 0

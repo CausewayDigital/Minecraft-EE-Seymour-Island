@@ -102,6 +102,9 @@ crypto_cmplt_3
 crypto_cmplt_4
 crypto_cmplt_5
 
+crypto_v_done
+crypto_v_prog
+
 crypto_timer
 
 crypto_loc_show

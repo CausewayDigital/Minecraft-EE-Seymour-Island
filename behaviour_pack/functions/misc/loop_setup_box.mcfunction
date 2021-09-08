@@ -61,6 +61,8 @@ scoreboard players set @s crypto_cmplt_2 0
 scoreboard players set @s crypto_cmplt_3 0
 scoreboard players set @s crypto_cmplt_4 0
 scoreboard players set @s crypto_cmplt_5 0
+scoreboard players set @s crypto_v_done 0
+scoreboard players set @s crypto_v_prog 0
 scoreboard players set @s crypto_timer 0
 scoreboard players set @s crypto_loc_show 0
 
