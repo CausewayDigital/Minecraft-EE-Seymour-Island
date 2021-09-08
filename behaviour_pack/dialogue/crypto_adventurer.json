@@ -71,7 +71,7 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/vault/start"
+                            "/execute @a[target_type=other] ~ ~ ~ function cryptovault/start"
                         ],
                         "name": "Sure!"
                     },
