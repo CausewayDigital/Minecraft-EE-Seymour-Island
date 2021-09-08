@@ -31,3 +31,6 @@ execute @s[scores={in_task=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_7, r=
 execute @s[scores={in_task=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_8, r=8, c=1] ~ ~ ~ execute @p[x=~-8, y=~3, z=~5, dx=14, dy=3, dz=8, scores={task_8_player=1, phone_selected=1}] ~ ~ ~ function task8/quit
 # Task 8 P2
 execute @s[scores={in_task=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_8, r=8, c=1] ~ ~ ~ execute @p[x=~-8, y=~3, z=~5, dx=14, dy=3, dz=8, scores={task_8_player=2, phone_selected=1}] ~ ~ ~ function task8/quit
+
+# Crypto Vault
+execute @s[scores={in_task=1}] ~ ~ ~ execute @e[type=armor_stand, tag=crypto_vault, r=15, c=1] ~ ~ ~ execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ function cryptovault/quit
