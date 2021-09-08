@@ -240,7 +240,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_4_intro",
-                "text": ""
+                "text": "Random fact: the andromeda galaxy is 10 billion light years away."
             },
             {
                 "buttons": [
@@ -253,7 +253,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_4_next_loc",
-                "text": "Robot 5"
+                "text": "The next unit has such a fondness for the boats that pass the pier and a love for the sound of the waves, I’m sure you can find them."
             },
             {
                 "buttons": [
@@ -266,7 +266,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_4_hint",
-                "text": "Hint 4"
+                "text": "How far was the andromeda galaxy again?"
             },
             {
                 "buttons": [
@@ -279,7 +279,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_4_correct",
-                "text": "Well Done!"
+                "text": "When you save us, come back and look at the stars with me, I’ve got so much to tell and no one to tell it to."
             }
         ]
     }

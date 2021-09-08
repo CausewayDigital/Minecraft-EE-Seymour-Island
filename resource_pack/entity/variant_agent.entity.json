@@ -1,0 +1,22 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "cd:variant_agent",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/variant_agent"
+			},
+			"geometry": {
+				"default": "geometry.agent"
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#c39f54",
+				"overlay_color": "#0d614f"
+			}
+		}
+	}
+}
