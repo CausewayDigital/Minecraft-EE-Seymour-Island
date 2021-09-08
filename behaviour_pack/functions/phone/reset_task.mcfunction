@@ -32,3 +32,5 @@ execute @s[scores={in_task=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_8, r=
 # Task 8 P2
 execute @s[scores={in_task=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_8, r=8, c=1] ~ ~ ~ execute @p[x=~-8, y=~3, z=~5, dx=14, dy=3, dz=8, scores={task_8_player=2, phone_selected=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_8, r=8, c=1] ~ ~ ~ function task8/reset_p2
 
+# Crypto Vault
+execute @s[scores={in_task=1}] ~ ~ ~ execute @e[type=armor_stand, tag=crypto_vault, r=15, c=1] ~ ~ ~ function cryptovault/reset

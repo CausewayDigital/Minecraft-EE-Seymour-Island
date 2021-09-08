@@ -44,3 +44,6 @@ execute @s[scores={in_task=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_8, r=
 
 # Task 8 P2
 # Player 2 doesnt have an agent. Therefor, they dont need a reset agent call.
+
+# Crypto Vault
+# The player doesnt use an agent in this task. They dont need a reset agent call.
