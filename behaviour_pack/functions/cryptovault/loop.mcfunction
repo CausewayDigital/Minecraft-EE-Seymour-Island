@@ -18,6 +18,6 @@ execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-6, y=~5, z=~
 
 
 # Get player that timer is done with, then get nearest armor stand, then confirm player is in the area, then run the agent reset
-execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=crypto_vault, r=8, c=1] ~ ~ ~ execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ function cryptovault/reset_agent
+execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=crypto_vault, r=15, c=1] ~ ~ ~ execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ function cryptovault/reset_agent
 # Also set the in_task scoreboard to 1
-execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=crypto_vault, r=8, c=1] ~ ~ ~ execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ scoreboard players set @s in_task 1
+execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=crypto_vault, r=15, c=1] ~ ~ ~ execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ scoreboard players set @s in_task 1
