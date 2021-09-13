@@ -3,20 +3,110 @@
     "minecraft:npc_dialogue": {
         "scenes": [
             {
-                "buttons": [],
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s task_player_num 2",
+                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=6, tag=Navigator, c=1] @s task_7_room_select"
+                        ],
+                        "name": "Sure"
+                    },
+                    {
+                        "commands": [],
+                        "name": "No Thanks"
+                    }
+                ],
                 "npc_name": "Navigator",
                 "on_close_commands": [],
                 "on_open_commands": [],
-                "scene_tag": "navigators",
-                "text": "Hey there!\r\nWant to try out the new town security system?\r\nThis is a 2 player task, where one of you codes your agent and the other one is the eyes for the coder!\r\nDo you want to be the eyes?"
+                "scene_tag": "task_7_nav_npc",
+                "text": "Hey there! Want to try out the new town security system? This is a 2 player task, where one of you codes your agent and the other one is the eyes for the coder! Do you want to be the eyes?"
             },
             {
-                "buttons": [],
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s task_player_num 1",
+                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=6, tag=Driver, c=1] @s task_7_room_select"
+                        ],
+                        "name": "Sure"
+                    },
+                    {
+                        "commands": [],
+                        "name": "No Thanks"
+                    }
+                ],
                 "npc_name": "Driver",
                 "on_close_commands": [],
                 "on_open_commands": [],
-                "scene_tag": "drivers",
-                "text": "Hi there!\r\nWant to try out the new town security system? This is a two player task where one of you codes your agent and the other one is the eyes for the coder.\r\nThis task is the coder. Do you want to be the coder?"
+                "scene_tag": "task_7_dri_npc",
+                "text": "Hi there! Want to try out the new town security system? This is a two player task where one of you codes your agent and the other one is the eyes for the coder. This task is the coder. Do you want to be the coder?"
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s task_room_num 1|/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_7_lang"
+                        ],
+                        "name": "Room 1"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s task_room_num 2|/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_7_lang"
+                        ],
+                        "name": "Room 2"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s task_room_num 3 /execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_7_lang"
+                        ],
+                        "name": "Room 3"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s task_room_num 4 /execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_7_lang"
+                        ],
+                        "name": "Room 4"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s task_room_num 5 /execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_5_lang"
+                        ],
+                        "name": "Room 5"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s task_room_num 6 /execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_7_lang"
+                        ],
+                        "name": "Room 6"
+                    }
+                ],
+                "npc_name": "Navigator",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "task_7_room_select",
+                "text": "Wow"
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function task7/start_blocks"
+                        ],
+                        "name": "Blocks"
+                    },
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function task7/start_python"
+                        ],
+                        "name": "Python"
+                    }
+                ],
+                "npc_name": "Navigator",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "task_7_lang",
+                "text": ""
             }
         ]
     }
