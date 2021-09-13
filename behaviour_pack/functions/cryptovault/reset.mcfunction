@@ -2,7 +2,8 @@
 
 placestructure ~-6 ~4 ~-3 crypto_vault_task
 # Place the door structure
-placestructure ~-2 ~5 ~4 crypto_vault_door
+placestructure ~-2 ~5 ~-3 crypto_vault_door
+fill ~-1 ~5 ~-4 ~1 ~7 ~-4 smooth_stone 0
 
 execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ scoreboard players set @s crypto_v_prog 0
 
