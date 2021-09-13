@@ -7,7 +7,7 @@
                     {
                         "commands": [
                             "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s task_player_num 2",
-                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=6, tag=Navigator, c=1] @s task_7_room_select"
+                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=6, c=1] @s task_7_room_select"
                         ],
                         "name": "Sure"
                     },
@@ -27,7 +27,7 @@
                     {
                         "commands": [
                             "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s task_player_num 1",
-                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=6, tag=Driver, c=1] @s task_7_room_select"
+                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=6, c=1] @s task_7_room_select"
                         ],
                         "name": "Sure"
                     },
