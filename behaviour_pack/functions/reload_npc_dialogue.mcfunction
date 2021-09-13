@@ -14,4 +14,4 @@ dialogue change @e[type=npc, r=1, c=1, x=-455, y=68, z=202] adventurer
 dialogue change @e[type=npc, r=1, c=1, x=-457, y=77, z=284] task_7_nav_npc
 dialogue change @e[type=npc, r=1, c=1, x=-457, y=77, z=277] task_7_dri_npc
 dialogue change @e[type=npc, r=1, c=1, x=-442, y=82, z=284] task_8_nav_npc
-dialogue change @e[type=npc, r=1, c=1, x=-442, y=82, z=237] task_8_dri_npc
+dialogue change @e[type=npc, r=1, c=1, x=-442, y=82, z=278] task_8_dri_npc

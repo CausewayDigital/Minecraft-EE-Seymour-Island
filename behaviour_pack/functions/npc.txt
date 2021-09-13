@@ -15,4 +15,4 @@ adventurer -455 68 202
 task_7_nav_npc -457 77 284
 task_7_dri_npc -457 77 277
 task_8_nav_npc -442 82 284
-task_8_dri_npc -442 82 237
+task_8_dri_npc -442 82 278
