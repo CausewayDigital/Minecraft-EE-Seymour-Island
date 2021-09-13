@@ -6,7 +6,7 @@ execute @e[type=armor_stand, tag=task_8] ~ ~ ~ execute @p[x=~-7, y=~3, z=~5, dx=
 execute @e[type=armor_stand, tag=task_8] ~ ~ ~ execute @p[x=~-5, y=~5, z=~5, dx=11, dy=3, dz=-8] ~ ~ ~ scoreboard players set @s task_8_player 2
 
 # Check if task is complete. Only run if there is a player in the task.
-execute @e[type=armor_stand, tag=task_8] ~ ~ ~ execute @a[x=~-8, y=~3, z=~5, dx=14, dy=3, dz=8] ~ ~ ~ execute @e[type=armor_stand, tag=task_8, c=1] ~ ~ ~ function task8/test_complete
+execute @e[type=armor_stand, tag=task_8] ~ ~ ~ execute @a[x=~-8, y=~3, z=~5, dx=14, dy=3, dz=-8] ~ ~ ~ execute @e[type=armor_stand, tag=task_8, c=1] ~ ~ ~ function task8/test_complete
 
 # A marker block is used to mark an individual task as in use. Each tick it is removed, then replaced if there is a student in the task
 # Remove the marker block if it exists
