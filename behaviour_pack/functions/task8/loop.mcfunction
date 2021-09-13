@@ -27,11 +27,11 @@ execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=
 # Player 2
 execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=task_8, r=8, c=1] ~ ~ ~ execute @p[x=~-5, y=~5, z=~5, dx=11, dy=3, dz=-8, scores={task_timer_act=1}] ~ ~ ~ function task8/reset_agent_p2
 # Give player 2 a barrier block
-execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=task_7, r=8, c=1] ~ ~ ~ execute @p[x=~-5, y=~5, z=~5, dx=11, dy=3, dz=-8, scores={task_timer_act=1}] ~ ~ ~ give @s barrier 1 0
+execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=task_8, r=8, c=1] ~ ~ ~ execute @p[x=~-5, y=~5, z=~5, dx=11, dy=3, dz=-8, scores={task_timer_act=1}] ~ ~ ~ give @s barrier 1 0
 
 # Also set the in_task scoreboard to 1
-execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=task_7, r=8, c=1] ~ ~ ~ execute @p[x=~-7, y=~3, z=~5, dx=-1, dy=3, dz=-7, scores={task_timer_act=1}] ~ ~ ~ scoreboard players set @s in_task 1
-execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=task_7, r=8, c=1] ~ ~ ~ execute @p[x=~-5, y=~5, z=~5, dx=11, dy=3, dz=-8, scores={task_timer_act=1}] ~ ~ ~ scoreboard players set @s in_task 1
+execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=task_8, r=8, c=1] ~ ~ ~ execute @p[x=~-7, y=~3, z=~5, dx=-1, dy=3, dz=-7, scores={task_timer_act=1}] ~ ~ ~ scoreboard players set @s in_task 1
+execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=task_8, r=8, c=1] ~ ~ ~ execute @p[x=~-5, y=~5, z=~5, dx=11, dy=3, dz=-8, scores={task_timer_act=1}] ~ ~ ~ scoreboard players set @s in_task 1
 
 # Update the status board of which tasks are in use/free
 execute @p ~ ~ ~ function task8/loop_status_board
