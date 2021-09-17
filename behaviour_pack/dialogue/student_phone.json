@@ -9,12 +9,6 @@
                             "/execute @a[target_type=other] ~ ~ ~ function phone/teleport/town_square"
                         ],
                         "name": "Return to square"
-                    },
-                    {
-                        "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function phone/open_map"
-                        ],
-                        "name": "Open map"
                     }
                 ],
                 "npc_name": "Student Phone",
@@ -22,25 +16,6 @@
                 "on_open_commands": [],
                 "scene_tag": "student_phone_outside_task",
                 "text": "Select an option below"
-            },
-            {
-                "buttons": [
-                    {
-                        "commands": [],
-                        "name": "Cancel"
-                    },
-                    {
-                        "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~  function phone/reset_codebuilder"
-                        ],
-                        "name": "Yes reset"
-                    }
-                ],
-                "npc_name": "Student Phone",
-                "on_close_commands": [],
-                "on_open_commands": [],
-                "scene_tag": "student_phone_reset_codebuilder",
-                "text": "Are you sure you want to reset your Code Builder? This will clear all your Makecode/Notebook progress... Only use this if it has got stuck."
             },
             {
                 "buttons": [
@@ -61,19 +36,13 @@
                             "/execute @a[target_type=other] ~ ~ ~ function phone/quit_task"
                         ],
                         "name": "Quit task"
-                    },
-                    {
-                        "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~  function phone/reset_codebuilder"
-                        ],
-                        "name": "Reset code"
                     }
                 ],
                 "npc_name": "Student Phone",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "student_phone_in_task",
-                "text": "Hello there, how can I help?\n\nIf you need to start again, select \"Reset task\". Need to just bring your agent back to the start? For that, use the \"Reset agent\" option. Having issues with the Code Builder? Select Reset Code."
+                "text": "Hello there, how can I help?\n\nIf you need to start again, select \"Reset task\". Need to just bring your agent back to the start? For that, use the \"Reset agent\" option."
             }
         ]
     }
