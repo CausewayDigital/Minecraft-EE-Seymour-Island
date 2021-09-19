@@ -1,0 +1,26 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/books/book_2"
+                        ],
+                        "name": "Sure"
+                    },
+                    {
+                        "commands": [],
+                        "name": "No Thanks"
+                    }
+                ],
+                "npc_name": "Ada Lovelace",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "book_2",
+                "text": "Would you like to read a book about Ada Lovelace"
+            }
+        ]
+    }
+}
