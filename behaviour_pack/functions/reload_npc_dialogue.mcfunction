@@ -15,3 +15,8 @@ dialogue change @e[type=npc, r=1, c=1, x=-457, y=77, z=284] task_7_nav_npc
 dialogue change @e[type=npc, r=1, c=1, x=-457, y=77, z=277] task_7_dri_npc
 dialogue change @e[type=npc, r=1, c=1, x=-442, y=82, z=284] task_8_nav_npc
 dialogue change @e[type=npc, r=1, c=1, x=-442, y=82, z=278] task_8_dri_npc
+dialogue change @e[type=npc, r=1, c=1, x=-475, y=82, z=285] book_1
+dialogue change @e[type=npc, r=1, c=1, x=-484, y=82, z=276] book_2
+dialogue change @e[type=npc, r=1, c=1, x=-477, y=82, z=279] book_3
+dialogue change @e[type=npc, r=1, c=1, x=-482, y=82, z=287] book_4
+dialogue change @e[type=npc, r=1, c=1, x=-480, y=82, z=272] book_5
