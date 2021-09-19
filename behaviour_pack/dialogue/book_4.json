@@ -1,0 +1,26 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ function crypto/books/book_4"
+                        ],
+                        "name": "Sure"
+                    },
+                    {
+                        "commands": [],
+                        "name": "No Thanks"
+                    }
+                ],
+                "npc_name": "Julias Ceasar",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "book_4",
+                "text": "Do you want to read a book about Julias Ceasar"
+            }
+        ]
+    }
+}
