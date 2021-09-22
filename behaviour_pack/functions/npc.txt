@@ -21,3 +21,7 @@ book_2 -484 82 276
 book_3 -477 82 279
 book_4 -482 82 287
 book_5 -480 82 272
+task_0_sailor_3 -852 67 275 
+task_0_sailor_2 -856 64 289 
+task_0_sailor_1 -850 64 294 
+task_0_intro -853 64 277
