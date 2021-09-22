@@ -47,42 +47,42 @@
                     {
                         "commands": [
                             "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s task_room_num 1 ",
-                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_7_lang"
+                            "/execute @a[target_type=other] ~ ~ ~ function task7/start_blocks"
                         ],
                         "name": "Room 1"
                     },
                     {
                         "commands": [
                             "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s task_room_num 2 ",
-                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_7_lang"
+                            "/execute @a[target_type=other] ~ ~ ~ function task7/start_blocks"
                         ],
                         "name": "Room 2"
                     },
                     {
                         "commands": [
                             "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s task_room_num 3 ",
-                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_7_lang"
+                            "/execute @a[target_type=other] ~ ~ ~ function task7/start_blocks"
                         ],
                         "name": "Room 3"
                     },
                     {
                         "commands": [
                             "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s task_room_num 4 ",
-                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_7_lang"
+                            "/execute @a[target_type=other] ~ ~ ~ function task7/start_blocks"
                         ],
                         "name": "Room 4"
                     },
                     {
                         "commands": [
                             "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s task_room_num 5 ",
-                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_5_lang"
+                            "/execute @a[target_type=other] ~ ~ ~ function task7/start_blocks"
                         ],
                         "name": "Room 5"
                     },
                     {
                         "commands": [
                             "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s task_room_num 6 ",
-                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_7_lang"
+                            "/execute @a[target_type=other] ~ ~ ~ function task7/start_blocks"
                         ],
                         "name": "Room 6"
                     }
@@ -91,7 +91,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "task_7_room_select",
-                "text": "Wow"
+                "text": "Select a room to join. There are 6 rooms for this task and each is exactly the same.\nMake sure you pick the same one as your partner!"
             },
             {
                 "buttons": [

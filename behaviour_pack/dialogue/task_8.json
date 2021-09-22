@@ -91,7 +91,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "task_8_room_select",
-                "text": "Wow"
+                "text": "Select a room to join. There are 6 rooms for this task and each is exactly the same.\nMake sure you pick the same one as your partner!"
             },
             {
                 "buttons": [

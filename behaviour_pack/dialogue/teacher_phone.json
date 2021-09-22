@@ -33,7 +33,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "teacher_phone",
-                "text": "Select an option below"
+                "text": "Hello there, how can I help?\nUse the buttons below start the game, toggle flying mode or to teleport quickly to areas of the map.\nThe \"Student phone\" button allows you see what students see with their phones."
             },
             {
                 "buttons": [
@@ -78,7 +78,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "teacher_phone_teleport_1",
-                "text": "Choose a location to teleport to"
+                "text": "Choose a location to teleport to below, or select \"More...\" to display the 2nd page of options."
             },
             {
                 "buttons": [
@@ -123,7 +123,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "teacher_phone_teleport_2",
-                "text": "Choose a location to teleport to"
+                "text": "Choose a location to teleport to, or select \"Return\" to display the 1st page of teleport options again.\nSelect \"Back to menu\" to return to the main phone menu."
             },
             {
                 "buttons": [],
