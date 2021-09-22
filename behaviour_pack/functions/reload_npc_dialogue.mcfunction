@@ -20,3 +20,7 @@ dialogue change @e[type=npc, r=1, c=1, x=-484, y=82, z=276] book_2
 dialogue change @e[type=npc, r=1, c=1, x=-477, y=82, z=279] book_3
 dialogue change @e[type=npc, r=1, c=1, x=-482, y=82, z=287] book_4
 dialogue change @e[type=npc, r=1, c=1, x=-480, y=82, z=272] book_5
+dialogue change @e[type=npc, r=1, c=1, x=-852, y=67, z=275] task_0_sailor_3
+dialogue change @e[type=npc, r=1, c=1, x=-856, y=64, z=289] task_0_sailor_2
+dialogue change @e[type=npc, r=1, c=1, x=-850, y=64, z=294] task_0_sailor_1
+dialogue change @e[type=npc, r=1, c=1, x=-853, y=64, z=277] task_0_intro
