@@ -6,7 +6,7 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function phone/teleport/town_square"
+                            "/execute @a[target_type=other] ~ ~ ~ function phone/teleport/student_town_square"
                         ],
                         "name": "Return to square"
                     }
@@ -15,7 +15,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "student_phone_outside_task",
-                "text": "Select an option below"
+                "text": "Hello there, how can I help?\nIf you want to return back to the Town Square, select the button below."
             },
             {
                 "buttons": [

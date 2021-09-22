@@ -52,6 +52,30 @@
                 "on_open_commands": [],
                 "scene_tag": "task_0_wheel",
                 "text": "*CRASH*\n\nQuickly! Grab the steering wheel of the ship, there is another wave coming!"
+            },
+            {
+                "buttons": [],
+                "npc_name": "Sailor",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "task_0_sailor_1",
+                "text": "Welcome aboard!"
+            },
+            {
+                "buttons": [],
+                "npc_name": "Sailor",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "task_0_sailor_2",
+                "text": "Did you see that dolphin over there?..."
+            },
+            {
+                "buttons": [],
+                "npc_name": "Sailor",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "task_0_sailor_3",
+                "text": "I see a storm brewing..."
             }
         ]
     }
