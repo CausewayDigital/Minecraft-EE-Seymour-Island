@@ -1,6 +1,7 @@
 # Executing as the player  
 
 # Open the Makecode exercise
+codebuilder navigate @p true https://minecraft.makecode.com/#tutorial:https://github.com/CausewayDigital/Minecraft-EE-MakeCode/tutorials/seymour-island/task7
 
 # Start main task
 execute @s[scores={task_player_num=1}] ~ ~ ~ function task7/start
