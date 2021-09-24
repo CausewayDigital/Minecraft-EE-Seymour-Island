@@ -193,6 +193,25 @@
                 "on_open_commands": [],
                 "scene_tag": "robot1",
                 "text": "*Beep* *Boop*\r\nBirds aren't real\r\n*Beep* *Boop*\r\n1/5\t"
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ /function phone/teleport/town_square"
+                        ],
+                        "name": "Return to square"
+                    },
+                    {
+                        "commands": [],
+                        "name": "Ok"
+                    }
+                ],
+                "npc_name": "Robot",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "tower_robot",
+                "text": "Welcome to the secret robot viewpoint. From here, we can watch over the entire town square.\r\nWhen you are ready to go back down, let me know"
             }
         ]
     }
