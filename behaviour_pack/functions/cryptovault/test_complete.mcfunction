@@ -1,7 +1,7 @@
 # Executing as the armor stand
 
-# Set test scoreboard to 1 to tell the system that it is currently getting tested
-execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ scoreboard players set @s crypto_v_test 1
+# Remove button so the this function file doesnt keep running
+execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ setblock ~ ~11 ~-3 air 0
 
 # Check if The right letters are filled
 
@@ -176,8 +176,8 @@ execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-6, y=~5, z=~
 # Check if task complete
 execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ execute @e[type=armor_stand, tag=crypto_vault, c=1] ~ ~ ~ execute @p[scores={crypto_v_prog=31, crypto_v_done=0}] ~ ~ ~ execute @s ~ ~ ~ function cryptovault/complete
 
-# Set test scoreboard to 0
-execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ scoreboard players set @s crypto_v_test 0
+# Place button back
+execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ setblock ~ ~11 ~-3 wooden_button 3
 
 # Reset prog scoreboard 
 # execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ execute @e[type=armor_stand, tag=crypto_vault, c=1] ~ ~ ~ execute @p ~ ~ ~ scoreboard players set @s crypto_v_prog 0

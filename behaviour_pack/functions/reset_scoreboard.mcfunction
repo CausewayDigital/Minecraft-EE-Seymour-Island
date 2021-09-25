@@ -248,10 +248,6 @@ scoreboard objectives remove crypto_v_prog
 scoreboard objectives add crypto_v_prog dummy
 scoreboard players set @a crypto_v_prog 0
 
-scoreboard objectives remove crypto_v_test
-scoreboard objectives add crypto_v_test dummy
-scoreboard players set @a crypto_v_test 0
-
 scoreboard objectives remove crypto_timer
 scoreboard objectives add crypto_timer dummy
 scoreboard players set @a crypto_timer 0
