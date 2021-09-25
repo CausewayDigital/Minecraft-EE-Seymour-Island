@@ -15,7 +15,7 @@
                         "name": "No Thanks"
                     }
                 ],
-                "npc_name": "Grace Hopper (Cryptography 1)",
+                "npc_name": "Grace Hopper",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "book_1",

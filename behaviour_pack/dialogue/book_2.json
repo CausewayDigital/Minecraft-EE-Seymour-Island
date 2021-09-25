@@ -19,7 +19,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "book_2",
-                "text": "Would you like to read a book about Ada Lovelace"
+                "text": "Are you having trouble solving the second Cryptography Challenge?\nI have a book about Ada Lovelace that could help you."
             }
         ]
     }
