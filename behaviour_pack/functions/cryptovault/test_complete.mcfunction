@@ -150,23 +150,23 @@ execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-6, y=~5, z=~
 # CODER
 # C
 execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ execute @e[type=armor_stand, tag=crypto_vault, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~-1 ~4 ~-1 letter_c_correct -1 execute @s ~ ~ ~ setblock ~-1 ~4 ~-1 letter_c_main 0
-execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ execute @e[type=armor_stand, tag=crypto_vault, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~-1 ~4 ~-1 letter_c_main -1 execute @s ~ ~ ~ scoreboard players add @s crypto_v_prog 1
+execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ execute @e[type=armor_stand, tag=crypto_vault, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~-1 ~4 ~-1 letter_c_main -1 execute @s ~ ~ ~ scoreboard players add @p crypto_v_prog 1
 
 # O
 execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ execute @e[type=armor_stand, tag=crypto_vault, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~-1 ~4 ~ letter_o_correct -1 execute @s ~ ~ ~ setblock ~-1 ~4 ~ letter_o_main 0
-execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ execute @e[type=armor_stand, tag=crypto_vault, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~-1 ~4 ~ letter_c_main -1 execute @s ~ ~ ~ scoreboard players add @s crypto_v_prog 1
+execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ execute @e[type=armor_stand, tag=crypto_vault, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~-1 ~4 ~ letter_c_main -1 execute @s ~ ~ ~ scoreboard players add @p crypto_v_prog 1
 
 # D
 execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ execute @e[type=armor_stand, tag=crypto_vault, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~-1 ~4 ~1 letter_d_correct -1 execute @s ~ ~ ~ setblock ~-1 ~4 ~1 letter_d_main 0
-execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ execute @e[type=armor_stand, tag=crypto_vault, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~-1 ~4 ~1 letter_c_main -1 execute @s ~ ~ ~ scoreboard players add @s crypto_v_prog 1
+execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ execute @e[type=armor_stand, tag=crypto_vault, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~-1 ~4 ~1 letter_c_main -1 execute @s ~ ~ ~ scoreboard players add @p crypto_v_prog 1
 
 # E
 execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ execute @e[type=armor_stand, tag=crypto_vault, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~-1 ~4 ~2 letter_e_correct -1 execute @s ~ ~ ~ setblock ~-1 ~4 ~2 letter_e_main 0
-execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ execute @e[type=armor_stand, tag=crypto_vault, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~-1 ~4 ~2 letter_c_main -1 execute @s ~ ~ ~ scoreboard players add @s crypto_v_prog 1
+execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ execute @e[type=armor_stand, tag=crypto_vault, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~-1 ~4 ~2 letter_c_main -1 execute @s ~ ~ ~ scoreboard players add @p crypto_v_prog 1
 
 # R
 execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ execute @e[type=armor_stand, tag=crypto_vault, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~-1 ~4 ~3 letter_r_correct -1 execute @s ~ ~ ~ setblock ~-1 ~4 ~3 letter_r_main 0
-execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ execute @e[type=armor_stand, tag=crypto_vault, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~-1 ~4 ~3 letter_c_main -1 execute @s ~ ~ ~ scoreboard players add @s crypto_v_prog 1
+execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ execute @e[type=armor_stand, tag=crypto_vault, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~-1 ~4 ~3 letter_c_main -1 execute @s ~ ~ ~ scoreboard players add @p crypto_v_prog 1
 
 
 
