@@ -256,11 +256,11 @@ scoreboard objectives remove crypto_loc_show
 scoreboard objectives add crypto_loc_show dummy
 scoreboard players set @a crypto_loc_show 0
 
-scoreboard objectives remove cinematic_timer_1
-scoreboard objectives add cinematic_timer_1 dummy
-scoreboard players set @a cinematic_timer_1 0
+scoreboard objectives remove cine_timer_1
+scoreboard objectives add cine_timer_1 dummy
+scoreboard players set @a cine_timer_1 0
 
-scoreboard objectives remove cinematic_timer_2
-scoreboard objectives add cinematic_timer_2 dummy
-scoreboard players set @a cinematic_timer_2 0
+scoreboard objectives remove cine_timer_2
+scoreboard objectives add cine_timer_2 dummy
+scoreboard players set @a cine_timer_2 0
 
