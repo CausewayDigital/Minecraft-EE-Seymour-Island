@@ -104,6 +104,7 @@ crypto_cmplt_5
 
 crypto_v_done
 crypto_v_prog
+crypto_v_test
 
 crypto_timer
 
