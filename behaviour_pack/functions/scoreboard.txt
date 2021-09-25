@@ -109,5 +109,5 @@ crypto_timer
 
 crypto_loc_show
 
-cinematic_timer_1
-cinematic_timer_2
+cine_timer_1
+cine_timer_2
