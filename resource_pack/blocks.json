@@ -211,5 +211,421 @@
             "side": "letter_z"
         },
         "sound": "stone"
+    },
+    "cd:letter_a_correct": {
+        "textures": {
+            "up": "letter_a_correct",
+            "down": "letter_a_correct",
+            "side": "letter_a_correct"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_b_correct": {
+        "textures": {
+            "up": "letter_b_correct",
+            "down": "letter_b_correct",
+            "side": "letter_b_correct"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_c_correct": {
+        "textures": {
+            "up": "letter_c_correct",
+            "down": "letter_c_correct",
+            "side": "letter_c_correct"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_d_correct": {
+        "textures": {
+            "up": "letter_d_correct",
+            "down": "letter_d_correct",
+            "side": "letter_d_correct"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_e_correct": {
+        "textures": {
+            "up": "letter_e_correct",
+            "down": "letter_e_correct",
+            "side": "letter_e_correct"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_f_correct": {
+        "textures": {
+            "up": "letter_f_correct",
+            "down": "letter_f_correct",
+            "side": "letter_f_correct"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_g_correct": {
+        "textures": {
+            "up": "letter_g_correct",
+            "down": "letter_g_correct",
+            "side": "letter_g_correct"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_h_correct": {
+        "textures": {
+            "up": "letter_h_correct",
+            "down": "letter_h_correct",
+            "side": "letter_h_correct"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_i_correct": {
+        "textures": {
+            "up": "letter_i_correct",
+            "down": "letter_i_correct",
+            "side": "letter_i_correct"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_j_correct": {
+        "textures": {
+            "up": "letter_j_correct",
+            "down": "letter_j_correct",
+            "side": "letter_j_correct"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_k_correct": {
+        "textures": {
+            "up": "letter_k_correct",
+            "down": "letter_k_correct",
+            "side": "letter_k_correct"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_l_correct": {
+        "textures": {
+            "up": "letter_l_correct",
+            "down": "letter_l_correct",
+            "side": "letter_l_correct"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_m_correct": {
+        "textures": {
+            "up": "letter_m_correct",
+            "down": "letter_m_correct",
+            "side": "letter_m_correct"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_n_correct": {
+        "textures": {
+            "up": "letter_n_correct",
+            "down": "letter_n_correct",
+            "side": "letter_n_correct"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_o_correct": {
+        "textures": {
+            "up": "letter_o_correct",
+            "down": "letter_o_correct",
+            "side": "letter_o_correct"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_p_correct": {
+        "textures": {
+            "up": "letter_p_correct",
+            "down": "letter_p_correct",
+            "side": "letter_p_correct"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_q_correct": {
+        "textures": {
+            "up": "letter_q_correct",
+            "down": "letter_q_correct",
+            "side": "letter_q_correct"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_r_correct": {
+        "textures": {
+            "up": "letter_r_correct",
+            "down": "letter_r_correct",
+            "side": "letter_r_correct"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_s_correct": {
+        "textures": {
+            "up": "letter_s_correct",
+            "down": "letter_s_correct",
+            "side": "letter_s_correct"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_t_correct": {
+        "textures": {
+            "up": "letter_t_correct",
+            "down": "letter_t_correct",
+            "side": "letter_t_correct"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_u_correct": {
+        "textures": {
+            "up": "letter_u_correct",
+            "down": "letter_u_correct",
+            "side": "letter_u_correct"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_v_correct": {
+        "textures": {
+            "up": "letter_v_correct",
+            "down": "letter_v_correct",
+            "side": "letter_v_correct"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_w_correct": {
+        "textures": {
+            "up": "letter_w_correct",
+            "down": "letter_w_correct",
+            "side": "letter_w_correct"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_x_correct": {
+        "textures": {
+            "up": "letter_x_correct",
+            "down": "letter_x_correct",
+            "side": "letter_x_correct"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_y_correct": {
+        "textures": {
+            "up": "letter_y_correct",
+            "down": "letter_y_correct",
+            "side": "letter_y_correct"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_z_correct": {
+        "textures": {
+            "up": "letter_z_correct",
+            "down": "letter_z_correct",
+            "side": "letter_z_correct"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_a_main": {
+        "textures": {
+            "up": "letter_a_main",
+            "down": "letter_a_main",
+            "side": "letter_a_main"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_b_main": {
+        "textures": {
+            "up": "letter_b_main",
+            "down": "letter_b_main",
+            "side": "letter_b_main"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_c_main": {
+        "textures": {
+            "up": "letter_c_main",
+            "down": "letter_c_main",
+            "side": "letter_c_main"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_d_main": {
+        "textures": {
+            "up": "letter_d_main",
+            "down": "letter_d_main",
+            "side": "letter_d_main"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_e_main": {
+        "textures": {
+            "up": "letter_e_main",
+            "down": "letter_e_main",
+            "side": "letter_e_main"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_f_main": {
+        "textures": {
+            "up": "letter_f_main",
+            "down": "letter_f_main",
+            "side": "letter_f_main"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_g_main": {
+        "textures": {
+            "up": "letter_g_main",
+            "down": "letter_g_main",
+            "side": "letter_g_main"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_h_main": {
+        "textures": {
+            "up": "letter_h_main",
+            "down": "letter_h_main",
+            "side": "letter_h_main"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_i_main": {
+        "textures": {
+            "up": "letter_i_main",
+            "down": "letter_i_main",
+            "side": "letter_i_main"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_j_main": {
+        "textures": {
+            "up": "letter_j_main",
+            "down": "letter_j_main",
+            "side": "letter_j_main"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_k_main": {
+        "textures": {
+            "up": "letter_k_main",
+            "down": "letter_k_main",
+            "side": "letter_k_main"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_l_main": {
+        "textures": {
+            "up": "letter_l_main",
+            "down": "letter_l_main",
+            "side": "letter_l_main"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_m_main": {
+        "textures": {
+            "up": "letter_m_main",
+            "down": "letter_m_main",
+            "side": "letter_m_main"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_n_main": {
+        "textures": {
+            "up": "letter_n_main",
+            "down": "letter_n_main",
+            "side": "letter_n_main"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_o_main": {
+        "textures": {
+            "up": "letter_o_main",
+            "down": "letter_o_main",
+            "side": "letter_o_main"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_p_main": {
+        "textures": {
+            "up": "letter_p_main",
+            "down": "letter_p_main",
+            "side": "letter_p_main"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_q_main": {
+        "textures": {
+            "up": "letter_q_main",
+            "down": "letter_q_main",
+            "side": "letter_q_main"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_r_main": {
+        "textures": {
+            "up": "letter_r_main",
+            "down": "letter_r_main",
+            "side": "letter_r_main"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_s_main": {
+        "textures": {
+            "up": "letter_s_main",
+            "down": "letter_s_main",
+            "side": "letter_s_main"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_t_main": {
+        "textures": {
+            "up": "letter_t_main",
+            "down": "letter_t_main",
+            "side": "letter_t_main"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_u_main": {
+        "textures": {
+            "up": "letter_u_main",
+            "down": "letter_u_main",
+            "side": "letter_u_main"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_v_main": {
+        "textures": {
+            "up": "letter_v_main",
+            "down": "letter_v_main",
+            "side": "letter_v_main"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_w_main": {
+        "textures": {
+            "up": "letter_w_main",
+            "down": "letter_w_main",
+            "side": "letter_w_main"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_x_main": {
+        "textures": {
+            "up": "letter_x_main",
+            "down": "letter_x_main",
+            "side": "letter_x_main"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_y_main": {
+        "textures": {
+            "up": "letter_y_main",
+            "down": "letter_y_main",
+            "side": "letter_y_main"
+        },
+        "sound": "stone"
+    },
+    "cd:letter_z_main": {
+        "textures": {
+            "up": "letter_z_main",
+            "down": "letter_z_main",
+            "side": "letter_z_main"
+        },
+        "sound": "stone"
     }
 }
