@@ -15,7 +15,7 @@
                         "name": "No Thanks"
                     }
                 ],
-                "npc_name": "Ada Lovelace (Cryptography 2)",
+                "npc_name": "Ada Lovelace",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "book_2",
