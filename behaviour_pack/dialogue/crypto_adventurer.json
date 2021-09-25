@@ -13,7 +13,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_a_loc_1",
-                "text": "The first robot loves books and learning knowledge."
+                "text": "Here is a hint to help you find the first robot.  \n\nThe first robot loves books and learning knowledge. They might spend their time amongst a collection of books..."
             },
             {
                 "buttons": [
@@ -26,7 +26,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_a_loc_2",
-                "text": "The second robot is on the hunt for a precious metal."
+                "text": "Here is a hint to help you find the second robot.\n\nThe second robot is on the hunt for a precious metal, you will probably find them underground..."
             },
             {
                 "buttons": [
@@ -39,7 +39,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_a_loc_3",
-                "text": "The third robot is shy and doesn’t leave the house."
+                "text": "Here is a hint to help you find the third robot.\n\nThe third robot is shy and doesn’t leave the house much. They probably are hiding in a house that doesn't have a coding task in it. Have a look around and see if you can find an empty looking house."
             },
             {
                 "buttons": [
@@ -52,7 +52,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_a_loc_4",
-                "text": "The forth robot only has eyes for the stars."
+                "text": "Here is a hint to help you find the forth robot.\n\nThe forth robot only has eyes for the stars. They can probably be found somewhere high up with a good view of the stars."
             },
             {
                 "buttons": [
@@ -65,7 +65,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_a_loc_5",
-                "text": "The fifth robot wants to get lost at sea."
+                "text": "Here is a hint to help you find the fifth robot.\n\nThe fifth robot wants to get lost at sea, so I would first take a look down by the sea."
             },
             {
                 "buttons": [

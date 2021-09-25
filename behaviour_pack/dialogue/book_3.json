@@ -15,11 +15,11 @@
                         "name": "No Thanks"
                     }
                 ],
-                "npc_name": "Tim Barners-Lee (Crypto 3)",
+                "npc_name": " Tim Berners-Lee (Crypto 3)",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "book_3",
-                "text": "Do you need a hand figuring out the third Cryptography Challenge?\nTake a look about Sir Tim Barners-Lee. It might just help you."
+                "text": "Do you need a hand figuring out the third Cryptography Challenge?\nTake a look about Sir Tim Berners-Lee. It might just help you."
             }
         ]
     }
