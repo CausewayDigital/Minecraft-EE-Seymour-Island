@@ -370,7 +370,14 @@
                 "text": "There is a fellow robot in the library (at the top of the town hall) who would quite like to talk you."
             },
             {
-                "buttons": [],
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, tag=crypto_5, c=1] @s crypto_5_ciphertext"
+                        ],
+                        "name": "Next"
+                    }
+                ],
                 "npc_name": "Cryptographer 5",
                 "on_close_commands": [],
                 "on_open_commands": [],
