@@ -15,7 +15,7 @@
                         "name": "No Thanks"
                     }
                 ],
-                "npc_name": "Julius Caesar (Cryptography 4)",
+                "npc_name": "Julius Caesar (Crypto 4)",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "book_4",
