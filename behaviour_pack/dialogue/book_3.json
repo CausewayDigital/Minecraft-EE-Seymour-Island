@@ -15,7 +15,7 @@
                         "name": "No Thanks"
                     }
                 ],
-                "npc_name": "Sir Tim Barners Lee (Cryptography 3)",
+                "npc_name": "Sir Tim Barners Lee",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "book_3",

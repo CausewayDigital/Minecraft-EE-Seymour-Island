@@ -15,7 +15,7 @@
                         "name": "No Thanks"
                     }
                 ],
-                "npc_name": "Katherine Johnson (Cryptography 5)",
+                "npc_name": "Katherine Johnson",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "book_5",
