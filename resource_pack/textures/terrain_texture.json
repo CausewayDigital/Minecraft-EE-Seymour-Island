@@ -133,6 +133,267 @@
             "textures": [
                 "textures/blocks/letter_z"
             ]
+        },
+        "letter_a_correct": {
+            "textures": [
+                "textures/blocks/letter_a_correct"
+            ]
+        },
+        "letter_b_correct": {
+            "textures": [
+                "textures/blocks/letter_b_correct"
+            ]
+        },
+        "letter_c_correct": {
+            "textures": [
+                "textures/blocks/letter_c_correct"
+            ]
+        },
+        "letter_d_correct": {
+            "textures": [
+                "textures/blocks/letter_d_correct"
+            ]
+        },
+        "letter_e_correct": {
+            "textures": [
+                "textures/blocks/letter_e_correct"
+            ]
+        },
+        "letter_f_correct": {
+            "textures": [
+                "textures/blocks/letter_f_correct"
+            ]
+        },
+        "letter_g_correct": {
+            "textures": [
+                "textures/blocks/letter_g_correct"
+            ]
+        },
+        "letter_h_correct": {
+            "textures": [
+                "textures/blocks/letter_h_correct"
+            ]
+        },
+        "letter_i_correct": {
+            "textures": [
+                "textures/blocks/letter_i_correct"
+            ]
+        },
+        "letter_j_correct": {
+            "textures": [
+                "textures/blocks/letter_j_correct"
+            ]
+        },
+        "letter_k_correct": {
+            "textures": [
+                "textures/blocks/letter_k_correct"
+            ]
+        },
+        "letter_l_correct": {
+            "textures": [
+                "textures/blocks/letter_l_correct"
+            ]
+        },
+        "letter_m_correct": {
+            "textures": [
+                "textures/blocks/letter_m_correct"
+            ]
+        },
+        "letter_n_correct": {
+            "textures": [
+                "textures/blocks/letter_n_correct"
+            ]
+        },
+        "letter_o_correct": {
+            "textures": [
+                "textures/blocks/letter_o_correct"
+            ]
+        },
+        "letter_p_correct": {
+            "textures": [
+                "textures/blocks/letter_p_correct"
+            ]
+        },
+        "letter_q_correct": {
+            "textures": [
+                "textures/blocks/letter_q_correct"
+            ]
+        },
+        "letter_r_correct": {
+            "textures": [
+                "textures/blocks/letter_r_correct"
+            ]
+        },
+        "letter_s_correct": {
+            "textures": [
+                "textures/blocks/letter_s_correct"
+            ]
+        },
+        "letter_t_correct": {
+            "textures": [
+                "textures/blocks/letter_t_correct"
+            ]
+        },
+        "letter_u_correct": {
+            "textures": [
+                "textures/blocks/letter_u_correct"
+            ]
+        },
+        "letter_v_correct": {
+            "textures": [
+                "textures/blocks/letter_v_correct"
+            ]
+        },
+        "letter_w_correct": {
+            "textures": [
+                "textures/blocks/letter_w_correct"
+            ]
+        },
+        "letter_x_correct": {
+            "textures": [
+                "textures/blocks/letter_x_correct"
+            ]
+        },
+        "letter_y_correct": {
+            "textures": [
+                "textures/blocks/letter_y_correct"
+            ]
+        },
+        "letter_z_correct": {
+            "textures": [
+                "textures/blocks/letter_z_correct"
+            ]
+        },
+        "letter_a_main": {
+            "textures": [
+                "textures/blocks/letter_a_main"
+            ]
+        },
+        "letter_b_main": {
+            "textures": [
+                "textures/blocks/letter_b_main"
+            ]
+        },
+        "letter_c_main": {
+            "textures": [
+                "textures/blocks/letter_c_main"
+            ]
+        },
+        "letter_d_main": {
+            "textures": [
+                "textures/blocks/letter_d_main"
+            ]
+        },
+        "letter_e_main": {
+            "textures": [
+                "textures/blocks/letter_e_main"
+            ]
+        },
+        "letter_f_main": {
+            "textures": [
+                "textures/blocks/letter_f_main"
+            ]
+        },
+        "letter_g_main": {
+            "textures": [
+                "textures/blocks/letter_g_main"
+            ]
+        },
+        "letter_h_main": {
+            "textures": [
+                "textures/blocks/letter_h_main"
+            ]
+        },
+        "letter_i_main": {
+            "textures": [
+                "textures/blocks/letter_i_main"
+            ]
+        },
+        "letter_j_main": {
+            "textures": [
+                "textures/blocks/letter_j_main"
+            ]
+        },
+        "letter_k_main": {
+            "textures": [
+                "textures/blocks/letter_k_main"
+            ]
+        },
+        "letter_l_main": {
+            "textures": [
+                "textures/blocks/letter_l_main"
+            ]
+        },
+        "letter_m_main": {
+            "textures": [
+                "textures/blocks/letter_m_main"
+            ]
+        },
+        "letter_n_main": {
+            "textures": [
+                "textures/blocks/letter_n_main"
+            ]
+        },
+        "letter_o_main": {
+            "textures": [
+                "textures/blocks/letter_o_main"
+            ]
+        },
+        "letter_p_main": {
+            "textures": [
+                "textures/blocks/letter_p_main"
+            ]
+        },
+        "letter_q_main": {
+            "textures": [
+                "textures/blocks/letter_q_main"
+            ]
+        },
+        "letter_r_main": {
+            "textures": [
+                "textures/blocks/letter_r_main"
+            ]
+        },
+        "letter_s_main": {
+            "textures": [
+                "textures/blocks/letter_s_main"
+            ]
+        },
+        "letter_t_main": {
+            "textures": [
+                "textures/blocks/letter_t_main"
+            ]
+        },
+        "letter_u_main": {
+            "textures": [
+                "textures/blocks/letter_u_main"
+            ]
+        },
+        "letter_v_main": {
+            "textures": [
+                "textures/blocks/letter_v_main"
+            ]
+        },
+        "letter_w_main": {
+            "textures": [
+                "textures/blocks/letter_w_main"
+            ]
+        },
+        "letter_x_main": {
+            "textures": [
+                "textures/blocks/letter_x_main"
+            ]
+        },
+        "letter_y_main": {
+            "textures": [
+                "textures/blocks/letter_y_main"
+            ]
+        },
+        "letter_z_main": {
+            "textures": [
+                "textures/blocks/letter_z_main"
+            ]
         }
+
     }
 }
