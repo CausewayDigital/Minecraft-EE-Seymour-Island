@@ -1,7 +1,7 @@
 # Run as main loop
 
 # Check if task is complete. Only run if there is a player in the task.
-execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ execute @e[type=armor_stand, tag=crypto_vault, c=1] ~ ~ ~ detect ~ ~11 ~-3 wooden_button 1 function cryptovault/test_complete
+execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ execute @e[type=armor_stand, tag=crypto_vault, c=1] ~ ~ ~ detect ~ ~11 ~-3 wooden_button 11 function cryptovault/test_complete
 
 # check if player needs to be tp'd to other room
 execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-1, y=~5, z=~-4, dx=2, dy=3, dz=-1, scores={crypto_v_done=1}] ~ ~ ~ execute @e[type=armor_stand, tag=crypto_vault, c=1] ~ ~ ~ function cryptovault/reset
