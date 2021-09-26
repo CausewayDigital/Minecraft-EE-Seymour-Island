@@ -1,6 +1,6 @@
 # Executing as the player
 
-scoreboard players add @a[scores={cine_timer_1=1..800}] cine_timer_1 1
+#scoreboard players add @a[scores={cine_timer_1=1..800}] cine_timer_1 1
 #scoreboard players set @a[scores={cine_timer_1=764}] cine_timer_1 0
 
 tp @a[scores={cine_timer_1=3}] -460.723 84.799 -262.673 facing -460 67 -183
