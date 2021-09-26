@@ -1,7 +1,9 @@
 # Executing as the player
 
 scoreboard players add @a[scores={cine_timer_1=1..800}] cine_timer_1 1
-#scoreboard players set @a[scores={cine_timer_1=764}] cine_timer_1 0
+scoreboard players set @a[scores={cine_timer_1=799}] cine_timer_1 0
+
+playsound cd.cinematic.ship @a[scores={cine_timer_1=2}] 
 
 tp @a[scores={cine_timer_1=3}] -460.723 84.799 -262.673 facing -460 67 -183
 tp @a[scores={cine_timer_1=4}] -460.731 84.799 -262.652 facing -460 67 -183
