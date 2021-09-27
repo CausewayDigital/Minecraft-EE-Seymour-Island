@@ -31,7 +31,7 @@
     },
     "cd.cinematic.ship": {
         "category": "cinematic",
-        "min_distance": 3.0,
+        "min_distance": 50.0,
         "sounds": [
             {
                 "name": "sounds/ambient/cinematic_ships",
