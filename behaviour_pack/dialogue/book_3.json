@@ -15,7 +15,7 @@
                         "name": "No Thanks"
                     }
                 ],
-                "npc_name": " Tim Berners-Lee (Crypto 3)",
+                "npc_name": "Cryptography 3",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "book_3",
