@@ -6,13 +6,13 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/start"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/start"
                         ],
                         "name": "Input Codeword"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/help"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/help"
                         ],
                         "name": "Help"
                     },
@@ -31,37 +31,37 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/incorrect"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/incorrect"
                         ],
                         "name": "S"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/incorrect"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/incorrect"
                         ],
                         "name": "V"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/incorrect"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/incorrect"
                         ],
                         "name": "Y"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/incorrect"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/incorrect"
                         ],
                         "name": "W"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/correct"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/correct"
                         ],
                         "name": "T"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/incorrect"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/incorrect"
                         ],
                         "name": "X"
                     }
@@ -76,37 +76,37 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/incorrect"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/incorrect"
                         ],
                         "name": "E"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/correct"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/correct"
                         ],
                         "name": "U"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/incorrect"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/incorrect"
                         ],
                         "name": "C"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/incorrect"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/incorrect"
                         ],
                         "name": "Z"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/incorrect"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/incorrect"
                         ],
                         "name": "D"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/incorrect"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/incorrect"
                         ],
                         "name": "G"
                     }
@@ -121,37 +121,37 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/incorrect"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/incorrect"
                         ],
                         "name": "B"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/incorrect"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/incorrect"
                         ],
                         "name": "N"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/incorrect"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/incorrect"
                         ],
                         "name": "U"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/correct"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/correct"
                         ],
                         "name": "R"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/incorrect"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/incorrect"
                         ],
                         "name": "M"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/incorrect"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/incorrect"
                         ],
                         "name": "T"
                     }
@@ -166,37 +166,37 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/incorrect"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/incorrect"
                         ],
                         "name": "O"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/incorrect"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/incorrect"
                         ],
                         "name": "Y"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/correct"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/correct"
                         ],
                         "name": "I"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/incorrect"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/incorrect"
                         ],
                         "name": "L"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/incorrect"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/incorrect"
                         ],
                         "name": "Q"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/incorrect"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/incorrect"
                         ],
                         "name": "K"
                     }
@@ -211,37 +211,37 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/incorrect"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/incorrect"
                         ],
                         "name": "S"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/incorrect"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/incorrect"
                         ],
                         "name": "A"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/incorrect"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/incorrect"
                         ],
                         "name": "L"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/correct"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/correct"
                         ],
                         "name": "N"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/incorrect"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/incorrect"
                         ],
                         "name": "F"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/incorrect"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/incorrect"
                         ],
                         "name": "M"
                     }
@@ -256,37 +256,37 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/correct"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/correct"
                         ],
                         "name": "G"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/incorrect"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/incorrect"
                         ],
                         "name": "J"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/incorrect"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/incorrect"
                         ],
                         "name": "E"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/incorrect"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/incorrect"
                         ],
                         "name": "O"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/incorrect"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/incorrect"
                         ],
                         "name": "C"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/robot_3/incorrect"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_3/incorrect"
                         ],
                         "name": "P"
                     }
@@ -301,19 +301,19 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, tag=crypto_3, c=1] @s crypto_3_hint"
+                            "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, tag=crypto_3, c=1] @s crypto_3_hint"
                         ],
                         "name": "Hint"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, tag=crypto_3, c=1] @s crypto_3_next_loc"
+                            "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, tag=crypto_3, c=1] @s crypto_3_next_loc"
                         ],
                         "name": "Next Location"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, tag=crypto_3, c=1] @s crypto_3_intro"
+                            "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, tag=crypto_3, c=1] @s crypto_3_intro"
                         ],
                         "name": "Back"
                     }
@@ -328,7 +328,7 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, tag=crypto_3, c=1] @s crypto_3_ciphertext"
+                            "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, tag=crypto_3, c=1] @s crypto_3_ciphertext"
                         ],
                         "name": "Next"
                     }

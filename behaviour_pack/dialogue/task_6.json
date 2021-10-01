@@ -6,7 +6,7 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function task6/npc/check_enough_score"
+                            "/execute @initiator ~ ~ ~ function task6/npc/check_enough_score"
                         ],
                         "name": "Sure"
                     },
@@ -25,43 +25,43 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s task_room_num 1",
-                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_6_lang"
+                            "/execute @initiator ~ ~ ~ scoreboard players set @s task_room_num 1",
+                            "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_6_lang"
                         ],
                         "name": "Room 1"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s task_room_num 2",
-                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_6_lang"
+                            "/execute @initiator ~ ~ ~ scoreboard players set @s task_room_num 2",
+                            "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_6_lang"
                         ],
                         "name": "Room 2"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s task_room_num 3",
-                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_6_lang"
+                            "/execute @initiator ~ ~ ~ scoreboard players set @s task_room_num 3",
+                            "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_6_lang"
                         ],
                         "name": "Room 3"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s task_room_num 4",
-                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_6_lang"
+                            "/execute @initiator ~ ~ ~ scoreboard players set @s task_room_num 4",
+                            "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_6_lang"
                         ],
                         "name": "Room 4"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s task_room_num 5",
-                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_6_lang"
+                            "/execute @initiator ~ ~ ~ scoreboard players set @s task_room_num 5",
+                            "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_6_lang"
                         ],
                         "name": "Room 5"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s task_room_num 6",
-                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_6_lang"
+                            "/execute @initiator ~ ~ ~ scoreboard players set @s task_room_num 6",
+                            "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_6_lang"
                         ],
                         "name": "Room 6"
                     }
@@ -76,13 +76,13 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function task6/start_blocks"
+                            "/execute @initiator ~ ~ ~ function task6/start_blocks"
                         ],
                         "name": "Blocks"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function task6/start_python"
+                            "/execute @initiator ~ ~ ~ function task6/start_python"
                         ],
                         "name": "Python"
                     }
@@ -97,7 +97,7 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_6_player_num"
+                            "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_6_player_num"
                         ],
                         "name": "Proceed"
                     },
@@ -116,15 +116,15 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s task_player_num 1",
-                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_6_room_select"
+                            "/execute @initiator ~ ~ ~ scoreboard players set @s task_player_num 1",
+                            "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_6_room_select"
                         ],
                         "name": "Player 1"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ scoreboard players set @s task_player_num 2",
-                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_6_room_select"
+                            "/execute @initiator ~ ~ ~ scoreboard players set @s task_player_num 2",
+                            "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_6_room_select"
                         ],
                         "name": "Player 2"
                     }

@@ -6,13 +6,13 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function task0/blocks"
+                            "/execute @initiator ~ ~ ~ function task0/blocks"
                         ],
                         "name": "Blocks"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function task0/python"
+                            "/execute @initiator ~ ~ ~ function task0/python"
                         ],
                         "name": "Python"
                     }
@@ -27,14 +27,14 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function task0/incoming_wave"
+                            "/execute @initiator ~ ~ ~ function task0/incoming_wave"
                         ],
                         "name": "Ok"
                     }
                 ],
                 "npc_name": "Captain Papert",
                 "on_close_commands": [
-                    "/execute @a[target_type=other] ~ ~ ~ function task0/incoming_wave"
+                    "/execute @initiator ~ ~ ~ function task0/incoming_wave"
                 ],
                 "on_open_commands": [],
                 "scene_tag": "task_0_complete",
