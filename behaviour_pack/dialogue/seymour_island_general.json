@@ -198,7 +198,7 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ /function phone/teleport/town_square"
+                            "/execute @initiator ~ ~ ~ /function phone/teleport/town_square"
                         ],
                         "name": "Return to square"
                     },

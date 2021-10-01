@@ -71,7 +71,7 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function cryptovault/start"
+                            "/execute @initiator ~ ~ ~ function cryptovault/start"
                         ],
                         "name": "Sure!"
                     },
@@ -90,7 +90,7 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/input/adventurer"
+                            "/execute @initiator ~ ~ ~ function crypto/input/adventurer"
                         ],
                         "name": "Next"
                     }
@@ -105,7 +105,7 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ dialogue open @e[type=npc, tag=adventurer, c=1] @s crypto_a_vault"
+                            "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, tag=adventurer, c=1] @s crypto_a_vault"
                         ],
                         "name": "Next"
                     }
