@@ -4,6 +4,7 @@ scoreboard players add @a[scores={cine_timer_1=1..800}] cine_timer_1 1
 scoreboard players set @a[scores={cine_timer_1=758}] cine_timer_1 0
 replaceitem entity @a[scores={cine_timer_1=2}] slot.armor.head 1 carved_pumpkin
 
+effect @a[scores={cine_timer_1=3}] invisibility 90 255 true
 playsound cd.cinematic.ship @a[scores={cine_timer_1=3}] ~ ~ ~ 
 
 tp @a[scores={cine_timer_1=3}] -460.725 84.799 -243.049 facing -460 67 -183
@@ -823,5 +824,6 @@ title @a[scores={cine_timer_1=680}] actionbar "Deckhand come here... I need your
 
 # Teleport to task holding box
 replaceitem entity @a[scores={cine_timer_1=755}] slot.armor.head 1 air
+effect @a[scores={cine_timer_1=755}] clear
 tp @a[scores={cine_timer_1=755}] -885 121 371
 
