@@ -6,7 +6,7 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function crypto/books/book_2"
+                            "/execute @initiator ~ ~ ~ function crypto/books/book_2"
                         ],
                         "name": "Sure"
                     },

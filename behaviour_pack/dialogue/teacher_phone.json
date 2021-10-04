@@ -6,25 +6,25 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function phone/start_world"
+                            "/execute @initiator ~ ~ ~ function phone/start_world"
                         ],
                         "name": "Start game"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function phone/toggle_flying"
+                            "/execute @initiator ~ ~ ~ function phone/toggle_flying"
                         ],
                         "name": "Toggle flying"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function phone/teleport_list"
+                            "/execute @initiator ~ ~ ~ function phone/teleport_list"
                         ],
                         "name": "Teleport to..."
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function phone/student_phone"
+                            "/execute @initiator ~ ~ ~ function phone/student_phone"
                         ],
                         "name": "Student phone"
                     }
@@ -39,37 +39,37 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function phone/teleport/spawn"
+                            "/execute @initiator ~ ~ ~ function phone/teleport/spawn"
                         ],
                         "name": "Spawn area"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function phone/teleport/town_square"
+                            "/execute @initiator ~ ~ ~ function phone/teleport/town_square"
                         ],
                         "name": "Town Square"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function phone/teleport/ship"
+                            "/execute @initiator ~ ~ ~ function phone/teleport/ship"
                         ],
                         "name": "Ship (task0)"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function phone/teleport/shipwreck"
+                            "/execute @initiator ~ ~ ~ function phone/teleport/shipwreck"
                         ],
                         "name": "Shipwreck"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function phone/teleport/task1"
+                            "/execute @initiator ~ ~ ~ function phone/teleport/task1"
                         ],
                         "name": "Melon (task1)"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function phone/teleport_list_2"
+                            "/execute @initiator ~ ~ ~ function phone/teleport_list_2"
                         ],
                         "name": "More..."
                     }
@@ -84,37 +84,37 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function phone/teleport/task234"
+                            "/execute @initiator ~ ~ ~ function phone/teleport/task234"
                         ],
                         "name": "Mine (task2/3/4)"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function phone/teleport/task5"
+                            "/execute @initiator ~ ~ ~ function phone/teleport/task5"
                         ],
                         "name": "Fish (task5)"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function phone/teleport/task6"
+                            "/execute @initiator ~ ~ ~ function phone/teleport/task6"
                         ],
                         "name": "Shocking (task6)"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function phone/teleport/task78"
+                            "/execute @initiator ~ ~ ~ function phone/teleport/task78"
                         ],
                         "name": "Mazes (task7/8)"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function phone/teleport_list"
+                            "/execute @initiator ~ ~ ~ function phone/teleport_list"
                         ],
                         "name": "Return"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function phone/teacher_phone"
+                            "/execute @initiator ~ ~ ~ function phone/teacher_phone"
                         ],
                         "name": "Back to menu"
                     }

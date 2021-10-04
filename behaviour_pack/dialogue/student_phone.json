@@ -6,7 +6,7 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function phone/teleport/student_town_square"
+                            "/execute @initiator ~ ~ ~ function phone/teleport/student_town_square"
                         ],
                         "name": "Return to square"
                     }
@@ -21,19 +21,19 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function phone/reset_task"
+                            "/execute @initiator ~ ~ ~ function phone/reset_task"
                         ],
                         "name": "Reset task"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function phone/reset_agent"
+                            "/execute @initiator ~ ~ ~ function phone/reset_agent"
                         ],
                         "name": "Reset agent"
                     },
                     {
                         "commands": [
-                            "/execute @a[target_type=other] ~ ~ ~ function phone/quit_task"
+                            "/execute @initiator ~ ~ ~ function phone/quit_task"
                         ],
                         "name": "Quit task"
                     }
