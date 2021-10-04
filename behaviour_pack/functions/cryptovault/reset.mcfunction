@@ -1,11 +1,11 @@
 # Executed as armor stand
 
 # Place floor structure
-placestructure ~-6 ~4 ~-3 crypto_vault_task
+structure load crypto_vault_task ~-6 ~4 ~-3
 # Place the door structure
-placestructure ~-2 ~5 ~-3 crypto_vault_door
+structure load crypto_vault_door ~-2 ~5 ~-3 
 # Place chest of blocks
-placestructure ~ ~9 ~4 crypto_blocks
+structure load crypto_blocks ~ ~9 ~4 
 
 fill ~-1 ~5 ~-4 ~1 ~7 ~-4 smooth_stone 0
 
