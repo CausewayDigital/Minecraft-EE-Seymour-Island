@@ -11,6 +11,7 @@ dialogue change @e[type=npc, r=1, c=1, x=-515, y=40, z=196] miners4
 dialogue change @e[type=npc, r=1, c=1, x=-510, y=40, z=216] miners3
 dialogue change @e[type=npc, r=1, c=1, x=-571, y=65, z=267] captains
 dialogue change @e[type=npc, r=1, c=1, x=-455, y=68, z=202] crypto_a_intro
+dialogue change @e[type=npc, r=1, c=1, x=-504, y=68, z=246] task_6_npc
 dialogue change @e[type=npc, r=1, c=1, x=-457, y=77, z=284] task_7_nav_npc
 dialogue change @e[type=npc, r=1, c=1, x=-457, y=77, z=277] task_7_dri_npc
 dialogue change @e[type=npc, r=1, c=1, x=-442, y=82, z=284] task_8_nav_npc
