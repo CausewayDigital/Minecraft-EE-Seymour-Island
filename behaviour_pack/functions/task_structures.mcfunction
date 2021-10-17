@@ -17,3 +17,6 @@ structure save cd:task_6_p1 -502 58 252 -507 58 243 true
 
 # Task 6 P2
 structure save cd:task_6_p2 -509 58 252 -514 58 243 true
+
+# Task 8
+structure save cd:task_8_level -435 57 271 -424 57 279 true

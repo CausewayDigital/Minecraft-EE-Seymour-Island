@@ -39,8 +39,8 @@ execute @s[scores={in_task=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_7, r=
 # Player 2 doesnt have an agent. Therefor, they dont need a reset agent call.
 
 # Task 8 P1
-execute @s[scores={in_task=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_8, r=8, c=1] ~ ~ ~ execute @p[x=~-8, y=~3, z=~5, dx=14, dy=3, dz=-8, scores={task_8_player=1, phone_selected=1}] ~ ~ ~ scoreboard players set @s task_start_timer 1
-execute @s[scores={in_task=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_8, r=8, c=1] ~ ~ ~ tp @p[x=~-8, y=~3, z=~5, dx=14, dy=3, dz=-8, scores={task_8_player=1, phone_selected=1}] ~-7 ~3 ~1 facing ~-8 ~3 ~1
+execute @s[scores={in_task=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_8, r=12, c=1] ~ ~ ~ execute @p[x=~-8, y=~3, z=~5, dx=14, dy=3, dz=-8, scores={task_8_player=1, phone_selected=1}] ~ ~ ~ scoreboard players set @s task_start_timer 1
+execute @s[scores={in_task=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_8, r=12, c=1] ~ ~ ~ tp @p[x=~-8, y=~3, z=~5, dx=14, dy=3, dz=-8, scores={task_8_player=1, phone_selected=1}] ~-7 ~3 ~1 facing ~-8 ~3 ~1
 
 # Task 8 P2
 # Player 2 doesnt have an agent. Therefor, they dont need a reset agent call.
