@@ -87,14 +87,16 @@ execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-6, y=~5, z=~
 
 
 
-# CYPHER
+# CYPHER/CIPHER
 # C
 execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ execute @e[type=armor_stand, tag=crypto_vault, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~-5 ~4 ~2 cd:letter_c -1 execute @s ~ ~ ~ setblock ~-5 ~4 ~2 cd:letter_c_correct 0
 execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ execute @e[type=armor_stand, tag=crypto_vault, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~-5 ~4 ~2 cd:letter_c_correct -1 execute @p ~ ~ ~ scoreboard players add @s crypto_v_prog 1
 
-# Y
+# Y/I Depending on Spelling
 execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ execute @e[type=armor_stand, tag=crypto_vault, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~-4 ~4 ~2 cd:letter_y -1 execute @s ~ ~ ~ setblock ~-4 ~4 ~2 cd:letter_y_correct 0
+execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ execute @e[type=armor_stand, tag=crypto_vault, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~-4 ~4 ~2 cd:letter_i -1 execute @s ~ ~ ~ setblock ~-4 ~4 ~2 cd:letter_i_correct 0
 execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ execute @e[type=armor_stand, tag=crypto_vault, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~-4 ~4 ~2 cd:letter_y_correct -1 execute @p ~ ~ ~ scoreboard players add @s crypto_v_prog 1
+execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ execute @e[type=armor_stand, tag=crypto_vault, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~-4 ~4 ~2 cd:letter_i_correct -1 execute @p ~ ~ ~ scoreboard players add @s crypto_v_prog 1
 
 # P
 execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ execute @e[type=armor_stand, tag=crypto_vault, c=1] ~ ~ ~ execute @s ~ ~ ~ detect ~-3 ~4 ~2 cd:letter_p -1 execute @s ~ ~ ~ setblock ~-3 ~4 ~2 cd:letter_p_correct 0
