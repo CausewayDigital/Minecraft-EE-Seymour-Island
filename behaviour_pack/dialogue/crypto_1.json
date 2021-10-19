@@ -106,9 +106,9 @@
                     },
                     {
                         "commands": [
-                            "/execute @initiator ~ ~ ~ function crypto/input/robot_1/incorrect"
+                            "/execute @initiator ~ ~ ~ function crypto/input/robot_1/correct"
                         ],
-                        "name": "P"
+                        "name": "I"
                     }
                 ],
                 "npc_name": "Cryptographer 1",
