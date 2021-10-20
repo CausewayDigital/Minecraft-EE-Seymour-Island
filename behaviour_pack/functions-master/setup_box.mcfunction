@@ -15,6 +15,7 @@ scoreboard players set @a[x=-878,y=120,z=383,r=2] score 0
 
 scoreboard players set @a[x=-878,y=120,z=383,r=2] tick 0
 execute @a[x=-878,y=120,z=383,r=2] ~ ~ ~ function misc/no_coding
+execute @a[x=-878,y=120,z=383,r=2] ~ ~ ~ summon minecraft:agent
 
 title @a[x=-878,y=120,z=383,r=2] title Welcome to Seymour Island Map
 
