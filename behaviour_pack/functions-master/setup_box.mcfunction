@@ -14,6 +14,7 @@ scoreboard players set @a[x=-878,y=120,z=383,r=2] task8 0
 scoreboard players set @a[x=-878,y=120,z=383,r=2] score 0
 
 scoreboard players set @a[x=-878,y=120,z=383,r=2] tick 0
+execute @a[x=-878,y=120,z=383,r=2] ~ ~ ~ function misc/no_coding
 
 title @a[x=-878,y=120,z=383,r=2] title Welcome to Seymour Island Map
 
