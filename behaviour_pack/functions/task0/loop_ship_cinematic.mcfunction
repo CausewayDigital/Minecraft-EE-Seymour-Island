@@ -2,7 +2,7 @@
 
 scoreboard players add @a[scores={cine_timer_1=1..800}] cine_timer_1 1
 scoreboard players set @a[scores={cine_timer_1=758}] cine_timer_1 0
-replaceitem entity @a[scores={cine_timer_1=2}] slot.armor.head 1 carved_pumpkin
+replaceitem entity @a[scores={cine_timer_1=2}] slot.armor.head 1 carved_pumpkin 1 0 {"minecraft:item_lock":{ "mode": "lock_in_slot" }}
 
 effect @a[scores={cine_timer_1=3}] invisibility 90 255 true
 playsound cd.cinematic.ship @a[scores={cine_timer_1=3}] ~ ~ ~ 
