@@ -3,6 +3,7 @@ action.interact.fishing=Phone
 
 entity.cd:variant_agent.name=Variant Agent
 item.spawn_egg.entity.cd:variant_agent.name=Spawn Variant Agent
+item.carved_pumpkin.name=Cinematic Mode
 
 tile.cd:letter_a.name=A
 tile.cd:letter_b.name=B
