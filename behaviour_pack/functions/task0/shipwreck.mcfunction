@@ -7,5 +7,5 @@ title @s title Ohh no!
 clear @s
 execute @s ~ ~ ~ function calculate_score
 
-tp @s -271 62 246 facing -272 62 247
+tp @s -271 63 246 facing -272 63 247
 scoreboard players set @s task_0_crash 1
