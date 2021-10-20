@@ -62,6 +62,6 @@ execute @e[type=armor_stand, tag=task_5] ~ ~ ~ execute @e[x=~-6, y=~2, z=~-2, dx
 execute @e[type=armor_stand, tag=task_5] ~ ~ ~ execute @e[x=~-6, y=~2, z=~-2, dx=0, dy=0, dz=0] ~ ~ ~ execute @s[name="Pufferfish", c=1, x=~, y=~, z=~, dx=0, dy=0, dz=0] ~ ~ ~ kill @s
 
 # If player in task, update the score display actionbar
-execute @e[type=armor_stand, tag=task_5] ~ ~ ~ execute @a[x=~-10, y=~1, z=~-11, dx=14, dy=5, dz=18] ~ ~ ~ function task5/update_score_display
+execute @e[type=armor_stand, tag=task_5] ~ ~ ~ execute @a[x=~-10, y=~1, z=~-11, dx=14, dy=5, dz=18] ~ ~ ~ titleraw @s actionbar {"rawtext": [{"text": "  Clownfish collected - §2"}, {"score":{"name": "@s","objective": "task_5_clownfish"}}, {"text": "§r\n Pufferfish collected - §2"}, {"score":{"name": "@s","objective": "task_5_pufferfis"}}]}
 
 
