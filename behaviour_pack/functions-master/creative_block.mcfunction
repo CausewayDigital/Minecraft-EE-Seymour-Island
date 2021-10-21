@@ -1,1 +1,0 @@
-gamemode adventure @a[x=-456,y=77,z=272,dx=12,dy=8,dz=13] 
