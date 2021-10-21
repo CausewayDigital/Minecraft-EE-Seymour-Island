@@ -13,3 +13,4 @@ scoreboard players add @s[scores={task_5_done=1}] score 1
 scoreboard players add @s[scores={task_6_done=1}] score 1
 scoreboard players add @s[scores={task_7_done=1}] score 1
 scoreboard players add @s[scores={task_8_done=1}] score 1
+scoreboard players add @s[scores={crypto_v_done=1}] score 1
