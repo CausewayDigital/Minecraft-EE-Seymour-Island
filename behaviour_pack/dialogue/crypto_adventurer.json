@@ -115,6 +115,31 @@
                 "on_open_commands": [],
                 "scene_tag": "crypto_a_buffer",
                 "text": "You’ve found all the robots and decrypted all the ciphers!"
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @initiator ~ ~ ~ /function phone/teleport/robot_tower"
+                        ],
+                        "name": "Climb the ladder"
+                    },
+                    {
+                        "commands": [
+                            "/execute @initiator ~ ~ ~ /function phone/teleport/town_square"
+                        ],
+                        "name": "Return to square"
+                    },
+                    {
+                        "commands": [],
+                        "name": "Ok"
+                    }
+                ],
+                "npc_name": "Adventurer",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "crypto_a_power_room",
+                "text": "Great job, you got through the vault into the reactor room!\r\nIt looks like there is an evil agent here that is responsible for all these issues!\r\nThere also seems to be a mysterious ladder behind me, wonder where it goes?..."
             }
         ]
     }

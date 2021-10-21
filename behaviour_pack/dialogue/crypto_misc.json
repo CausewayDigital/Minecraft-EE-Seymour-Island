@@ -1,0 +1,15 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "buttons": [],
+                "npc_name": "Variant Agent",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "variant_agent",
+                "text": "Those stupid robots came in here and replaced us! They do our jobs and do them better, how dare they! So I took their power, it was actually deceptively easy, this lever turns the generator on to low power mode. They then slowly shut down and to make it even better they’ve been blaming each other, the robots and the humans. It was a beautiful plan that you’ve ruined!"
+            }
+        ]
+    }
+}
