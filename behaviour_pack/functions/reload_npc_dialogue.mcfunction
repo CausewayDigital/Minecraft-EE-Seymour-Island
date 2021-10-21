@@ -25,6 +25,6 @@ dialogue change @e[type=npc, r=1, c=1, x=-852, y=67, z=275] task_0_sailor_3
 dialogue change @e[type=npc, r=1, c=1, x=-856, y=64, z=289] task_0_sailor_2
 dialogue change @e[type=npc, r=1, c=1, x=-850, y=64, z=294] task_0_sailor_1
 dialogue change @e[type=npc, r=1, c=1, x=-853, y=64, z=277] task_0_intro
-dialogue change @e[type=npc, r=1, c=1, x=-448, y=81, z=209] tower_robot
+dialogue change @e[type=npc, r=1, c=1, x=-448, y=81, z=212] tower_robot
 dialogue change @e[type=npc, r=1, c=1, x=-471, y=82, z=284] librarian
 dialogue change @e[type=npc, r=1, c=1, x=-481, y=68, z=245] jills

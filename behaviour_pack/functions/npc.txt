@@ -26,6 +26,6 @@ task_0_sailor_3 -852 67 275
 task_0_sailor_2 -856 64 289 
 task_0_sailor_1 -850 64 294 
 task_0_intro -853 64 277
-tower_robot -448 81 209
+tower_robot -448 81 212
 librarian -471 82 284
 jills -481 68 245
