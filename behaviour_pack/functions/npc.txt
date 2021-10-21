@@ -11,7 +11,8 @@ miners2 -491 40 204
 miners4 -515 40 196
 miners3 -510 40 216
 captains -571 65 267
-crypto_a_intro -455 68 202
+crypto_a_intro -454 68 202
+crypto_a_power_room -468 59 205
 task_6_npc -504 68 246
 task_7_nav_npc -457 77 284
 task_7_dri_npc -457 77 277
