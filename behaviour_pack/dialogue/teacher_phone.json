@@ -24,6 +24,12 @@
                     },
                     {
                         "commands": [
+                            "/execute @initiator ~ ~ ~ function phone/report_student_status"
+                        ],
+                        "name": "Student status"
+                    },
+                    {
+                        "commands": [
                             "/execute @initiator ~ ~ ~ function phone/student_phone"
                         ],
                         "name": "Student phone"
@@ -33,7 +39,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "teacher_phone",
-                "text": "Hello there, how can I help?\nUse the buttons below start the game, toggle flying mode or to teleport quickly to areas of the map.\nThe \"Student phone\" button allows you see what students see with their phones."
+                "text": "Hello there, how can I help?\nUse the buttons below start the game, toggle flying mode or to teleport quickly to areas of the map.\nThe \"Student Status\" button will display an overview of student progress (privately) in chat.\nThe \"Student phone\" button allows you see what students see with their phones."
             },
             {
                 "buttons": [
