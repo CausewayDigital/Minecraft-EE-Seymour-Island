@@ -74,7 +74,7 @@ scoreboard players set @s task0 0
 scoreboard players set @s task1 0
 scoreboard players set @s task2 0
 scoreboard players set @s task3 0
-scoreboard players set @s taska 0
+scoreboard players set @s task4 0
 scoreboard players set @s task5 0
 scoreboard players set @s task6 0
 scoreboard players set @s task7 0

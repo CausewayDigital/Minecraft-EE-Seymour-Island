@@ -292,9 +292,9 @@ scoreboard objectives remove task3
 scoreboard objectives add task3 dummy
 scoreboard players set @a task3 0
 
-scoreboard objectives remove taska
-scoreboard objectives add taska dummy
-scoreboard players set @a taska 0
+scoreboard objectives remove task4
+scoreboard objectives add task4 dummy
+scoreboard players set @a task4 0
 
 scoreboard objectives remove task5
 scoreboard objectives add task5 dummy
