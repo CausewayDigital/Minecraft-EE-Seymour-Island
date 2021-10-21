@@ -11,6 +11,7 @@ setblock -467 72 282 air
 setblock -468 72 282 air
 setblock -469 72 282 air
 setblock -470 72 282 air
+setblock -471 72 282 air
 
 
 
