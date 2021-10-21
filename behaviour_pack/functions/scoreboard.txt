@@ -111,3 +111,26 @@ crypto_loc_show
 
 cine_timer_1
 cine_timer_2
+
+crypto_robot
+crypto_total
+crypto_v_test
+
+task0
+task1
+task2
+task3
+taska
+task5
+task6
+task7
+task8
+task_0-5_insew
+task_0-5_sewer
+task_0-5_sewpos
+task_0-5_ss
+task_0-5_sstimer
+task_0_timer
+task_5_prog
+task_5_start
+tick

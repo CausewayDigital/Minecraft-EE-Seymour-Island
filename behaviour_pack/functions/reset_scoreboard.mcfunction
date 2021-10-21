@@ -264,3 +264,87 @@ scoreboard objectives remove cine_timer_2
 scoreboard objectives add cine_timer_2 dummy
 scoreboard players set @a cine_timer_2 0
 
+scoreboard objectives remove crypto_robot
+scoreboard objectives add crypto_robot dummy
+scoreboard players set @a crypto_robot 0
+
+scoreboard objectives remove crypto_total
+scoreboard objectives add crypto_total dummy
+scoreboard players set @a crypto_total 0
+
+scoreboard objectives remove crypto_v_test
+scoreboard objectives add crypto_v_test dummy
+scoreboard players set @a crypto_v_test 0
+
+scoreboard objectives remove task0
+scoreboard objectives add task0 dummy
+scoreboard players set @a task0 0
+
+scoreboard objectives remove task1
+scoreboard objectives add task1 dummy
+scoreboard players set @a task1 0
+
+scoreboard objectives remove task2
+scoreboard objectives add task2 dummy
+scoreboard players set @a task2 0
+
+scoreboard objectives remove task3
+scoreboard objectives add task3 dummy
+scoreboard players set @a task3 0
+
+scoreboard objectives remove taska
+scoreboard objectives add taska dummy
+scoreboard players set @a taska 0
+
+scoreboard objectives remove task5
+scoreboard objectives add task5 dummy
+scoreboard players set @a task5 0
+
+scoreboard objectives remove task6
+scoreboard objectives add task6 dummy
+scoreboard players set @a task6 0
+
+scoreboard objectives remove task7
+scoreboard objectives add task7 dummy
+scoreboard players set @a task7 0
+
+scoreboard objectives remove task8
+scoreboard objectives add task8 dummy
+scoreboard players set @a task8 0
+
+scoreboard objectives remove task_0-5_insew
+scoreboard objectives add task_0-5_insew dummy
+scoreboard players set @a task_0-5_insew 0
+
+scoreboard objectives remove task_0-5_sewer
+scoreboard objectives add task_0-5_sewer dummy
+scoreboard players set @a task_0-5_sewer 0
+
+scoreboard objectives remove task_0-5_sewpos
+scoreboard objectives add task_0-5_sewpos dummy
+scoreboard players set @a task_0-5_sewpos 0
+
+scoreboard objectives remove task_0-5_ss
+scoreboard objectives add task_0-5_ss dummy
+scoreboard players set @a task_0-5_ss 0
+
+scoreboard objectives remove task_0-5_sstimer
+scoreboard objectives add task_0-5_sstimer dummy
+scoreboard players set @a task_0-5_sstimer 0
+
+scoreboard objectives remove task_0_timer
+scoreboard objectives add task_0_timer dummy
+scoreboard players set @a task_0_timer 0
+
+scoreboard objectives remove task_5_prog
+scoreboard objectives add task_5_prog dummy
+scoreboard players set @a task_5_prog 0
+
+scoreboard objectives remove task_5_start
+scoreboard objectives add task_5_start dummy
+scoreboard players set @a task_5_start 0
+
+scoreboard objectives remove tick
+scoreboard objectives add tick dummy
+scoreboard players set @a tick 0
+
