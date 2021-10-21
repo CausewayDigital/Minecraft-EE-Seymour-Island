@@ -211,7 +211,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "tower_robot",
-                "text": "Welcome to the secret robot viewpoint. From here, we can watch over the entire town square.\r\nWhen you are ready to go back down, let me know"
+                "text": "Welcome to the secret robot viewpoint. From here, we can watch over the entire town square.\nWhen you are ready to go back down, let me know"
             },
             {
                 "buttons": [],
