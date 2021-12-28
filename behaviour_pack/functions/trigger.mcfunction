@@ -1,0 +1,1 @@
+execute @s ~ ~ ~ function phone/use_phone

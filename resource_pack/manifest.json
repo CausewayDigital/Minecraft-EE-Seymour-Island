@@ -7,18 +7,18 @@
       "version": [
          0,
          0,
-         31
+         32
       ]
    },
    "modules": [
       {
-         "description": "Seymour Island by Causway Digital",
+         "description": "Seymour Island by Causeway Digital",
          "type": "resources",
          "uuid": "7feb5363-1e0e-491a-9ed5-8edf3bc18d1d",
          "version": [
             0,
             0,
-            31
+            32
          ]
       }
    ]
