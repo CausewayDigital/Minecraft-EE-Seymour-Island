@@ -5,7 +5,7 @@ scoreboard objectives add flying_enabled dummy
 scoreboard players set @a flying_enabled 0
 
 scoreboard objectives remove score
-scoreboard objectives add score dummy Player Score
+scoreboard objectives add score dummy "Player Score"
 scoreboard players set @a score 0
 
 scoreboard objectives remove in_task
