@@ -10,3 +10,4 @@ gamerule mobGriefing false
 gamerule pvp false
 gamerule showCoordinates true
 gamerule sendcommandfeedback false
+scoreboard objectives setdisplay list score
