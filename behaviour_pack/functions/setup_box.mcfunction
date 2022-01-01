@@ -1,3 +1,6 @@
+# LEGACY - No longer used
+# Replaced by misc/loop_setup_box
+
 # Run as the main loop
 execute @a[x=-878,y=120,z=383,r=2] ~ ~ ~ function reset_scores
 
