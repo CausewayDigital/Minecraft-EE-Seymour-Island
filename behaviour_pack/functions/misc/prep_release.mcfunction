@@ -17,4 +17,5 @@ kill @e[type=agent]
 
 ability @s worldbuilder false
 
-execute @a ~ ~ ~ function start_box
+# Teleport to spawn box to set up all player specific elements
+tp @a -878 120 383
