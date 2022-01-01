@@ -89,5 +89,7 @@ scoreboard players set @s task_5_prog 0
 scoreboard players set @s task_5_start 0
 scoreboard players set @s tick 0
 
-title @s title Welcome to Seymour Island Map
+title @s subtitle Seymour Island
+
+title @s title Welcome to
 tp @s -876 124 386 facing -876 124 388
