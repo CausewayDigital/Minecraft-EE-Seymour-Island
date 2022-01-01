@@ -1,5 +1,5 @@
 flying_enabled
-score
+score : Player Score
 in_task
 teacher
 
