@@ -1,0 +1,9 @@
+{
+    "codebuilder" : {
+                "defaulturi" : "https://minecraft.makecode.com/?ipc=1&lockedEditor=1&inGame=1#tutorial:https://github.com/CausewayDigital/Minecraft-EE-MakeCode/tutorials/no_coding"
+                "canResize":true,
+    },
+    "commands" : {
+        "hiddenFromPlayer" : ["*"]
+    }
+}
