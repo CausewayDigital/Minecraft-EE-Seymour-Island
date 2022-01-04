@@ -1,0 +1,22 @@
+{
+   "format_version" : 1,
+   "header" : {
+      "base_game_version" : [ 0, 0, 0 ],
+      "description" : "pack.description",
+      "name" : "Seymour Island",
+      "platform_locked" : false,
+      "uuid" : "61323831-3065-3864-3334-2d386333312d",
+      "version" : [ 1, 0, 6 ]
+   },
+   "metadata" : {
+      "authors" : [ "Causeway Digital" ]
+   },
+   "modules" : [
+      {
+         "description" : "",
+         "type" : "world_template",
+         "uuid" : "9f791a4f-89e7-4e8f-b654-716091f80958",
+         "version" : [ 1, 0, 6 ]
+      }
+   ]
+}
