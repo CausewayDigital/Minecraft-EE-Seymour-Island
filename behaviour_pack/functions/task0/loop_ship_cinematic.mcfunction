@@ -1,11 +1,11 @@
 # Executing as the player
 
-scoreboard players add @s[scores={cine_timer_1=1..800}] cine_timer_1 1
-scoreboard players set @s[scores={cine_timer_1=758}] cine_timer_1 0
-replaceitem entity @s[scores={cine_timer_1=2}] slot.armor.head 1 carved_pumpkin 1 0 {"minecraft:item_lock":{ "mode": "lock_in_slot" }}
+scoreboard players add @a[scores={cine_timer_1=1..800}] cine_timer_1 1
+scoreboard players set @a[scores={cine_timer_1=758}] cine_timer_1 0
+replaceitem entity @a[scores={cine_timer_1=2}] slot.armor.head 1 carved_pumpkin 1 0 {"minecraft:item_lock":{ "mode": "lock_in_slot" }}
 
-effect @s[scores={cine_timer_1=3}] invisibility 90 255 true
-playsound cd.cinematic.ship @s[scores={cine_timer_1=4}] -460 84 -243
+effect @a[scores={cine_timer_1=3}] invisibility 90 255 true
+execute @a[scores={cine_timer_1=4}] ~ ~ ~ playsound cd.cinematic.ship @s -460 84 -243
 
 tp @a[scores={cine_timer_1=3}] -460.725 84.799 -243.049 facing -460 67 -183
 tp @a[scores={cine_timer_1=4}] -460.736 84.799 -243.023 facing -460 67 -183
