@@ -1,9 +1,0 @@
-{
-	"resource_pack_name": "Seymour Island resource pack",
-	"texture_name": "atlas.items",
-	"texture_data": {
-		"cd_trigger": {
-			"textures": "textures/items/trigger"
-		}
-	}
-}
