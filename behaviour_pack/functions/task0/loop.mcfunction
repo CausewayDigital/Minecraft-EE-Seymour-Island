@@ -45,4 +45,4 @@ function task0/sound
 #scoreboard players set @a[scores={task_0_timer=11}] task_0_timer 0
 
 # Run cinematic loop for ship
-execute @a[scores={cine_timer_1=1..800}] ~ ~ ~ function task0/loop_ship_cinematic
+function task0/loop_ship_cinematic
