@@ -4,7 +4,7 @@
 structure save cd:level_1_redstone -491 61 255 -496 61 247 false
 
 # Task 2
-structure save cd:task_2_autominer -482 27 192 -474 194 192 false
+structure save cd:task_2_autominer -482 27 192 -474 30 192 false
 
 # Task 3
 structure save cd:task_3_autominer -482 39 160 -480 42 173 false
