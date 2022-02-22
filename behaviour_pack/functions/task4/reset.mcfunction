@@ -8,4 +8,5 @@ execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7] ~ ~ ~ scoreboard players set @
 
 # Reset XP
 execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7] ~ ~ ~ xp -1000L @s
+execute @e[type=armor_stand, tag=task_4, r=8] ~ ~ ~ tp @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7] ~6 ~3 ~ facing ~6 ~3 ~-1
 execute @p[x=~7, y=~3, z=~-5, dx=-16, dy=2, dz=7] ~ ~ ~ function task4/reset_agent
