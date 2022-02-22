@@ -22,7 +22,7 @@ execute @s[scores={in_task=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_4, r=
 
 # Task 5
 execute @s[scores={in_task=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_5, r=20, c=1] ~ ~ ~ execute @p[x=~-10, y=~1, z=~-11, dx=14, dy=5, dz=18, scores={phone_selected=1}] ~ ~ ~ scoreboard players set @s task_start_timer 1
-execute @s[scores={in_task=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_5, r=20, c=1] ~ ~ ~ tp @p[x=~-10, y=~1, z=~-11, dx=14, dy=5, dz=18, scores={phone_selected=1}] ~ ~2 ~2 facing ~ ~ ~6
+execute @s[scores={in_task=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_5, r=20, c=1] ~ ~ ~ tp @p[x=~-10, y=~1, z=~-11, dx=14, dy=5, dz=18, scores={phone_selected=1}] ~8 ~1 ~-9 facing ~8 ~1 ~-8
 
 # Task 6 P1
 execute @s[scores={in_task=1}] ~ ~ ~ execute @e[type=armor_stand, tag=task_6, r=8, c=1] ~ ~ ~ execute @p[x=~6, y=~5, z=~-1, dx=-5, dy=3, dz=2, scores={task_6_player=1, phone_selected=1}] ~ ~ ~ scoreboard players set @s task_start_timer 1
