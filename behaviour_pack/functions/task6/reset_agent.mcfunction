@@ -5,3 +5,5 @@ scoreboard players set @s phone_selected 0
 tp @c ~-3 ~-2 ~-10 facing ~-2 ~-2 ~-10
 
 function reset_agent_inventory
+
+replaceitem entity @c slot.inventory 0 redstone 64
