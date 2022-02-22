@@ -1,6 +1,6 @@
 # Do not edit - Auto generated
-execute @p[scores={build_timer=2, build_mode=10}] ~ ~ ~ structure save cd:starter_ship_water -820 58 273 -807 77 311
-execute @p[scores={build_timer=3, build_mode=10}] ~ ~ ~ structure save cd:starter_ship -860 58 273 -847 77 311
+execute @p[scores={build_timer=2, build_mode=10}] ~ ~ ~ structure save cd:starter_ship_water -820 58 273 -807 77 311 disk
+execute @p[scores={build_timer=3, build_mode=10}] ~ ~ ~ structure save cd:starter_ship -860 58 273 -847 77 311 disk
 execute @p[scores={build_timer=10, build_mode=10}] ~ ~ ~ kill @e[x=-853, y=58, z=220, r=20]
 execute @p[scores={build_timer=12, build_mode=10}] ~ ~ ~ structure load cd:starter_ship_water -860 58 203
 execute @p[scores={build_timer=17, build_mode=10}] ~ ~ ~ structure load cd:starter_ship -860 58 203

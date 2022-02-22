@@ -1,5 +1,5 @@
 # Do not edit - Auto generated
-execute @p[scores={build_timer=3, build_mode=9}] ~ ~ ~ structure save cd:cryptovault -474 48 214 -457 63 229
+execute @p[scores={build_timer=3, build_mode=9}] ~ ~ ~ structure save cd:cryptovault -474 48 214 -457 63 229 disk
 
 # Room 0-1-0
 execute @p[scores={build_timer=10, build_mode=9}] ~ ~ ~ kill @e[x=-466, y=25, z=220, r=10]

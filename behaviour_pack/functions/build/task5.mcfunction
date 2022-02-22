@@ -1,5 +1,5 @@
 # Do not edit - Auto generated
-execute @p[scores={build_timer=3, build_mode=5}] ~ ~ ~ structure save cd:task5 -573 57 275 -556 78 314
+execute @p[scores={build_timer=3, build_mode=5}] ~ ~ ~ structure save cd:task5 -573 57 275 -556 78 314 disk
 
 # Room 1-0-0
 execute @p[scores={build_timer=10, build_mode=5}] ~ ~ ~ kill @e[x=-586, y=68, z=289, r=15]
