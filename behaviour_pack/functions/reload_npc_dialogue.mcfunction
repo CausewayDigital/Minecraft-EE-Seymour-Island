@@ -30,3 +30,4 @@ dialogue change @e[type=npc, r=1, c=1, x=-853, y=64, z=277] task_0_intro
 dialogue change @e[type=npc, r=1, c=1, x=-448, y=81, z=212] tower_robot
 dialogue change @e[type=npc, r=1, c=1, x=-471, y=82, z=284] librarian
 dialogue change @e[type=npc, r=1, c=1, x=-481, y=68, z=245] jills
+dialogue change @e[type=npc, r=1, c=1, x=-466, y=59, z=196] variant_agent
