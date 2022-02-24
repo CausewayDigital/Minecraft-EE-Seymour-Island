@@ -167,8 +167,8 @@ execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-6, y=~5, z=~
 
 
 
-
-
+execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ titleraw @s[scores={crypto_v_prog=0..30}] subtitle {"rawtext": [{"score":{"name": "@s","objective": "crypto_v_prog"}}, {"text": " out of 31 blocks correct."}]}
+execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ title @s[scores={crypto_v_prog=0..30}] title Try again
 
 # Check if task complete
 execute @e[type=armor_stand, tag=crypto_vault] ~ ~ ~ execute @p[x=~-6, y=~5, z=~4, dx=12, dy=6, dz=-7] ~ ~ ~ execute @e[type=armor_stand, tag=crypto_vault, c=1] ~ ~ ~ execute @p[scores={crypto_v_prog=31, crypto_v_done=0}] ~ ~ ~ execute @s ~ ~ ~ function cryptovault/complete
