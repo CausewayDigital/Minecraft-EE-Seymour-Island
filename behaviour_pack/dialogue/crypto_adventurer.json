@@ -139,7 +139,39 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_a_power_room",
-                "text": "Great job, you got through the vault into the reactor room!\r\nIt looks like there is an evil agent here that is responsible for all these issues!\r\nThere also seems to be a mysterious ladder behind me, wonder where it goes?..."
+                "text": "Great job, you got through the vault into the reactor room!\nIt looks like there is an evil agent here that is responsible for all these issues!\nThere also seems to be a mysterious ladder behind me, wonder where it goes?..."
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [],
+                        "name": "Ok"
+                    },
+                    {
+                        "commands": [
+                            "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, tag=adventurer, c=1] @s crypto_a_code"
+                        ],
+                        "name": "Code words?"
+                    }
+                ],
+                "npc_name": "Adventurer",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "crypto_a_in_vault",
+                "text": "Well isn't this interesting! A vault with some sort of puzzle on the ground. Using the letter blocks in the chest and the code words you already discovered from the robots, can you place the words in the correct order in the gaps below?\nIt looks like you can check your answer with that button above the vault door."
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [],
+                        "name": "Ok"
+                    }
+                ],
+                "npc_name": "Adventurer",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "crypto_a_code",
+                "text": "Can't remember the code words you found earlier? They were\n\n- Cypher\n- Lovelace\n- Turing\n- Data\n- Encrypt"
             }
         ]
     }
