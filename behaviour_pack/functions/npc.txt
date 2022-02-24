@@ -31,3 +31,4 @@ task_0_intro -853 64 277
 tower_robot -448 81 212
 librarian -471 82 284
 jills -481 68 245
+variant_agent -466 59 196
