@@ -88,6 +88,8 @@ scoreboard players set @s task_0_timer 0
 scoreboard players set @s task_5_prog 0
 scoreboard players set @s task_5_start 0
 scoreboard players set @s tick 0
+scoreboard players set @s start_timer 0
+scoreboard players set @s game_started 0
 
 title @s subtitle Seymour Island
 

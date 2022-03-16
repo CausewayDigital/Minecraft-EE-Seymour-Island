@@ -348,3 +348,11 @@ scoreboard objectives remove tick
 scoreboard objectives add tick dummy 
 scoreboard players set @a tick 0
 
+scoreboard objectives remove start_timer
+scoreboard objectives add start_timer dummy 
+scoreboard players set @a start_timer 0
+
+scoreboard objectives remove game_started
+scoreboard objectives add game_started dummy 
+scoreboard players set @a game_started 0
+

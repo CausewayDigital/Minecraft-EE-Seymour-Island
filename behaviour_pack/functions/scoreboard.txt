@@ -134,3 +134,6 @@ task_0_timer
 task_5_prog
 task_5_start
 tick
+
+start_timer
+game_started
