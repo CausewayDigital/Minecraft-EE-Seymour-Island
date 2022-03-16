@@ -4,6 +4,6 @@
                 "canResize":true
     },
     "commands" : {
-        "hiddenFromPlayer" : ["*"]
+        "hiddenFromPlayer" : ["*","!function"]
     }
 }
