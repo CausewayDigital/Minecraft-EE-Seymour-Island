@@ -11,4 +11,5 @@ scoreboard players set @s[scores={game_started=1}] game_started 0
 # If not started, start sending players to cinematic
 title @s[scores={game_started=0}] subtitle Students will now be teleported
 title @s[scores={game_started=0}] title Game started!
+scoreboard players set @s[scores={game_started=0}] start_timer 0
 scoreboard players set @s[scores={game_started=0}] game_started 1
