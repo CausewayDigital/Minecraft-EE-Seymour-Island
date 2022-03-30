@@ -20,7 +20,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "task_8_nav_npc",
-                "text": "Hi there! Want to try out the intermedate version of the new town security system? This is a two player task where one of you codes your agent and the other one is the eyes for the coder. This task is the eyes. Do you want to be the eyes?"
+                "text": "Hi there! Want to try out the intermedate version of the new town security system? This is a two player task where one of you codes your agent and the other is the eyes for the coder. This task is the eyes. Do you want to be the eyes?"
             },
             {
                 "buttons": [
@@ -40,7 +40,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "task_8_dri_npc",
-                "text": "Hi there! Want to try out the intermediate version of the new town security system? This is a 2 player task where one of you codes your agent and the other is the eyes for the coder. This task is the coder. Do you want to be the coder?"
+                "text": "Hi there! Want to try out the intermediate version of the new town security system? This is a two player task where one of you codes your agent and the other is the eyes for the coder. This task is the coder. Do you want to be the coder?"
             },
             {
                 "buttons": [
@@ -112,7 +112,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "task_8_lang",
-                "text": "Would you like to code in blocks or python?"
+                "text": "Would you like to code in Blocks or Python?"
             },
             {
                 "buttons": [
