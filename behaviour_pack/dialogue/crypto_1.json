@@ -322,7 +322,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_1_help",
-                "text": "The books in this library contain some data about cryptography I have gathered."
+                "text": "This library contains books about cryptography, ask around and see if anyone here can help you."
             },
             {
                 "buttons": [
