@@ -367,7 +367,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_5_help",
-                "text": "There is a fellow robot in the library (at the top of the town hall) who would quite like to talk you."
+                "text": "There is a fellow unit in the library who would quite like to talk to you."
             },
             {
                 "buttons": [
@@ -382,7 +382,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_5_intro",
-                "text": "I hear that Captain Papert sails the 8 seas regularly and has an extensive collection of colourful parrots, 8 I do believe, one for each colour of the rainbow."
+                "text": "I hear that Captain Papert sails the 8 seas regularly and has an extensive collection of colorful parrots, 8 I do believe, one for each color of the rainbow."
             },
             {
                 "buttons": [
@@ -395,7 +395,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_5_hint",
-                "text": "Have you ever played the game battleships? I think it’s played on an 8 by 8 GRID."
+                "text": "Have you ever played the game Battleships? I think it’s played on an 8 by 8 GRID."
             },
             {
                 "buttons": [
@@ -408,7 +408,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_5_next_loc",
-                "text": "The next unit loves books, they even work as an assistant in keeping books, they’re always eager to share the knowledge they have learnt."
+                "text": "The next unit loves books, they even work as an assistant in keeping books, they’re always eager to share the knowledge they have learned."
             },
             {
                 "buttons": [

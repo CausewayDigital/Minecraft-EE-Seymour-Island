@@ -322,7 +322,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_3_help",
-                "text": "There is a fellow unit in the library who would quite like to talk you"
+                "text": "There is a fellow unit in the library who would quite like to talk to you."
             },
             {
                 "buttons": [
@@ -350,7 +350,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_3_hint",
-                "text": "Did you know that us robots hear speech in lines, it’s how we process it."
+                "text": "Did you know that us robots hear speech in lines? It’s how we process it."
             },
             {
                 "buttons": [
@@ -376,7 +376,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_3_correct",
-                "text": "So you agree with me, her speech is delightful to listen to, would you come back and listen to her speech with me again sometime?"
+                "text": "So you agree with me, her speech is delightful to listen to. Would you come back and listen to her speech with me again sometime?"
             }
         ]
     }
