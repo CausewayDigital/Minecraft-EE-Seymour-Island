@@ -8,7 +8,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "town_mayor",
-                "text": "Well hello there stranger...?\nDid you just appear out of our fountain?....\nAhh, you must be the engineer I requested! We have come across a number of technical problems across the town, can you go try to fix them?\nI have marked each task with a beacon in the sky, coloured based on difficulty!"
+                "text": "Well hello there stranger...?\nDid you just appear out of our fountain?....\nAhh, you must be the engineer I requested! We have come across a number of technical problems across the town, can you go try to fix them?\nI have marked each task with a beacon in the sky, colored based on difficulty!"
             },
             {
                 "buttons": [],

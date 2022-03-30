@@ -8,7 +8,7 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/books/book_5"
                         ],
-                        "name": "Sure"
+                        "name": "Open Book"
                     },
                     {
                         "commands": [],
