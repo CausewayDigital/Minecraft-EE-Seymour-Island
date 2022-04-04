@@ -8,7 +8,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "town_mayor",
-                "text": "Well hello there stranger...?\nDid you just appear out of our fountain?....\nAhh, you must be the engineer I requested! We have come across a number of technical problems across the town, can you go try to fix them?\nI have marked each task with a beacon in the sky, coloured based on difficulty!"
+                "text": "Well hello there stranger...\nDid you just appear out of our fountain?....\nAhh, you must be the engineer I requested! We have come across a number of technical problems across the town, can you go try to fix them?\nI have marked each task with a beacon in the sky, colored based on difficulty!"
             },
             {
                 "buttons": [],
@@ -16,7 +16,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "market_susie",
-                "text": "Hi there, just back from getting my new set of resources and blocks from an ocean monument.\r\nI have a variety of sea-based blocks too.\r\nIncluding maps and even sand if you would like to smelt it for glass."
+                "text": "Hi there, just back from getting my new set of resources and blocks from an ocean monument.\nI have a variety of sea-based blocks too.\nIncluding maps and even sand if you would like to smelt it for glass."
             },
             {
                 "buttons": [],
@@ -24,7 +24,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "market_francesca",
-                "text": "Hiya,\r\nI sell plots of land for farming and animals for breeding.\r\nI'm also happy to include the offer of 12 free chickens when a new plot of land is bought."
+                "text": "Hiya,\nI sell plots of land for farming and animals for breeding.\nI'm also happy to include the offer of 12 free chickens when a new plot of land is bought."
             },
             {
                 "buttons": [],
@@ -32,7 +32,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "market_will",
-                "text": "Swords, armour and enchanted books for sale.\r\nOur latest line of horse armour is available too for the protection of your horses at all times.\r\nWe have a few iron swords on sale too if you are interested?\t"
+                "text": "Swords, armor and enchanted books for sale.\nOur latest line of horse armor is available too for the protection of your horses at all times.\nWe have a few iron swords on sale too if you are interested?\t"
             },
             {
                 "buttons": [],
@@ -40,7 +40,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "market_smith",
-                "text": "Hi there, i'm Smith! I'm your local blacksmith for weapons and armour.\r\nWe can repair items or we can enchant them with various effects from knockback on swords to unbreaking on chestplates.\r\nDo you have any armour with you?"
+                "text": "Hi there, I'm Smith! I'm your local blacksmith for weapons and armor.\nWe can repair items or we can enchant them with various effects from knockback on swords to unbreaking on chestplates.\nDo you have any armor with you?"
             },
             {
                 "buttons": [],
@@ -56,7 +56,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "guard2",
-                "text": "Not happening"
+                "text": "Not happening."
             },
             {
                 "buttons": [],
@@ -64,7 +64,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "market_nickolas",
-                "text": "Hey!\r\nYou look like the kind of person who'd be good at transporting items, I hear they need a hand at the dock with their newest haul of fish.\r\nI think they should still be at the docks if you're interested in helping out."
+                "text": "Hey!\nYou look like the kind of person who'd be good at transporting items, I hear they need a hand at the dock with their newest haul of fish.\nI think they should still be at the docks if you're interested in helping out."
             },
             {
                 "buttons": [],
@@ -72,7 +72,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "market_nicola",
-                "text": "Hi there!\r\nI'm Nicola, I sell various minecarts, rails and spawners at a cheap price.\r\nWould you be interested in our latest edition of hopper minecarts? They help automate the process of collecting items, then transporting them in carts."
+                "text": "Hi there!\nI'm Nicola, I sell various minecarts, rails and spawners at a cheap price.\nWould you be interested in our latest addition of hopper minecarts? They help automate the process of collecting items and transporting them in carts."
             },
             {
                 "buttons": [],
@@ -80,7 +80,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "market_dwayne",
-                "text": "Rock on"
+                "text": "Rock on."
             },
             {
                 "buttons": [],
@@ -96,7 +96,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "homer",
-                "text": "Hi there, haven't seen your face around here before? Nice to meet you!\r\nI'm Homer, I help with the boats and the docking process for them coming into the pier.\r\nCurrently just signalling to the incoming boat to stop as we're still offloading."
+                "text": "Hi there, haven't seen your face around here before? Nice to meet you!\nI'm Homer, I help with the boats and the docking process for them coming into the pier.\nCurrently just signalling to the incoming boat to stop as we're still offloading."
             },
             {
                 "buttons": [],
@@ -104,7 +104,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "izzy",
-                "text": "Hello!\r\nAre you new to Seymour island? Nice to meet you.\r\nHave you seen the mine yet? It's recently been opened to the public and they let you mine out ores, from iron to even Diamond!\t"
+                "text": "Hello!\nAre you new to Seymour island? Nice to meet you.\nHave you seen the mine yet? It's recently been opened to the public and they let you mine out ores, from iron to even diamond!\t"
             },
             {
                 "buttons": [],
@@ -112,7 +112,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "dock_barbra",
-                "text": "Haha, i'm on a \"See\"-food diet"
+                "text": "Haha, I'm on a \"See\"-food diet."
             },
             {
                 "buttons": [],
@@ -120,7 +120,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "dock_aoibheann",
-                "text": "Hiya,\r\nI admire the work that goes on in the docks and seeing the fish being brought back to shore.\r\nHave you checked out the town hall yet? I heard they had a few new tasks added recently. Why not take a look?"
+                "text": "Hiya,\nI admire the work that goes on in the docks and seeing the fish being brought back to shore.\nHave you checked out the town hall yet? I heard they had a few new tasks added recently. Why not take a look?"
             },
             {
                 "buttons": [],
@@ -136,7 +136,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "cgp_grey",
-                "text": "So this is what being a pirate gets you...\r\nShame Brady and I won't be able to record the next episode of HI..."
+                "text": "So this is what being a pirate gets you...\nShame Brady and I won't be able to record the next episode of HI..."
             },
             {
                 "buttons": [],
@@ -144,7 +144,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "robot2",
-                "text": "*Beep* *Boop*\r\nGiraffes don't exist.\r\n*Beep* *Boop*\r\n2/5\t"
+                "text": "*Beep* *Boop*\nGiraffes don't exist.\n*Beep* *Boop*\n2/5\t"
             },
             {
                 "buttons": [],
@@ -152,7 +152,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "make_it_work",
-                "text": "I promise,\r\nit works"
+                "text": "I promise,\nit works."
             },
             {
                 "buttons": [],
@@ -160,7 +160,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "mine_manager",
-                "text": "Welcome to Seymour Island Mine.\r\nThere are a series of tasks available for you to try.\r\nTry one of the tasks on the left then make your way through the other 2 difficulty levels\t"
+                "text": "Welcome to Seymour Island Mine.\nThere are a series of tasks available for you to try.\nTry one of the tasks on the left then make your way through the other 2 difficulty levels."
             },
             {
                 "buttons": [],
@@ -168,7 +168,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "guard3",
-                "text": "Seymour Island gates are currently closed due to some technical issues.\r\nYou may not enter...\r\n**HISSS** \"Come in gate guard 1...\"\r\n\"We have had reports of smoke coming up from the sewers, please investiate\"\r\nSorry about that, I must go check this!"
+                "text": "Seymour Island gates are currently closed due to some technical issues.\nYou may not enter...\n**HISSS** \"Come in gate guard 1...\"\n\"We have had reports of smoke coming up from the sewers, please investiate\"\nSorry about that, I must go check this!"
             },
             {
                 "buttons": [],
@@ -176,7 +176,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "sewer_robot",
-                "text": "You're not mean't to be able to talk to me...%1%1What are you doing?%1%1Also, i'm not one of the five hidden robots, you'll need to look elsewhere for them"
+                "text": "You're not meant to be able to talk to me...%1%1What are you doing?%1%1Also, I'm not one of the five hidden robots, you'll need to look elsewhere for them."
             },
             {
                 "buttons": [],
@@ -184,7 +184,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "robot4",
-                "text": "*Beep* *Boop*\r\nPlanes don't fly, they fall strategically\r\n*Beep* *Boop*\r\n4/5\t"
+                "text": "*Beep* *Boop*\nPlanes don't fly, they fall strategically.\n*Beep* *Boop*\n4/5\t"
             },
             {
                 "buttons": [],
@@ -192,7 +192,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "robot1",
-                "text": "*Beep* *Boop*\r\nBirds aren't real\r\n*Beep* *Boop*\r\n1/5\t"
+                "text": "*Beep* *Boop*\nBirds aren't real.\n*Beep* *Boop*\n1/5\t"
             },
             {
                 "buttons": [

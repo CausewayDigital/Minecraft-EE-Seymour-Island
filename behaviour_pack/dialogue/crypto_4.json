@@ -25,7 +25,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_4_ciphertext",
-                "text": "Sx ybnob dy vokbx klyed cywodrsxq xog, psbcd iye cryevn myvvomd kvyd yp NKDK klyed dro dyzsm"
+                "text": "Sx ybnob dy vokbx klyed cywodrsxq xog, psbcd iye cryevn myvvomd kvyd yp NKDK klyed dro dyzsm."
             },
             {
                 "buttons": [
@@ -70,7 +70,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_4_input_1",
-                "text": "Sx ybnob dy vokbx klyed cywodrsxq xog, psbcd iye cryevn myvvomd kvyd yp NKDK klyed dro dyzsm\n\n\n\nWhat is the first letter of the secret message?"
+                "text": "Sx ybnob dy vokbx klyed cywodrsxq xog, psbcd iye cryevn myvvomd kvyd yp NKDK klyed dro dyzsm.\n\n\n\nWhat is the first letter of the secret message?"
             },
             {
                 "buttons": [
@@ -115,7 +115,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_4_input_2",
-                "text": "Sx ybnob dy vokbx klyed cywodrsxq xog, psbcd iye cryevn myvvomd kvyd yp NKDK klyed dro dyzsm\n\n\n\nWhat is the second letter of the secret message?"
+                "text": "Sx ybnob dy vokbx klyed cywodrsxq xog, psbcd iye cryevn myvvomd kvyd yp NKDK klyed dro dyzsm.\n\n\n\nWhat is the second letter of the secret message?"
             },
             {
                 "buttons": [
@@ -160,7 +160,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_4_input_3",
-                "text": "Sx ybnob dy vokbx klyed cywodrsxq xog, psbcd iye cryevn myvvomd kvyd yp NKDK klyed dro dyzsm\n\n\n\nWhat is the third letter of the secret message?"
+                "text": "Sx ybnob dy vokbx klyed cywodrsxq xog, psbcd iye cryevn myvvomd kvyd yp NKDK klyed dro dyzsm.\n\n\n\nWhat is the third letter of the secret message?"
             },
             {
                 "buttons": [
@@ -205,7 +205,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_4_input_4",
-                "text": "Sx ybnob dy vokbx klyed cywodrsxq xog, psbcd iye cryevn myvvomd kvyd yp NKDK klyed dro dyzsm\n\n\n\nWhat is the final letter of the secret message?"
+                "text": "Sx ybnob dy vokbx klyed cywodrsxq xog, psbcd iye cryevn myvvomd kvyd yp NKDK klyed dro dyzsm.\n\n\n\nWhat is the final letter of the secret message?"
             },
             {
                 "buttons": [
@@ -232,7 +232,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_4_help",
-                "text": "There is a fellow unit in the library who would quite like to talk you"
+                "text": "Somebody in the library may be able to help you."
             },
             {
                 "buttons": [
@@ -247,7 +247,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_4_intro",
-                "text": "Random fact: the andromeda galaxy is 10 billion light years away."
+                "text": "Random fact: the Andromeda galaxy is 10 billion light-years away."
             },
             {
                 "buttons": [
@@ -273,7 +273,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_4_hint",
-                "text": "How far was the andromeda galaxy again?"
+                "text": "How far was the Andromeda galaxy again?"
             },
             {
                 "buttons": [

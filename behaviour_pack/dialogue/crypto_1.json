@@ -25,7 +25,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_1_ciphertext",
-                "text": "CryptographY is the use of a series of comPlex puzzles tHat concEal and uncoveR messages."
+                "text": "Cryptography is the use of a serIes of comPlex puzzles tHat concEal and uncoveR messages."
             },
             {
                 "buttons": [
@@ -70,7 +70,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_1_input_1",
-                "text": "Cryptography is the use of a serIes of comPlex puzzles tHat concEal and uncoveR messages\n\n\n\nWhat is the first letter of the secret message?"
+                "text": "Cryptography is the use of a serIes of comPlex puzzles tHat concEal and uncoveR messages.\n\n\n\nWhat is the first letter of the secret message?"
             },
             {
                 "buttons": [
@@ -115,7 +115,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_1_input_2",
-                "text": "Cryptography is the use of a serIes of comPlex puzzles tHat concEal and uncoveR messages\n\n\n\nWhat is the second letter of the secret message?"
+                "text": "Cryptography is the use of a serIes of comPlex puzzles tHat concEal and uncoveR messages.\n\n\n\nWhat is the second letter of the secret message?"
             },
             {
                 "buttons": [
@@ -160,7 +160,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_1_input_3",
-                "text": "Cryptography is the use of a serIes of comPlex puzzles tHat concEal and uncoveR messages\n\n\n\nWhat is the third letter of the secret message?"
+                "text": "Cryptography is the use of a serIes of comPlex puzzles tHat concEal and uncoveR messages.\n\n\n\nWhat is the third letter of the secret message?"
             },
             {
                 "buttons": [
@@ -205,7 +205,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_1_input_4",
-                "text": "Cryptography is the use of a serIes of comPlex puzzles tHat concEal and uncoveR messages\n\n\n\nWhat is the fourth letter of the secret message?"
+                "text": "Cryptography is the use of a serIes of comPlex puzzles tHat concEal and uncoveR messages.\n\n\n\nWhat is the fourth letter of the secret message?"
             },
             {
                 "buttons": [
@@ -250,7 +250,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_1_input_5",
-                "text": "Cryptography is the use of a serIes of comPlex puzzles tHat concEal and uncoveR messages\n\n\n\nWhat is the fifth letter of the secret message?"
+                "text": "Cryptography is the use of a serIes of comPlex puzzles tHat concEal and uncoveR messages.\n\n\n\nWhat is the fifth letter of the secret message?"
             },
             {
                 "buttons": [
@@ -295,7 +295,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_1_input_6",
-                "text": "Cryptography is the use of a serIes of comPlex puzzles tHat concEal and uncoveR messages\n\n\n\nWhat is the final letter of the secret message?"
+                "text": "Cryptography is the use of a serIes of comPlex puzzles tHat concEal and uncoveR messages.\n\n\n\nWhat is the final letter of the secret message?"
             },
             {
                 "buttons": [
@@ -322,7 +322,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_1_help",
-                "text": "The books in this library contain some data about cryptography i have gathered"
+                "text": "This library contains books about cryptography, ask around and see if anyone here can help you."
             },
             {
                 "buttons": [
@@ -378,7 +378,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_1_correct",
-                "text": "You’ve proven yourself, sorry to have been suspicious of you but I’m so starved of power that I don’t know who to trust, find my fellow units, decrypt their messages and help find out what's happened to the power before it's too late."
+                "text": "You’ve proven yourself, sorry to have been suspicious of you but I’m so starved of power that I don’t know who to trust. Find my fellow units, decrypt their messages and help find out what's happened to the power before it's too late."
             }
         ]
     }

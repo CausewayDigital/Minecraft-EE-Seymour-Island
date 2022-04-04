@@ -10,6 +10,7 @@ task_0_intro -853 64 277
 miners2 -491 40 204
 miners4 -515 40 196
 miners3 -510 40 216
+mine_manager -503 40 196
 captains -571 65 267
 crypto_a_intro -454 68 202
 crypto_a_power_room -468 59 205
@@ -32,3 +33,6 @@ tower_robot -448 81 212
 librarian -471 82 284
 jills -481 68 245
 variant_agent -466 59 196
+market_dwayne -463 67 247
+market_smith -432 67 228
+dock_barbra -572 68 262

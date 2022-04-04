@@ -1,5 +1,10 @@
 # Run as main loop
 
+# Manage players doing the opening cinematic, so only one player starting every 11 ticks
+scoreboard players add @p[scores={game_started=1, start_timer=0..20}] start_timer 1
+scoreboard players set @p[scores={game_started=1, start_timer=11}] start_timer 1
+execute @p[scores={game_started=1, start_timer=10}] ~ ~ ~ scoreboard players set @r[x=-887, y=122, z=369, dx=25, dy=27, dz=30, scores={teacher=0}] cine_timer_1 1
+
 # Check if players ready to be teleported to next available ship
 execute @p[x=-885, y=121, z=371, dx=2, dy=2, dz=2] ~ ~ ~ function task0/loop_start
 
