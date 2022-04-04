@@ -406,13 +406,19 @@
                             "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, tag=crypto_2, c=1] @s crypto_2_intro"
                         ],
                         "name": "Back"
+                    },
+                    {
+                        "commands": [
+                            "/execute @initiator ~ ~ ~ function crypto/teleport_library"
+                        ],
+                        "name": "Teleport Library"
                     }
                 ],
                 "npc_name": "Cryptographer 2",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_2_help",
-                "text": "Somebody in the library may be able to help you."
+                "text": "Somebody in the library may be able to help you.\nWhat me to teleport you there?"
             },
             {
                 "buttons": [
