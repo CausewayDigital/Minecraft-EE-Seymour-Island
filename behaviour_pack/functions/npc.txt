@@ -36,4 +36,6 @@ variant_agent -466 59 196
 market_dwayne -463 67 247
 market_smith -432 67 228
 dock_barbra -572 68 262
-town_mayor -450 68 250
+
+# DO NOT ADD THE town_mayor! It must be edited directly in the NPC due to using URL button
+#town_mayor -450 68 250
