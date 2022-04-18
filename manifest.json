@@ -3,7 +3,7 @@
    "header" : {
       "base_game_version" : [ 0, 0, 0 ],
       "description" : "pack.description",
-      "name" : "pack.title",
+      "name" : "pack.name",
       "platform_locked" : false,
       "uuid" : "61323831-3065-3864-3334-2d386333312d",
       "version" : [ 1, 0, 6 ]
