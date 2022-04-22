@@ -4,7 +4,7 @@
         "scenes": [
             {
                 "buttons": [],
-                "npc_name": "Mayor",
+                "npc_name": "Mayor-NOT-USING-DIALOGUE",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "town_mayor",
