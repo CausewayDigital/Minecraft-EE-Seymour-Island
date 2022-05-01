@@ -117,3 +117,27 @@ execute @p[scores={build_timer=435, build_mode=10}] ~ ~ ~ tp @s -1303 65 150
 execute @p[scores={build_timer=438, build_mode=10}] ~ ~ ~ kill @e[x=-1303, y=58, z=150, r=20]
 execute @p[scores={build_timer=441, build_mode=10}] ~ ~ ~ structure load cd:starter_ship_water -1310 58 133
 execute @p[scores={build_timer=447, build_mode=10}] ~ ~ ~ structure load cd:starter_ship -1310 58 133
+execute @p[scores={build_timer=450, build_mode=10}] ~ ~ ~ tp @s -1353 65 290
+execute @p[scores={build_timer=453, build_mode=10}] ~ ~ ~ kill @e[x=-1353, y=58, z=290, r=20]
+execute @p[scores={build_timer=456, build_mode=10}] ~ ~ ~ structure load cd:starter_ship_water -1360 58 273
+execute @p[scores={build_timer=462, build_mode=10}] ~ ~ ~ structure load cd:starter_ship -1360 58 273
+execute @p[scores={build_timer=465, build_mode=10}] ~ ~ ~ tp @s -1353 65 220
+execute @p[scores={build_timer=468, build_mode=10}] ~ ~ ~ kill @e[x=-1353, y=58, z=220, r=20]
+execute @p[scores={build_timer=471, build_mode=10}] ~ ~ ~ structure load cd:starter_ship_water -1360 58 203
+execute @p[scores={build_timer=477, build_mode=10}] ~ ~ ~ structure load cd:starter_ship -1360 58 203
+execute @p[scores={build_timer=480, build_mode=10}] ~ ~ ~ tp @s -1353 65 150
+execute @p[scores={build_timer=483, build_mode=10}] ~ ~ ~ kill @e[x=-1353, y=58, z=150, r=20]
+execute @p[scores={build_timer=486, build_mode=10}] ~ ~ ~ structure load cd:starter_ship_water -1360 58 133
+execute @p[scores={build_timer=492, build_mode=10}] ~ ~ ~ structure load cd:starter_ship -1360 58 133
+execute @p[scores={build_timer=495, build_mode=10}] ~ ~ ~ tp @s -1403 65 290
+execute @p[scores={build_timer=498, build_mode=10}] ~ ~ ~ kill @e[x=-1403, y=58, z=290, r=20]
+execute @p[scores={build_timer=501, build_mode=10}] ~ ~ ~ structure load cd:starter_ship_water -1410 58 273
+execute @p[scores={build_timer=507, build_mode=10}] ~ ~ ~ structure load cd:starter_ship -1410 58 273
+execute @p[scores={build_timer=510, build_mode=10}] ~ ~ ~ tp @s -1403 65 220
+execute @p[scores={build_timer=513, build_mode=10}] ~ ~ ~ kill @e[x=-1403, y=58, z=220, r=20]
+execute @p[scores={build_timer=516, build_mode=10}] ~ ~ ~ structure load cd:starter_ship_water -1410 58 203
+execute @p[scores={build_timer=522, build_mode=10}] ~ ~ ~ structure load cd:starter_ship -1410 58 203
+execute @p[scores={build_timer=525, build_mode=10}] ~ ~ ~ tp @s -1403 65 150
+execute @p[scores={build_timer=528, build_mode=10}] ~ ~ ~ kill @e[x=-1403, y=58, z=150, r=20]
+execute @p[scores={build_timer=531, build_mode=10}] ~ ~ ~ structure load cd:starter_ship_water -1410 58 133
+execute @p[scores={build_timer=537, build_mode=10}] ~ ~ ~ structure load cd:starter_ship -1410 58 133

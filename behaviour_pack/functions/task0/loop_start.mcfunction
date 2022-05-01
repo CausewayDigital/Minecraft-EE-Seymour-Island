@@ -152,6 +152,21 @@ execute @s[x=-885, y=121, z=371, dx=2, dy=2, dz=2] ~ ~ ~ detect -1303 64 171 air
 execute @s[x=-885, y=121, z=371, dx=2, dy=2, dz=2] ~ ~ ~ detect -1303 64 171 air -1 scoreboard players set @s task_start_timer 1
 execute @s[x=-885, y=121, z=371, dx=2, dy=2, dz=2] ~ ~ ~ detect -1303 64 171 air -1 tp @s -1305 64 154 facing -1305 64 156
 
+# Ship 10-0
+execute @s[x=-885, y=121, z=371, dx=2, dy=2, dz=2] ~ ~ ~ detect -1353 64 311 air -1 execute @e[type=armor_stand, tag=task_0, x=-1353, y=61, z=290, r=1, c=1] ~ ~ ~ function task0/reset
+execute @s[x=-885, y=121, z=371, dx=2, dy=2, dz=2] ~ ~ ~ detect -1353 64 311 air -1 scoreboard players set @s task_start_timer 1
+execute @s[x=-885, y=121, z=371, dx=2, dy=2, dz=2] ~ ~ ~ detect -1353 64 311 air -1 tp @s -1355 64 294 facing -1355 64 296
+
+# Ship 10-1
+execute @s[x=-885, y=121, z=371, dx=2, dy=2, dz=2] ~ ~ ~ detect -1353 64 241 air -1 execute @e[type=armor_stand, tag=task_0, x=-1353, y=61, z=220, r=1, c=1] ~ ~ ~ function task0/reset
+execute @s[x=-885, y=121, z=371, dx=2, dy=2, dz=2] ~ ~ ~ detect -1353 64 241 air -1 scoreboard players set @s task_start_timer 1
+execute @s[x=-885, y=121, z=371, dx=2, dy=2, dz=2] ~ ~ ~ detect -1353 64 241 air -1 tp @s -1355 64 224 facing -1355 64 226
+
+# Ship 10-2
+execute @s[x=-885, y=121, z=371, dx=2, dy=2, dz=2] ~ ~ ~ detect -1353 64 171 air -1 execute @e[type=armor_stand, tag=task_0, x=-1353, y=61, z=150, r=1, c=1] ~ ~ ~ function task0/reset
+execute @s[x=-885, y=121, z=371, dx=2, dy=2, dz=2] ~ ~ ~ detect -1353 64 171 air -1 scoreboard players set @s task_start_timer 1
+execute @s[x=-885, y=121, z=371, dx=2, dy=2, dz=2] ~ ~ ~ detect -1353 64 171 air -1 tp @s -1355 64 154 facing -1355 64 156
+
 # If no boats available
 execute @s[x=-885, y=121, z=371, dx=2, dy=2, dz=2] ~ ~ ~ title @s subtitle Please wait a little...
 execute @s[x=-885, y=121, z=371, dx=2, dy=2, dz=2] ~ ~ ~ title @s title No starting ships available
