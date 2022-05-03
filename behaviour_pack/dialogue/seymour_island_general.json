@@ -168,7 +168,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "guard3",
-                "text": "Seymour Island gates are currently closed due to some technical issues.\nYou may not enter...\n**HISSS** \"Come in gate guard 1...\"\n\"We have had reports of smoke coming up from the sewers, please investiate\"\nSorry about that, I must go check this!"
+                "text": "Seymour Island gates are currently closed due to some technical issues.\nYou may not enter...\n**HISSS** \"Come in gate guard 1...\"\n\"We have had reports of smoke coming up from the sewers, please investigate\".\nSorry about that, I must go check this!"
             },
             {
                 "buttons": [],
