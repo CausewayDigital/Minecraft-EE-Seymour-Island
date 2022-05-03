@@ -33,5 +33,8 @@ execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=
 execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=task_7, r=8, c=1] ~ ~ ~ execute @p[x=~5, y=~3, z=~-4, dx=1, dy=3, dz=7, scores={task_timer_act=1}] ~ ~ ~ scoreboard players set @s in_task 1
 execute @a[scores={task_start_timer=10}] ~ ~ ~ execute @e[type=armor_stand, tag=task_7, r=8, c=1] ~ ~ ~ execute @p[x=~3, y=~5, z=~3, dx=-8, dy=3, dz=-7, scores={task_timer_act=1}] ~ ~ ~ scoreboard players set @s in_task 1
 
+# Enforce creative mode on player 2 only whilst in task zone
+execute @e[type=armor_stand, tag=task_7] ~ ~ ~ execute @p[x=~3, y=~5, z=~3, dx=-8, dy=3, dz=-7] ~ ~ ~ execute @s[scores={task_player_num=2}] ~ ~ ~ gamemode 1 @s
+
 # Update the status board of which tasks are in use/free
 execute @p ~ ~ ~ function task7/loop_status_board
