@@ -433,7 +433,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_2_intro",
-                "text": "Bzzt… language core temperamental… you look like a trustworthy person the information you seek is… bzzt"
+                "text": "Bzzt... language core temperamental... you look like a trustworthy person the information you seek is... bzzt"
             },
             {
                 "buttons": [
@@ -459,7 +459,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_2_next_loc",
-                "text": "Have you heard the mayor’s speech? The next unit really likes listening to it, but where could you hide within earshot?"
+                "text": "Have you heard the mayor's speech? The next unit really likes listening to it, but where could you hide within earshot?"
             },
             {
                 "buttons": [
@@ -472,7 +472,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_2_correct",
-                "text": "Bzzt… you know the international phonetic alphabet? You’re smarter than I originally thought."
+                "text": "Bzzt... you know the international phonetic alphabet? You're smarter than I originally thought."
             }
         ]
     }
