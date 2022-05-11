@@ -343,7 +343,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_3_intro",
-                "text": "Don’t you think the mayor has such a way with words? Her speech is formatted perfectly. I wouldn’t change a single word."
+                "text": "Don't you think the mayor has such a way with words? Her speech is formatted perfectly. I wouldn't change a single word."
             },
             {
                 "buttons": [
@@ -356,7 +356,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_3_hint",
-                "text": "Did you know that us robots hear speech in lines? It’s how we process it."
+                "text": "Did you know that us robots hear speech in lines? It's how we process it."
             },
             {
                 "buttons": [
