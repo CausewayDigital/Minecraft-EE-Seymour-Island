@@ -35,3 +35,5 @@ dialogue change @e[type=npc, r=1, c=1, x=-466, y=59, z=196] variant_agent
 dialogue change @e[type=npc, r=1, c=1, x=-463, y=67, z=247] market_dwayne
 dialogue change @e[type=npc, r=1, c=1, x=-432, y=67, z=228] market_smith
 dialogue change @e[type=npc, r=1, c=1, x=-572, y=68, z=262] dock_barbra
+dialogue change @e[type=npc, r=1, c=1, x=-309, y=68, z=286] guard3
+dialogue change @e[type=npc, r=1, c=1, x=-312, y=63, z=279] sewer_robot
