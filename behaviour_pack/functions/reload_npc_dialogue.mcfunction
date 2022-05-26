@@ -31,7 +31,7 @@ dialogue change @e[type=npc, r=1, c=1, x=-853, y=64, z=277] task_0_intro
 dialogue change @e[type=npc, r=1, c=1, x=-448, y=81, z=212] tower_robot
 dialogue change @e[type=npc, r=1, c=1, x=-471, y=82, z=284] librarian
 dialogue change @e[type=npc, r=1, c=1, x=-481, y=68, z=245] jills
-dialogue change @e[type=npc, r=1, c=1, x=-466, y=59, z=196] variant_agent
+dialogue change @e[type=cd:variant_agent, r=1, c=1, x=-466, y=59, z=196] variant_agent
 dialogue change @e[type=npc, r=1, c=1, x=-463, y=67, z=247] market_dwayne
 dialogue change @e[type=npc, r=1, c=1, x=-432, y=67, z=228] market_smith
 dialogue change @e[type=npc, r=1, c=1, x=-572, y=68, z=262] dock_barbra
