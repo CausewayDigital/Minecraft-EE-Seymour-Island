@@ -8,4 +8,5 @@ clear @s
 execute @s ~ ~ ~ function calculate_score
 
 tp @s -271 63 246 facing -272 63 247
+scoreboard players set @s in_task 0
 scoreboard players set @s task_0_crash 1
