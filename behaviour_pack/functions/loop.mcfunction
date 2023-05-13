@@ -50,3 +50,7 @@ execute @a[x=-878,y=120,z=383,r=2] ~ ~ ~ function misc/loop_setup_box
 
 scoreboard players set @a[scores={task_start_timer=16..}] task_timer_act 0
 scoreboard players set @a[scores={task_start_timer=16..}] task_start_timer 0
+
+# Initialising key variables
+scoreboard players add @a teacher 0
+scoreboard players add @a crypto_score 0
