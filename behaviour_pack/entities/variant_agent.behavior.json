@@ -9,6 +9,11 @@
 		},
 		"components": {
 			"minecraft:npc": {},
+			"minecraft:type_family": {
+                "family": [
+                    "cd"
+                ]
+            },
 			"minecraft:physics": {
 				"has_gravity": true,
 				"has_collision": true
