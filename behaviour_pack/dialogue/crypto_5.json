@@ -8,24 +8,27 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/start"
                         ],
-                        "name": "Input Codeword"
+                        "name": "Input Codeword",
+                        "scene_tag": "crypto_5_ciphertext"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/help"
                         ],
-                        "name": "Help"
+                        "name": "Help",
+                        "scene_tag": "crypto_5_ciphertext"
                     },
                     {
                         "commands": [],
-                        "name": "Exit"
+                        "name": "Exit",
+                        "scene_tag": "crypto_5_ciphertext"
                     }
                 ],
                 "npc_name": "Cryptographer 5",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_5_ciphertext",
-                "text": "TysnosiRo_efnhrY_sco,osPstrr_utTaoemyl__frtaodEiee_tu_Ntl_ii_fC."
+                "text": "TysnosiRo_efnhrY_sco,osPstrr_utTao\nemyl__frtaodEiee_tu_Ntl_ii_fC."
             },
             {
                 "buttons": [
@@ -33,44 +36,50 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/correct"
                         ],
-                        "name": "E"
+                        "name": "E",
+                        "scene_tag": "crypto_5_input_1"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "N"
+                        "name": "N",
+                        "scene_tag": "crypto_5_input_1"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "X"
+                        "name": "X",
+                        "scene_tag": "crypto_5_input_1"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "J"
+                        "name": "J",
+                        "scene_tag": "crypto_5_input_1"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "K"
+                        "name": "K",
+                        "scene_tag": "crypto_5_input_1"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "M"
+                        "name": "M",
+                        "scene_tag": "crypto_5_input_1"
                     }
                 ],
                 "npc_name": "Cryptographer 5",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_5_input_1",
-                "text": "TysnosiRo_efnhrY_sco,osPstrr_utTaoemyl__frtaodEiee_tu_Ntl_ii_fC.\n\n\n\nWhat is the first letter of the secret message?"
+                "text": "TysnosiRo_efnhrY_sco,osPstrr_utTao\nemyl__frtaodEiee_tu_Ntl_ii_fC.\n\n\n\nWhat is the first letter of the secret message?"
             },
             {
                 "buttons": [
@@ -78,44 +87,50 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "P"
+                        "name": "P",
+                        "scene_tag": "crypto_5_input_2"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "E"
+                        "name": "E",
+                        "scene_tag": "crypto_5_input_2"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/correct"
                         ],
-                        "name": "N"
+                        "name": "N",
+                        "scene_tag": "crypto_5_input_2"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "Z"
+                        "name": "Z",
+                        "scene_tag": "crypto_5_input_2"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "B"
+                        "name": "B",
+                        "scene_tag": "crypto_5_input_2"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "G"
+                        "name": "G",
+                        "scene_tag": "crypto_5_input_2"
                     }
                 ],
                 "npc_name": "Cryptographer 5",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_5_input_2",
-                "text": "TysnosiRo_efnhrY_sco,osPstrr_utTaoemyl__frtaodEiee_tu_Ntl_ii_fC.\n\n\n\nWhat is the second letter of the secret message?"
+                "text": "TysnosiRo_efnhrY_sco,osPstrr_utTao\nemyl__frtaodEiee_tu_Ntl_ii_fC.\n\n\n\nWhat is the second letter of the secret message?"
             },
             {
                 "buttons": [
@@ -123,44 +138,50 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/correct"
                         ],
-                        "name": "C"
+                        "name": "C",
+                        "scene_tag": "crypto_5_input_3"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "X"
+                        "name": "X",
+                        "scene_tag": "crypto_5_input_3"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "O"
+                        "name": "O",
+                        "scene_tag": "crypto_5_input_3"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "J"
+                        "name": "J",
+                        "scene_tag": "crypto_5_input_3"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "N"
+                        "name": "N",
+                        "scene_tag": "crypto_5_input_3"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "K"
+                        "name": "K",
+                        "scene_tag": "crypto_5_input_3"
                     }
                 ],
                 "npc_name": "Cryptographer 5",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_5_input_3",
-                "text": "TysnosiRo_efnhrY_sco,osPstrr_utTaoemyl__frtaodEiee_tu_Ntl_ii_fC.\n\n\n\nWhat is the third letter of the secret message?"
+                "text": "TysnosiRo_efnhrY_sco,osPstrr_utTao\nemyl__frtaodEiee_tu_Ntl_ii_fC.\n\n\n\nWhat is the third letter of the secret message?"
             },
             {
                 "buttons": [
@@ -168,44 +189,50 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "J"
+                        "name": "J",
+                        "scene_tag": "crypto_5_input_4"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "P"
+                        "name": "P",
+                        "scene_tag": "crypto_5_input_4"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "H"
+                        "name": "H",
+                        "scene_tag": "crypto_5_input_4"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "E"
+                        "name": "E",
+                        "scene_tag": "crypto_5_input_4"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "D"
+                        "name": "D",
+                        "scene_tag": "crypto_5_input_4"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/correct"
                         ],
-                        "name": "R"
+                        "name": "R",
+                        "scene_tag": "crypto_5_input_4"
                     }
                 ],
                 "npc_name": "Cryptographer 5",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_5_input_4",
-                "text": "TysnosiRo_efnhrY_sco,osPstrr_utTaoemyl__frtaodEiee_tu_Ntl_ii_fC.\n\n\n\nWhat is the fourth letter of the secret message?"
+                "text": "TysnosiRo_efnhrY_sco,osPstrr_utTao\nemyl__frtaodEiee_tu_Ntl_ii_fC.\n\n\n\nWhat is the fourth letter of the secret message?"
             },
             {
                 "buttons": [
@@ -213,44 +240,50 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "H"
+                        "name": "H",
+                        "scene_tag": "crypto_5_input_5"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "B"
+                        "name": "B",
+                        "scene_tag": "crypto_5_input_5"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/correct"
                         ],
-                        "name": "Y"
+                        "name": "Y",
+                        "scene_tag": "crypto_5_input_5"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "R"
+                        "name": "R",
+                        "scene_tag": "crypto_5_input_5"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "M"
+                        "name": "M",
+                        "scene_tag": "crypto_5_input_5"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "D"
+                        "name": "D",
+                        "scene_tag": "crypto_5_input_5"
                     }
                 ],
                 "npc_name": "Cryptographer 5",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_5_input_5",
-                "text": "TysnosiRo_efnhrY_sco,osPstrr_utTaoemyl__frtaodEiee_tu_Ntl_ii_fC.\n\n\n\nWhat is the fifth letter of the secret message?"
+                "text": "TysnosiRo_efnhrY_sco,osPstrr_utTao\nemyl__frtaodEiee_tu_Ntl_ii_fC.\n\n\n\nWhat is the fifth letter of the secret message?"
             },
             {
                 "buttons": [
@@ -258,44 +291,50 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "E"
+                        "name": "E",
+                        "scene_tag": "crypto_5_input_6"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "H"
+                        "name": "H",
+                        "scene_tag": "crypto_5_input_6"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "G"
+                        "name": "G",
+                        "scene_tag": "crypto_5_input_6"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "X"
+                        "name": "X",
+                        "scene_tag": "crypto_5_input_6"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "N"
+                        "name": "N",
+                        "scene_tag": "crypto_5_input_6"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/correct"
                         ],
-                        "name": "P"
+                        "name": "P",
+                        "scene_tag": "crypto_5_input_6"
                     }
                 ],
                 "npc_name": "Cryptographer 5",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_5_input_6",
-                "text": "TysnosiRo_efnhrY_sco,osPstrr_utTaoemyl__frtaodEiee_tu_Ntl_ii_fC.\n\n\n\nWhat is the sixth letter of the secret message?"
+                "text": "TysnosiRo_efnhrY_sco,osPstrr_utTao\nemyl__frtaodEiee_tu_Ntl_ii_fC.\n\n\n\nWhat is the sixth letter of the secret message?"
             },
             {
                 "buttons": [
@@ -303,44 +342,50 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/correct"
                         ],
-                        "name": "T"
+                        "name": "T",
+                        "scene_tag": "crypto_5_input_7"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "X"
+                        "name": "X",
+                        "scene_tag": "crypto_5_input_7"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "S"
+                        "name": "S",
+                        "scene_tag": "crypto_5_input_7"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "G"
+                        "name": "G",
+                        "scene_tag": "crypto_5_input_7"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "C"
+                        "name": "C",
+                        "scene_tag": "crypto_5_input_7"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_5/incorrect"
                         ],
-                        "name": "D"
+                        "name": "D",
+                        "scene_tag": "crypto_5_input_7"
                     }
                 ],
                 "npc_name": "Cryptographer 5",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_5_input_7",
-                "text": "TysnosiRo_efnhrY_sco,osPstrr_utTaoemyl__frtaodEiee_tu_Ntl_ii_fC.\n\n\n\nWhat is the final letter of the secret message?"
+                "text": "TysnosiRo_efnhrY_sco,osPstrr_utTao\nemyl__frtaodEiee_tu_Ntl_ii_fC.\n\n\n\nWhat is the final letter of the secret message?"
             },
             {
                 "buttons": [
@@ -348,25 +393,29 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, tag=crypto_5, c=1] @s crypto_5_hint"
                         ],
-                        "name": "Hint"
+                        "name": "Hint",
+                        "scene_tag": "crypto_5_help"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, tag=crypto_5, c=1] @s crypto_5_next_loc"
                         ],
-                        "name": "Next Location"
+                        "name": "Next Location",
+                        "scene_tag": "crypto_5_help"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, tag=crypto_5, c=1] @s crypto_5_intro"
                         ],
-                        "name": "Back"
+                        "name": "Back",
+                        "scene_tag": "crypto_5_help"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/teleport_library"
                         ],
-                        "name": "Teleport Library"
+                        "name": "Teleport Library",
+                        "scene_tag": "crypto_5_help"
                     }
                 ],
                 "npc_name": "Cryptographer 5",
@@ -381,7 +430,8 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, tag=crypto_5, c=1] @s crypto_5_ciphertext"
                         ],
-                        "name": "Next"
+                        "name": "Next",
+                        "scene_tag": "crypto_5_intro"
                     }
                 ],
                 "npc_name": "Cryptographer 5",
@@ -394,7 +444,8 @@
                 "buttons": [
                     {
                         "commands": [],
-                        "name": "Thanks!"
+                        "name": "Thanks!",
+                        "scene_tag": "crypto_5_hint"
                     }
                 ],
                 "npc_name": "Cryptographer 5",
@@ -407,7 +458,8 @@
                 "buttons": [
                     {
                         "commands": [],
-                        "name": "Thanks!"
+                        "name": "Thanks!",
+                        "scene_tag": "crypto_5_next_loc"
                     }
                 ],
                 "npc_name": "Cryptographer 5",
@@ -420,7 +472,8 @@
                 "buttons": [
                     {
                         "commands": [],
-                        "name": "Exit"
+                        "name": "Exit",
+                        "scene_tag": "crypto_5_correct"
                     }
                 ],
                 "npc_name": "Cryptographer 5",
