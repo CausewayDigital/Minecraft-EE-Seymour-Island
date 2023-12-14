@@ -1,7 +1,7 @@
 # Executing as the player
 
 # Open the Python Notebook
-codebuilder navigate @p true https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://nb.causewaydigital.io/master/lessons/seymour_island/task_8/seymour_task_8.json
+codebuilder navigate @p true https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/seymour_island/task_8/seymour_task_8.json
 
 # Start main task
 
