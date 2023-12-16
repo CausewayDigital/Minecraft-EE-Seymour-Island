@@ -1,4 +1,6 @@
-# Seymour Island
+# Seymour Island (All credit to Causeway Digital)
+
+# This version contains updated URLs for the Python programming as there are issues with the original URLs.
 
 ![Islands cover image](img/Seymour-Island-Cover.jpg)
 
